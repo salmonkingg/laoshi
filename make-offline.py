@@ -16,10 +16,10 @@ files = ['data/hsk1.json', 'data/extra-questions.json', 'data/radicals.json', 'd
 data_script = '<script>\nwindow.LAOSHI_FILES = {\n' + ',\n'.join(
     f'{json.dumps(f)}: {js_data(f)}' for f in files) + '\n};\n</script>'
 
-icon = 'data:image/svg+xml;base64,' + base64.b64encode((here / 'icons/icon.svg').read_bytes()).decode()
+icon = 'data:image/png;base64,' + base64.b64encode((here / 'icons/favicon-64.png').read_bytes()).decode()
 html = re.sub(r'<link rel="manifest"[^>]*>\n', '', html)
 html = re.sub(r'<link rel="apple-touch-icon"[^>]*>\n', '', html)
-html = html.replace('href="icons/icon.svg"', f'href="{icon}"')
+html = html.replace('href="icons/favicon-64.png"', f'href="{icon}"')
 html = html.replace('<link rel="stylesheet" href="style.css">', '<style>\n' + (here / 'style.css').read_text() + '\n</style>')
 
 def inline(m):

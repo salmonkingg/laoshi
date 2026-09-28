@@ -1,11 +1,12 @@
 // sw.js — lets the installed app open without internet.
 // It keeps a copy of the app's files on the device and uses the copy when offline.
 // Change VERSION whenever the app files change, so devices fetch the new copy.
-const VERSION = 'laoshi-v6';
+const VERSION = 'laoshi-v7';
 const FILES = [
   './', 'index.html', 'style.css', 'questions.js', 'app.js', 'lib/hanzi-writer.min.js',
   'data/hsk1.json', 'data/strokes.json', 'data/extra-questions.json', 'data/radicals.json',
-  'manifest.webmanifest', 'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png',
+  'manifest.webmanifest', 'icons/favicon-64.png', 'icons/icon-192.png', 'icons/icon-512.png',
+  'icons/icon-maskable-512.png', 'icons/apple-touch-icon.png',
 ];
 
 self.addEventListener('install', e => {
