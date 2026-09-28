@@ -1,0 +1,15 @@
+{
+  "name": "Laoshi 老师",
+  "short_name": "Laoshi",
+  "description": "A quiet daily practice for HSK 1 reading, pinyin, writing and sentence order.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2f3f0",
+  "theme_color": "#2c6b5e",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

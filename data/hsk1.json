@@ -1,0 +1,8935 @@
+{
+ "meta": {
+  "title": "HSK 1 content set",
+  "version": 1,
+  "created": "2026-09-28",
+  "source": "Lesson order follows HSK Standard Course 1 (HSK标准教程 1, 15 lessons). All words on the official HSK 1 list are included; textbook extras are marked official_hsk1=false.",
+  "counts": {
+   "lessons": 15,
+   "words": 177,
+   "official_words": 152,
+   "characters": 184,
+   "patterns": 41
+  },
+  "notes": [
+   "Example sentences are original, built from HSK 1 words; they are not copied from the textbook.",
+   "Pinyin is given in dictionary form: neutral tones unmarked, tone changes of 不 and 一 written as they are said, two-3rd-tone changes not written.",
+   "Stroke counts, radicals and decompositions come from Make Me a Hanzi (github.com/skishore/makemeahanzi)."
+  ]
+ },
+ "lessons": [
+  {
+   "lesson": 1,
+   "title": "你好",
+   "title_pinyin": "Nǐ hǎo",
+   "title_english": "Hello",
+   "words": [
+    "w001",
+    "w002",
+    "w003",
+    "w004",
+    "w005",
+    "w006"
+   ],
+   "new_characters": [
+    "你",
+    "好",
+    "您",
+    "们",
+    "对",
+    "不",
+    "起",
+    "没",
+    "关",
+    "系"
+   ],
+   "patterns": [
+    "p01",
+    "p02"
+   ]
+  },
+  {
+   "lesson": 2,
+   "title": "谢谢你",
+   "title_pinyin": "Xièxie nǐ",
+   "title_english": "Thank you",
+   "words": [
+    "w007",
+    "w008",
+    "w009",
+    "w010"
+   ],
+   "new_characters": [
+    "谢",
+    "客",
+    "气",
+    "再",
+    "见"
+   ],
+   "patterns": [
+    "p03",
+    "p04"
+   ]
+  },
+  {
+   "lesson": 3,
+   "title": "你叫什么名字",
+   "title_pinyin": "Nǐ jiào shénme míngzi",
+   "title_english": "What's your name?",
+   "words": [
+    "w011",
+    "w012",
+    "w013",
+    "w014",
+    "w015",
+    "w016",
+    "w017",
+    "w018",
+    "w019",
+    "w020",
+    "w021"
+   ],
+   "new_characters": [
+    "叫",
+    "什",
+    "么",
+    "名",
+    "字",
+    "我",
+    "是",
+    "老",
+    "师",
+    "吗",
+    "学",
+    "生",
+    "人",
+    "中",
+    "国",
+    "美"
+   ],
+   "patterns": [
+    "p05",
+    "p06",
+    "p07"
+   ]
+  },
+  {
+   "lesson": 4,
+   "title": "她是我的汉语老师",
+   "title_pinyin": "Tā shì wǒ de Hànyǔ lǎoshī",
+   "title_english": "She's my Chinese teacher",
+   "words": [
+    "w022",
+    "w023",
+    "w024",
+    "w025",
+    "w026",
+    "w027",
+    "w028",
+    "w029",
+    "w030",
+    "w031"
+   ],
+   "new_characters": [
+    "她",
+    "谁",
+    "的",
+    "汉",
+    "语",
+    "哪",
+    "呢",
+    "他",
+    "同",
+    "朋",
+    "友"
+   ],
+   "patterns": [
+    "p08",
+    "p09",
+    "p10"
+   ]
+  },
+  {
+   "lesson": 5,
+   "title": "她女儿今年二十岁",
+   "title_pinyin": "Tā nǚ'ér jīnnián èrshí suì",
+   "title_english": "Her daughter is 20 this year",
+   "words": [
+    "w032",
+    "w033",
+    "w034",
+    "w035",
+    "w036",
+    "w037",
+    "w038",
+    "w039",
+    "w040",
+    "w041",
+    "w042",
+    "w043",
+    "w044",
+    "w045",
+    "w046",
+    "w047",
+    "w048",
+    "w049",
+    "w050",
+    "w051"
+   ],
+   "new_characters": [
+    "家",
+    "有",
+    "口",
+    "女",
+    "儿",
+    "几",
+    "岁",
+    "了",
+    "今",
+    "年",
+    "多",
+    "大",
+    "一",
+    "二",
+    "三",
+    "四",
+    "五",
+    "六",
+    "七",
+    "八",
+    "九",
+    "十"
+   ],
+   "patterns": [
+    "p11",
+    "p12",
+    "p13"
+   ]
+  },
+  {
+   "lesson": 6,
+   "title": "我会说汉语",
+   "title_pinyin": "Wǒ huì shuō Hànyǔ",
+   "title_english": "I can speak Chinese",
+   "words": [
+    "w052",
+    "w053",
+    "w054",
+    "w055",
+    "w056",
+    "w057",
+    "w058",
+    "w059",
+    "w060",
+    "w061",
+    "w062",
+    "w063"
+   ],
+   "new_characters": [
+    "会",
+    "说",
+    "妈",
+    "菜",
+    "很",
+    "吃",
+    "做",
+    "写",
+    "怎",
+    "读"
+   ],
+   "patterns": [
+    "p14",
+    "p15",
+    "p16"
+   ]
+  },
+  {
+   "lesson": 7,
+   "title": "今天几号",
+   "title_pinyin": "Jīntiān jǐ hào",
+   "title_english": "What's the date today?",
+   "words": [
+    "w064",
+    "w065",
+    "w066",
+    "w067",
+    "w068",
+    "w069",
+    "w070",
+    "w071",
+    "w072",
+    "w073",
+    "w074",
+    "w075"
+   ],
+   "new_characters": [
+    "请",
+    "问",
+    "天",
+    "号",
+    "月",
+    "星",
+    "期",
+    "昨",
+    "明",
+    "去",
+    "校",
+    "看",
+    "书"
+   ],
+   "patterns": [
+    "p17",
+    "p18"
+   ]
+  },
+  {
+   "lesson": 8,
+   "title": "我想喝茶",
+   "title_pinyin": "Wǒ xiǎng hē chá",
+   "title_english": "I'd like some tea",
+   "words": [
+    "w076",
+    "w077",
+    "w078",
+    "w079",
+    "w080",
+    "w081",
+    "w082",
+    "w083",
+    "w084",
+    "w085",
+    "w086",
+    "w087",
+    "w088",
+    "w089",
+    "w090",
+    "w091"
+   ],
+   "new_characters": [
+    "想",
+    "喝",
+    "茶",
+    "米",
+    "饭",
+    "下",
+    "午",
+    "商",
+    "店",
+    "买",
+    "个",
+    "杯",
+    "子",
+    "这",
+    "少",
+    "钱",
+    "块",
+    "那"
+   ],
+   "patterns": [
+    "p19",
+    "p20",
+    "p21"
+   ]
+  },
+  {
+   "lesson": 9,
+   "title": "你儿子在哪儿工作",
+   "title_pinyin": "Nǐ érzi zài nǎr gōngzuò",
+   "title_english": "Where does your son work?",
+   "words": [
+    "w092",
+    "w093",
+    "w094",
+    "w095",
+    "w096",
+    "w097",
+    "w098",
+    "w099",
+    "w100",
+    "w101",
+    "w102",
+    "w103",
+    "w104"
+   ],
+   "new_characters": [
+    "小",
+    "猫",
+    "在",
+    "狗",
+    "椅",
+    "面",
+    "工",
+    "作",
+    "医",
+    "院",
+    "爸"
+   ],
+   "patterns": [
+    "p22",
+    "p23"
+   ]
+  },
+  {
+   "lesson": 10,
+   "title": "我能坐这儿吗",
+   "title_pinyin": "Wǒ néng zuò zhèr ma",
+   "title_english": "Can I sit here?",
+   "words": [
+    "w105",
+    "w106",
+    "w107",
+    "w108",
+    "w109",
+    "w110",
+    "w111",
+    "w112",
+    "w113",
+    "w114",
+    "w115",
+    "w116"
+   ],
+   "new_characters": [
+    "桌",
+    "上",
+    "电",
+    "脑",
+    "和",
+    "本",
+    "里",
+    "前",
+    "后",
+    "能",
+    "坐"
+   ],
+   "patterns": [
+    "p24",
+    "p25",
+    "p26"
+   ]
+  },
+  {
+   "lesson": 11,
+   "title": "现在几点",
+   "title_pinyin": "Xiànzài jǐ diǎn",
+   "title_english": "What time is it now?",
+   "words": [
+    "w117",
+    "w118",
+    "w119",
+    "w120",
+    "w121",
+    "w122",
+    "w123",
+    "w124",
+    "w125",
+    "w126",
+    "w127",
+    "w128"
+   ],
+   "new_characters": [
+    "现",
+    "点",
+    "分",
+    "时",
+    "候",
+    "回",
+    "影",
+    "住",
+    "北",
+    "京"
+   ],
+   "patterns": [
+    "p27",
+    "p28",
+    "p29"
+   ]
+  },
+  {
+   "lesson": 12,
+   "title": "明天天气怎么样",
+   "title_pinyin": "Míngtiān tiānqì zěnmeyàng",
+   "title_english": "What will the weather be like tomorrow?",
+   "words": [
+    "w129",
+    "w130",
+    "w131",
+    "w132",
+    "w133",
+    "w134",
+    "w135",
+    "w136",
+    "w137",
+    "w138",
+    "w139",
+    "w140",
+    "w141"
+   ],
+   "new_characters": [
+    "样",
+    "太",
+    "热",
+    "冷",
+    "雨",
+    "姐",
+    "来",
+    "身",
+    "体",
+    "爱",
+    "些",
+    "水",
+    "果"
+   ],
+   "patterns": [
+    "p30",
+    "p31",
+    "p32"
+   ]
+  },
+  {
+   "lesson": 13,
+   "title": "他在学做中国菜呢",
+   "title_pinyin": "Tā zài xué zuò Zhōngguó cài ne",
+   "title_english": "He is learning to cook Chinese food",
+   "words": [
+    "w142",
+    "w143",
+    "w144",
+    "w145",
+    "w146",
+    "w147",
+    "w148",
+    "w149",
+    "w150",
+    "w151",
+    "w152"
+   ],
+   "new_characters": [
+    "喂",
+    "也",
+    "习",
+    "睡",
+    "觉",
+    "视",
+    "喜",
+    "欢",
+    "给",
+    "打",
+    "话",
+    "吧"
+   ],
+   "patterns": [
+    "p33",
+    "p34",
+    "p35"
+   ]
+  },
+  {
+   "lesson": 14,
+   "title": "她买了不少衣服",
+   "title_pinyin": "Tā mǎile bù shǎo yīfu",
+   "title_english": "She bought quite a lot of clothes",
+   "words": [
+    "w153",
+    "w154",
+    "w155",
+    "w156",
+    "w157",
+    "w158",
+    "w159",
+    "w160",
+    "w161",
+    "w162",
+    "w163",
+    "w164",
+    "w165",
+    "w166",
+    "w167",
+    "w168"
+   ],
+   "new_characters": [
+    "东",
+    "西",
+    "苹",
+    "先",
+    "开",
+    "车",
+    "钟",
+    "衣",
+    "服",
+    "漂",
+    "亮",
+    "啊",
+    "都"
+   ],
+   "patterns": [
+    "p36",
+    "p37",
+    "p38"
+   ]
+  },
+  {
+   "lesson": 15,
+   "title": "我是坐飞机来的",
+   "title_pinyin": "Wǒ shì zuò fēijī lái de",
+   "title_english": "I came by plane",
+   "words": [
+    "w169",
+    "w170",
+    "w171",
+    "w172",
+    "w173",
+    "w174",
+    "w175",
+    "w176",
+    "w177"
+   ],
+   "new_characters": [
+    "认",
+    "识",
+    "出",
+    "租",
+    "高",
+    "兴",
+    "听",
+    "飞",
+    "机"
+   ],
+   "patterns": [
+    "p39",
+    "p40",
+    "p41"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "w001",
+   "hanzi": "你",
+   "pinyin": "nǐ",
+   "syllables": [
+    "nǐ"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "pron",
+   "meaning": "you",
+   "lesson": 1,
+   "official_hsk1": true
+  },
+  {
+   "id": "w002",
+   "hanzi": "好",
+   "pinyin": "hǎo",
+   "syllables": [
+    "hǎo"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "adj",
+   "meaning": "good; well; fine",
+   "lesson": 1,
+   "official_hsk1": true
+  },
+  {
+   "id": "w003",
+   "hanzi": "您",
+   "pinyin": "nín",
+   "syllables": [
+    "nín"
+   ],
+   "tones": [
+    2
+   ],
+   "pos": "pron",
+   "meaning": "you (polite)",
+   "lesson": 1,
+   "official_hsk1": false
+  },
+  {
+   "id": "w004",
+   "hanzi": "你们",
+   "pinyin": "nǐmen",
+   "syllables": [
+    "nǐ",
+    "men"
+   ],
+   "tones": [
+    3,
+    0
+   ],
+   "pos": "pron",
+   "meaning": "you (plural)",
+   "lesson": 1,
+   "official_hsk1": false
+  },
+  {
+   "id": "w005",
+   "hanzi": "对不起",
+   "pinyin": "duìbuqǐ",
+   "syllables": [
+    "duì",
+    "bu",
+    "qǐ"
+   ],
+   "tones": [
+    4,
+    0,
+    3
+   ],
+   "pos": "v",
+   "meaning": "sorry; excuse me",
+   "lesson": 1,
+   "official_hsk1": true
+  },
+  {
+   "id": "w006",
+   "hanzi": "没关系",
+   "pinyin": "méi guānxi",
+   "syllables": [
+    "méi",
+    "guān",
+    "xi"
+   ],
+   "tones": [
+    2,
+    1,
+    0
+   ],
+   "pos": "phr",
+   "meaning": "it doesn't matter; that's OK",
+   "lesson": 1,
+   "official_hsk1": true
+  },
+  {
+   "id": "w007",
+   "hanzi": "谢谢",
+   "pinyin": "xièxie",
+   "syllables": [
+    "xiè",
+    "xie"
+   ],
+   "tones": [
+    4,
+    0
+   ],
+   "pos": "v",
+   "meaning": "to thank; thank you",
+   "lesson": 2,
+   "official_hsk1": true
+  },
+  {
+   "id": "w008",
+   "hanzi": "不",
+   "pinyin": "bù",
+   "syllables": [
+    "bù"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "adv",
+   "meaning": "not; no",
+   "lesson": 2,
+   "official_hsk1": true
+  },
+  {
+   "id": "w009",
+   "hanzi": "不客气",
+   "pinyin": "bú kèqi",
+   "syllables": [
+    "bú",
+    "kè",
+    "qi"
+   ],
+   "tones": [
+    2,
+    4,
+    0
+   ],
+   "pos": "phr",
+   "meaning": "you're welcome",
+   "lesson": 2,
+   "official_hsk1": true
+  },
+  {
+   "id": "w010",
+   "hanzi": "再见",
+   "pinyin": "zàijiàn",
+   "syllables": [
+    "zài",
+    "jiàn"
+   ],
+   "tones": [
+    4,
+    4
+   ],
+   "pos": "v",
+   "meaning": "goodbye",
+   "lesson": 2,
+   "official_hsk1": true
+  },
+  {
+   "id": "w011",
+   "hanzi": "叫",
+   "pinyin": "jiào",
+   "syllables": [
+    "jiào"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "v",
+   "meaning": "to be called; to call",
+   "lesson": 3,
+   "official_hsk1": true
+  },
+  {
+   "id": "w012",
+   "hanzi": "什么",
+   "pinyin": "shénme",
+   "syllables": [
+    "shén",
+    "me"
+   ],
+   "tones": [
+    2,
+    0
+   ],
+   "pos": "pron",
+   "meaning": "what",
+   "lesson": 3,
+   "official_hsk1": true
+  },
+  {
+   "id": "w013",
+   "hanzi": "名字",
+   "pinyin": "míngzi",
+   "syllables": [
+    "míng",
+    "zi"
+   ],
+   "tones": [
+    2,
+    0
+   ],
+   "pos": "n",
+   "meaning": "name",
+   "lesson": 3,
+   "official_hsk1": true
+  },
+  {
+   "id": "w014",
+   "hanzi": "我",
+   "pinyin": "wǒ",
+   "syllables": [
+    "wǒ"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "pron",
+   "meaning": "I; me",
+   "lesson": 3,
+   "official_hsk1": true
+  },
+  {
+   "id": "w015",
+   "hanzi": "是",
+   "pinyin": "shì",
+   "syllables": [
+    "shì"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "v",
+   "meaning": "to be (am / is / are)",
+   "lesson": 3,
+   "official_hsk1": true
+  },
+  {
+   "id": "w016",
+   "hanzi": "老师",
+   "pinyin": "lǎoshī",
+   "syllables": [
+    "lǎo",
+    "shī"
+   ],
+   "tones": [
+    3,
+    1
+   ],
+   "pos": "n",
+   "meaning": "teacher",
+   "lesson": 3,
+   "official_hsk1": true
+  },
+  {
+   "id": "w017",
+   "hanzi": "吗",
+   "pinyin": "ma",
+   "syllables": [
+    "ma"
+   ],
+   "tones": [
+    0
+   ],
+   "pos": "part",
+   "meaning": "question particle (yes/no)",
+   "lesson": 3,
+   "official_hsk1": true
+  },
+  {
+   "id": "w018",
+   "hanzi": "学生",
+   "pinyin": "xuésheng",
+   "syllables": [
+    "xué",
+    "sheng"
+   ],
+   "tones": [
+    2,
+    0
+   ],
+   "pos": "n",
+   "meaning": "student",
+   "lesson": 3,
+   "official_hsk1": true
+  },
+  {
+   "id": "w019",
+   "hanzi": "人",
+   "pinyin": "rén",
+   "syllables": [
+    "rén"
+   ],
+   "tones": [
+    2
+   ],
+   "pos": "n",
+   "meaning": "person; people",
+   "lesson": 3,
+   "official_hsk1": true
+  },
+  {
+   "id": "w020",
+   "hanzi": "中国",
+   "pinyin": "Zhōngguó",
+   "syllables": [
+    "zhōng",
+    "guó"
+   ],
+   "tones": [
+    1,
+    2
+   ],
+   "pos": "name",
+   "meaning": "China",
+   "lesson": 3,
+   "official_hsk1": true
+  },
+  {
+   "id": "w021",
+   "hanzi": "美国",
+   "pinyin": "Měiguó",
+   "syllables": [
+    "měi",
+    "guó"
+   ],
+   "tones": [
+    3,
+    2
+   ],
+   "pos": "name",
+   "meaning": "the USA",
+   "lesson": 3,
+   "official_hsk1": false
+  },
+  {
+   "id": "w022",
+   "hanzi": "她",
+   "pinyin": "tā",
+   "syllables": [
+    "tā"
+   ],
+   "tones": [
+    1
+   ],
+   "pos": "pron",
+   "meaning": "she; her",
+   "lesson": 4,
+   "official_hsk1": true
+  },
+  {
+   "id": "w023",
+   "hanzi": "谁",
+   "pinyin": "shéi",
+   "syllables": [
+    "shéi"
+   ],
+   "tones": [
+    2
+   ],
+   "pos": "pron",
+   "meaning": "who; whom",
+   "lesson": 4,
+   "official_hsk1": true
+  },
+  {
+   "id": "w024",
+   "hanzi": "的",
+   "pinyin": "de",
+   "syllables": [
+    "de"
+   ],
+   "tones": [
+    0
+   ],
+   "pos": "part",
+   "meaning": "possessive / descriptive particle ('s)",
+   "lesson": 4,
+   "official_hsk1": true
+  },
+  {
+   "id": "w025",
+   "hanzi": "汉语",
+   "pinyin": "Hànyǔ",
+   "syllables": [
+    "hàn",
+    "yǔ"
+   ],
+   "tones": [
+    4,
+    3
+   ],
+   "pos": "n",
+   "meaning": "Chinese (language)",
+   "lesson": 4,
+   "official_hsk1": true
+  },
+  {
+   "id": "w026",
+   "hanzi": "哪",
+   "pinyin": "nǎ",
+   "syllables": [
+    "nǎ"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "pron",
+   "meaning": "which",
+   "lesson": 4,
+   "official_hsk1": true
+  },
+  {
+   "id": "w027",
+   "hanzi": "国",
+   "pinyin": "guó",
+   "syllables": [
+    "guó"
+   ],
+   "tones": [
+    2
+   ],
+   "pos": "n",
+   "meaning": "country",
+   "lesson": 4,
+   "official_hsk1": false
+  },
+  {
+   "id": "w028",
+   "hanzi": "呢",
+   "pinyin": "ne",
+   "syllables": [
+    "ne"
+   ],
+   "tones": [
+    0
+   ],
+   "pos": "part",
+   "meaning": "particle: 'and…?' / ongoing action",
+   "lesson": 4,
+   "official_hsk1": true
+  },
+  {
+   "id": "w029",
+   "hanzi": "他",
+   "pinyin": "tā",
+   "syllables": [
+    "tā"
+   ],
+   "tones": [
+    1
+   ],
+   "pos": "pron",
+   "meaning": "he; him",
+   "lesson": 4,
+   "official_hsk1": true
+  },
+  {
+   "id": "w030",
+   "hanzi": "同学",
+   "pinyin": "tóngxué",
+   "syllables": [
+    "tóng",
+    "xué"
+   ],
+   "tones": [
+    2,
+    2
+   ],
+   "pos": "n",
+   "meaning": "classmate",
+   "lesson": 4,
+   "official_hsk1": true
+  },
+  {
+   "id": "w031",
+   "hanzi": "朋友",
+   "pinyin": "péngyou",
+   "syllables": [
+    "péng",
+    "you"
+   ],
+   "tones": [
+    2,
+    0
+   ],
+   "pos": "n",
+   "meaning": "friend",
+   "lesson": 4,
+   "official_hsk1": true
+  },
+  {
+   "id": "w032",
+   "hanzi": "家",
+   "pinyin": "jiā",
+   "syllables": [
+    "jiā"
+   ],
+   "tones": [
+    1
+   ],
+   "pos": "n / mw",
+   "meaning": "home; family",
+   "lesson": 5,
+   "official_hsk1": true
+  },
+  {
+   "id": "w033",
+   "hanzi": "有",
+   "pinyin": "yǒu",
+   "syllables": [
+    "yǒu"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "v",
+   "meaning": "to have; there is / are",
+   "lesson": 5,
+   "official_hsk1": true
+  },
+  {
+   "id": "w034",
+   "hanzi": "口",
+   "pinyin": "kǒu",
+   "syllables": [
+    "kǒu"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "mw",
+   "meaning": "measure word for family members",
+   "lesson": 5,
+   "official_hsk1": false
+  },
+  {
+   "id": "w035",
+   "hanzi": "女儿",
+   "pinyin": "nǚ'ér",
+   "syllables": [
+    "nǚ",
+    "ér"
+   ],
+   "tones": [
+    3,
+    2
+   ],
+   "pos": "n",
+   "meaning": "daughter",
+   "lesson": 5,
+   "official_hsk1": true
+  },
+  {
+   "id": "w036",
+   "hanzi": "几",
+   "pinyin": "jǐ",
+   "syllables": [
+    "jǐ"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "num / pron",
+   "meaning": "how many (small numbers); a few",
+   "lesson": 5,
+   "official_hsk1": true
+  },
+  {
+   "id": "w037",
+   "hanzi": "岁",
+   "pinyin": "suì",
+   "syllables": [
+    "suì"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "mw",
+   "meaning": "years (of age)",
+   "lesson": 5,
+   "official_hsk1": true
+  },
+  {
+   "id": "w038",
+   "hanzi": "了",
+   "pinyin": "le",
+   "syllables": [
+    "le"
+   ],
+   "tones": [
+    0
+   ],
+   "pos": "part",
+   "meaning": "particle: change of state / completed action",
+   "lesson": 5,
+   "official_hsk1": true
+  },
+  {
+   "id": "w039",
+   "hanzi": "今年",
+   "pinyin": "jīnnián",
+   "syllables": [
+    "jīn",
+    "nián"
+   ],
+   "tones": [
+    1,
+    2
+   ],
+   "pos": "n",
+   "meaning": "this year",
+   "lesson": 5,
+   "official_hsk1": false
+  },
+  {
+   "id": "w040",
+   "hanzi": "多",
+   "pinyin": "duō",
+   "syllables": [
+    "duō"
+   ],
+   "tones": [
+    1
+   ],
+   "pos": "adj / adv",
+   "meaning": "many; much; how (多大 = how old)",
+   "lesson": 5,
+   "official_hsk1": true
+  },
+  {
+   "id": "w041",
+   "hanzi": "大",
+   "pinyin": "dà",
+   "syllables": [
+    "dà"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "adj",
+   "meaning": "big; old (age)",
+   "lesson": 5,
+   "official_hsk1": true
+  },
+  {
+   "id": "w042",
+   "hanzi": "一",
+   "pinyin": "yī",
+   "syllables": [
+    "yī"
+   ],
+   "tones": [
+    1
+   ],
+   "pos": "num",
+   "meaning": "one",
+   "lesson": 5,
+   "official_hsk1": true
+  },
+  {
+   "id": "w043",
+   "hanzi": "二",
+   "pinyin": "èr",
+   "syllables": [
+    "èr"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "num",
+   "meaning": "two",
+   "lesson": 5,
+   "official_hsk1": true
+  },
+  {
+   "id": "w044",
+   "hanzi": "三",
+   "pinyin": "sān",
+   "syllables": [
+    "sān"
+   ],
+   "tones": [
+    1
+   ],
+   "pos": "num",
+   "meaning": "three",
+   "lesson": 5,
+   "official_hsk1": true
+  },
+  {
+   "id": "w045",
+   "hanzi": "四",
+   "pinyin": "sì",
+   "syllables": [
+    "sì"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "num",
+   "meaning": "four",
+   "lesson": 5,
+   "official_hsk1": true
+  },
+  {
+   "id": "w046",
+   "hanzi": "五",
+   "pinyin": "wǔ",
+   "syllables": [
+    "wǔ"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "num",
+   "meaning": "five",
+   "lesson": 5,
+   "official_hsk1": true
+  },
+  {
+   "id": "w047",
+   "hanzi": "六",
+   "pinyin": "liù",
+   "syllables": [
+    "liù"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "num",
+   "meaning": "six",
+   "lesson": 5,
+   "official_hsk1": true
+  },
+  {
+   "id": "w048",
+   "hanzi": "七",
+   "pinyin": "qī",
+   "syllables": [
+    "qī"
+   ],
+   "tones": [
+    1
+   ],
+   "pos": "num",
+   "meaning": "seven",
+   "lesson": 5,
+   "official_hsk1": true
+  },
+  {
+   "id": "w049",
+   "hanzi": "八",
+   "pinyin": "bā",
+   "syllables": [
+    "bā"
+   ],
+   "tones": [
+    1
+   ],
+   "pos": "num",
+   "meaning": "eight",
+   "lesson": 5,
+   "official_hsk1": true
+  },
+  {
+   "id": "w050",
+   "hanzi": "九",
+   "pinyin": "jiǔ",
+   "syllables": [
+    "jiǔ"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "num",
+   "meaning": "nine",
+   "lesson": 5,
+   "official_hsk1": true
+  },
+  {
+   "id": "w051",
+   "hanzi": "十",
+   "pinyin": "shí",
+   "syllables": [
+    "shí"
+   ],
+   "tones": [
+    2
+   ],
+   "pos": "num",
+   "meaning": "ten",
+   "lesson": 5,
+   "official_hsk1": true
+  },
+  {
+   "id": "w052",
+   "hanzi": "会",
+   "pinyin": "huì",
+   "syllables": [
+    "huì"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "modal",
+   "meaning": "can; know how to; will (likely)",
+   "lesson": 6,
+   "official_hsk1": true
+  },
+  {
+   "id": "w053",
+   "hanzi": "说",
+   "pinyin": "shuō",
+   "syllables": [
+    "shuō"
+   ],
+   "tones": [
+    1
+   ],
+   "pos": "v",
+   "meaning": "to speak; to say",
+   "lesson": 6,
+   "official_hsk1": true
+  },
+  {
+   "id": "w054",
+   "hanzi": "妈妈",
+   "pinyin": "māma",
+   "syllables": [
+    "mā",
+    "ma"
+   ],
+   "tones": [
+    1,
+    0
+   ],
+   "pos": "n",
+   "meaning": "mum; mother",
+   "lesson": 6,
+   "official_hsk1": true
+  },
+  {
+   "id": "w055",
+   "hanzi": "菜",
+   "pinyin": "cài",
+   "syllables": [
+    "cài"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "n",
+   "meaning": "dish; food; vegetables",
+   "lesson": 6,
+   "official_hsk1": true
+  },
+  {
+   "id": "w056",
+   "hanzi": "很",
+   "pinyin": "hěn",
+   "syllables": [
+    "hěn"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "adv",
+   "meaning": "very",
+   "lesson": 6,
+   "official_hsk1": true
+  },
+  {
+   "id": "w057",
+   "hanzi": "好吃",
+   "pinyin": "hǎochī",
+   "syllables": [
+    "hǎo",
+    "chī"
+   ],
+   "tones": [
+    3,
+    1
+   ],
+   "pos": "adj",
+   "meaning": "tasty; delicious",
+   "lesson": 6,
+   "official_hsk1": false
+  },
+  {
+   "id": "w058",
+   "hanzi": "做",
+   "pinyin": "zuò",
+   "syllables": [
+    "zuò"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "v",
+   "meaning": "to do; to make; to cook",
+   "lesson": 6,
+   "official_hsk1": true
+  },
+  {
+   "id": "w059",
+   "hanzi": "写",
+   "pinyin": "xiě",
+   "syllables": [
+    "xiě"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "v",
+   "meaning": "to write",
+   "lesson": 6,
+   "official_hsk1": true
+  },
+  {
+   "id": "w060",
+   "hanzi": "汉字",
+   "pinyin": "Hànzì",
+   "syllables": [
+    "hàn",
+    "zì"
+   ],
+   "tones": [
+    4,
+    4
+   ],
+   "pos": "n",
+   "meaning": "Chinese character",
+   "lesson": 6,
+   "official_hsk1": false
+  },
+  {
+   "id": "w061",
+   "hanzi": "字",
+   "pinyin": "zì",
+   "syllables": [
+    "zì"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "n",
+   "meaning": "character; word",
+   "lesson": 6,
+   "official_hsk1": true
+  },
+  {
+   "id": "w062",
+   "hanzi": "怎么",
+   "pinyin": "zěnme",
+   "syllables": [
+    "zěn",
+    "me"
+   ],
+   "tones": [
+    3,
+    0
+   ],
+   "pos": "pron",
+   "meaning": "how",
+   "lesson": 6,
+   "official_hsk1": true
+  },
+  {
+   "id": "w063",
+   "hanzi": "读",
+   "pinyin": "dú",
+   "syllables": [
+    "dú"
+   ],
+   "tones": [
+    2
+   ],
+   "pos": "v",
+   "meaning": "to read (aloud)",
+   "lesson": 6,
+   "official_hsk1": true
+  },
+  {
+   "id": "w064",
+   "hanzi": "请",
+   "pinyin": "qǐng",
+   "syllables": [
+    "qǐng"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "v",
+   "meaning": "please; to invite",
+   "lesson": 7,
+   "official_hsk1": true
+  },
+  {
+   "id": "w065",
+   "hanzi": "问",
+   "pinyin": "wèn",
+   "syllables": [
+    "wèn"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "v",
+   "meaning": "to ask",
+   "lesson": 7,
+   "official_hsk1": false
+  },
+  {
+   "id": "w066",
+   "hanzi": "今天",
+   "pinyin": "jīntiān",
+   "syllables": [
+    "jīn",
+    "tiān"
+   ],
+   "tones": [
+    1,
+    1
+   ],
+   "pos": "n",
+   "meaning": "today",
+   "lesson": 7,
+   "official_hsk1": true
+  },
+  {
+   "id": "w067",
+   "hanzi": "号",
+   "pinyin": "hào",
+   "syllables": [
+    "hào"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "n",
+   "meaning": "day of the month; number",
+   "lesson": 7,
+   "official_hsk1": true
+  },
+  {
+   "id": "w068",
+   "hanzi": "月",
+   "pinyin": "yuè",
+   "syllables": [
+    "yuè"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "n",
+   "meaning": "month",
+   "lesson": 7,
+   "official_hsk1": true
+  },
+  {
+   "id": "w069",
+   "hanzi": "星期",
+   "pinyin": "xīngqī",
+   "syllables": [
+    "xīng",
+    "qī"
+   ],
+   "tones": [
+    1,
+    1
+   ],
+   "pos": "n",
+   "meaning": "week",
+   "lesson": 7,
+   "official_hsk1": true
+  },
+  {
+   "id": "w070",
+   "hanzi": "昨天",
+   "pinyin": "zuótiān",
+   "syllables": [
+    "zuó",
+    "tiān"
+   ],
+   "tones": [
+    2,
+    1
+   ],
+   "pos": "n",
+   "meaning": "yesterday",
+   "lesson": 7,
+   "official_hsk1": true
+  },
+  {
+   "id": "w071",
+   "hanzi": "明天",
+   "pinyin": "míngtiān",
+   "syllables": [
+    "míng",
+    "tiān"
+   ],
+   "tones": [
+    2,
+    1
+   ],
+   "pos": "n",
+   "meaning": "tomorrow",
+   "lesson": 7,
+   "official_hsk1": true
+  },
+  {
+   "id": "w072",
+   "hanzi": "去",
+   "pinyin": "qù",
+   "syllables": [
+    "qù"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "v",
+   "meaning": "to go",
+   "lesson": 7,
+   "official_hsk1": true
+  },
+  {
+   "id": "w073",
+   "hanzi": "学校",
+   "pinyin": "xuéxiào",
+   "syllables": [
+    "xué",
+    "xiào"
+   ],
+   "tones": [
+    2,
+    4
+   ],
+   "pos": "n",
+   "meaning": "school",
+   "lesson": 7,
+   "official_hsk1": true
+  },
+  {
+   "id": "w074",
+   "hanzi": "看",
+   "pinyin": "kàn",
+   "syllables": [
+    "kàn"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "v",
+   "meaning": "to look; to watch; to read",
+   "lesson": 7,
+   "official_hsk1": true
+  },
+  {
+   "id": "w075",
+   "hanzi": "书",
+   "pinyin": "shū",
+   "syllables": [
+    "shū"
+   ],
+   "tones": [
+    1
+   ],
+   "pos": "n",
+   "meaning": "book",
+   "lesson": 7,
+   "official_hsk1": true
+  },
+  {
+   "id": "w076",
+   "hanzi": "想",
+   "pinyin": "xiǎng",
+   "syllables": [
+    "xiǎng"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "modal / v",
+   "meaning": "to want to; would like; to think; to miss",
+   "lesson": 8,
+   "official_hsk1": true
+  },
+  {
+   "id": "w077",
+   "hanzi": "喝",
+   "pinyin": "hē",
+   "syllables": [
+    "hē"
+   ],
+   "tones": [
+    1
+   ],
+   "pos": "v",
+   "meaning": "to drink",
+   "lesson": 8,
+   "official_hsk1": true
+  },
+  {
+   "id": "w078",
+   "hanzi": "茶",
+   "pinyin": "chá",
+   "syllables": [
+    "chá"
+   ],
+   "tones": [
+    2
+   ],
+   "pos": "n",
+   "meaning": "tea",
+   "lesson": 8,
+   "official_hsk1": true
+  },
+  {
+   "id": "w079",
+   "hanzi": "吃",
+   "pinyin": "chī",
+   "syllables": [
+    "chī"
+   ],
+   "tones": [
+    1
+   ],
+   "pos": "v",
+   "meaning": "to eat",
+   "lesson": 8,
+   "official_hsk1": true
+  },
+  {
+   "id": "w080",
+   "hanzi": "米饭",
+   "pinyin": "mǐfàn",
+   "syllables": [
+    "mǐ",
+    "fàn"
+   ],
+   "tones": [
+    3,
+    4
+   ],
+   "pos": "n",
+   "meaning": "cooked rice",
+   "lesson": 8,
+   "official_hsk1": true
+  },
+  {
+   "id": "w081",
+   "hanzi": "下午",
+   "pinyin": "xiàwǔ",
+   "syllables": [
+    "xià",
+    "wǔ"
+   ],
+   "tones": [
+    4,
+    3
+   ],
+   "pos": "n",
+   "meaning": "afternoon",
+   "lesson": 8,
+   "official_hsk1": true
+  },
+  {
+   "id": "w082",
+   "hanzi": "下",
+   "pinyin": "xià",
+   "syllables": [
+    "xià"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "n / v",
+   "meaning": "below; next; to fall (rain)",
+   "lesson": 8,
+   "official_hsk1": true
+  },
+  {
+   "id": "w083",
+   "hanzi": "商店",
+   "pinyin": "shāngdiàn",
+   "syllables": [
+    "shāng",
+    "diàn"
+   ],
+   "tones": [
+    1,
+    4
+   ],
+   "pos": "n",
+   "meaning": "shop; store",
+   "lesson": 8,
+   "official_hsk1": true
+  },
+  {
+   "id": "w084",
+   "hanzi": "买",
+   "pinyin": "mǎi",
+   "syllables": [
+    "mǎi"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "v",
+   "meaning": "to buy",
+   "lesson": 8,
+   "official_hsk1": true
+  },
+  {
+   "id": "w085",
+   "hanzi": "个",
+   "pinyin": "gè",
+   "syllables": [
+    "gè"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "mw",
+   "meaning": "general measure word",
+   "lesson": 8,
+   "official_hsk1": true
+  },
+  {
+   "id": "w086",
+   "hanzi": "杯子",
+   "pinyin": "bēizi",
+   "syllables": [
+    "bēi",
+    "zi"
+   ],
+   "tones": [
+    1,
+    0
+   ],
+   "pos": "n",
+   "meaning": "cup; glass",
+   "lesson": 8,
+   "official_hsk1": true
+  },
+  {
+   "id": "w087",
+   "hanzi": "这",
+   "pinyin": "zhè",
+   "syllables": [
+    "zhè"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "pron",
+   "meaning": "this",
+   "lesson": 8,
+   "official_hsk1": true
+  },
+  {
+   "id": "w088",
+   "hanzi": "多少",
+   "pinyin": "duōshao",
+   "syllables": [
+    "duō",
+    "shao"
+   ],
+   "tones": [
+    1,
+    0
+   ],
+   "pos": "pron",
+   "meaning": "how many; how much",
+   "lesson": 8,
+   "official_hsk1": true
+  },
+  {
+   "id": "w089",
+   "hanzi": "钱",
+   "pinyin": "qián",
+   "syllables": [
+    "qián"
+   ],
+   "tones": [
+    2
+   ],
+   "pos": "n",
+   "meaning": "money",
+   "lesson": 8,
+   "official_hsk1": true
+  },
+  {
+   "id": "w090",
+   "hanzi": "块",
+   "pinyin": "kuài",
+   "syllables": [
+    "kuài"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "mw",
+   "meaning": "yuan (spoken); piece",
+   "lesson": 8,
+   "official_hsk1": true
+  },
+  {
+   "id": "w091",
+   "hanzi": "那",
+   "pinyin": "nà",
+   "syllables": [
+    "nà"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "pron",
+   "meaning": "that",
+   "lesson": 8,
+   "official_hsk1": true
+  },
+  {
+   "id": "w092",
+   "hanzi": "小",
+   "pinyin": "xiǎo",
+   "syllables": [
+    "xiǎo"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "adj",
+   "meaning": "small; little; young",
+   "lesson": 9,
+   "official_hsk1": true
+  },
+  {
+   "id": "w093",
+   "hanzi": "猫",
+   "pinyin": "māo",
+   "syllables": [
+    "māo"
+   ],
+   "tones": [
+    1
+   ],
+   "pos": "n",
+   "meaning": "cat",
+   "lesson": 9,
+   "official_hsk1": true
+  },
+  {
+   "id": "w094",
+   "hanzi": "在",
+   "pinyin": "zài",
+   "syllables": [
+    "zài"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "v / prep",
+   "meaning": "to be at; in; at",
+   "lesson": 9,
+   "official_hsk1": true
+  },
+  {
+   "id": "w095",
+   "hanzi": "那儿",
+   "pinyin": "nàr",
+   "syllables": [
+    "nà",
+    "r"
+   ],
+   "tones": [
+    4,
+    0
+   ],
+   "pos": "pron",
+   "meaning": "there",
+   "lesson": 9,
+   "official_hsk1": true
+  },
+  {
+   "id": "w096",
+   "hanzi": "狗",
+   "pinyin": "gǒu",
+   "syllables": [
+    "gǒu"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "n",
+   "meaning": "dog",
+   "lesson": 9,
+   "official_hsk1": true
+  },
+  {
+   "id": "w097",
+   "hanzi": "椅子",
+   "pinyin": "yǐzi",
+   "syllables": [
+    "yǐ",
+    "zi"
+   ],
+   "tones": [
+    3,
+    0
+   ],
+   "pos": "n",
+   "meaning": "chair",
+   "lesson": 9,
+   "official_hsk1": true
+  },
+  {
+   "id": "w098",
+   "hanzi": "下面",
+   "pinyin": "xiàmiàn",
+   "syllables": [
+    "xià",
+    "miàn"
+   ],
+   "tones": [
+    4,
+    4
+   ],
+   "pos": "n",
+   "meaning": "under; below",
+   "lesson": 9,
+   "official_hsk1": false
+  },
+  {
+   "id": "w099",
+   "hanzi": "哪儿",
+   "pinyin": "nǎr",
+   "syllables": [
+    "nǎ",
+    "r"
+   ],
+   "tones": [
+    3,
+    0
+   ],
+   "pos": "pron",
+   "meaning": "where",
+   "lesson": 9,
+   "official_hsk1": true
+  },
+  {
+   "id": "w100",
+   "hanzi": "工作",
+   "pinyin": "gōngzuò",
+   "syllables": [
+    "gōng",
+    "zuò"
+   ],
+   "tones": [
+    1,
+    4
+   ],
+   "pos": "v / n",
+   "meaning": "to work; job",
+   "lesson": 9,
+   "official_hsk1": true
+  },
+  {
+   "id": "w101",
+   "hanzi": "儿子",
+   "pinyin": "érzi",
+   "syllables": [
+    "ér",
+    "zi"
+   ],
+   "tones": [
+    2,
+    0
+   ],
+   "pos": "n",
+   "meaning": "son",
+   "lesson": 9,
+   "official_hsk1": true
+  },
+  {
+   "id": "w102",
+   "hanzi": "医院",
+   "pinyin": "yīyuàn",
+   "syllables": [
+    "yī",
+    "yuàn"
+   ],
+   "tones": [
+    1,
+    4
+   ],
+   "pos": "n",
+   "meaning": "hospital",
+   "lesson": 9,
+   "official_hsk1": true
+  },
+  {
+   "id": "w103",
+   "hanzi": "医生",
+   "pinyin": "yīshēng",
+   "syllables": [
+    "yī",
+    "shēng"
+   ],
+   "tones": [
+    1,
+    1
+   ],
+   "pos": "n",
+   "meaning": "doctor",
+   "lesson": 9,
+   "official_hsk1": true
+  },
+  {
+   "id": "w104",
+   "hanzi": "爸爸",
+   "pinyin": "bàba",
+   "syllables": [
+    "bà",
+    "ba"
+   ],
+   "tones": [
+    4,
+    0
+   ],
+   "pos": "n",
+   "meaning": "dad; father",
+   "lesson": 9,
+   "official_hsk1": true
+  },
+  {
+   "id": "w105",
+   "hanzi": "桌子",
+   "pinyin": "zhuōzi",
+   "syllables": [
+    "zhuō",
+    "zi"
+   ],
+   "tones": [
+    1,
+    0
+   ],
+   "pos": "n",
+   "meaning": "table; desk",
+   "lesson": 10,
+   "official_hsk1": true
+  },
+  {
+   "id": "w106",
+   "hanzi": "上",
+   "pinyin": "shàng",
+   "syllables": [
+    "shàng"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "n",
+   "meaning": "on; above; up",
+   "lesson": 10,
+   "official_hsk1": true
+  },
+  {
+   "id": "w107",
+   "hanzi": "电脑",
+   "pinyin": "diànnǎo",
+   "syllables": [
+    "diàn",
+    "nǎo"
+   ],
+   "tones": [
+    4,
+    3
+   ],
+   "pos": "n",
+   "meaning": "computer",
+   "lesson": 10,
+   "official_hsk1": true
+  },
+  {
+   "id": "w108",
+   "hanzi": "和",
+   "pinyin": "hé",
+   "syllables": [
+    "hé"
+   ],
+   "tones": [
+    2
+   ],
+   "pos": "conj",
+   "meaning": "and; with",
+   "lesson": 10,
+   "official_hsk1": true
+  },
+  {
+   "id": "w109",
+   "hanzi": "本",
+   "pinyin": "běn",
+   "syllables": [
+    "běn"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "mw",
+   "meaning": "measure word for books",
+   "lesson": 10,
+   "official_hsk1": true
+  },
+  {
+   "id": "w110",
+   "hanzi": "里",
+   "pinyin": "lǐ",
+   "syllables": [
+    "lǐ"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "n",
+   "meaning": "in; inside",
+   "lesson": 10,
+   "official_hsk1": true
+  },
+  {
+   "id": "w111",
+   "hanzi": "前面",
+   "pinyin": "qiánmiàn",
+   "syllables": [
+    "qián",
+    "miàn"
+   ],
+   "tones": [
+    2,
+    4
+   ],
+   "pos": "n",
+   "meaning": "in front; ahead",
+   "lesson": 10,
+   "official_hsk1": true
+  },
+  {
+   "id": "w112",
+   "hanzi": "后面",
+   "pinyin": "hòumiàn",
+   "syllables": [
+    "hòu",
+    "miàn"
+   ],
+   "tones": [
+    4,
+    4
+   ],
+   "pos": "n",
+   "meaning": "behind; at the back",
+   "lesson": 10,
+   "official_hsk1": true
+  },
+  {
+   "id": "w113",
+   "hanzi": "这儿",
+   "pinyin": "zhèr",
+   "syllables": [
+    "zhè",
+    "r"
+   ],
+   "tones": [
+    4,
+    0
+   ],
+   "pos": "pron",
+   "meaning": "here",
+   "lesson": 10,
+   "official_hsk1": true
+  },
+  {
+   "id": "w114",
+   "hanzi": "没有",
+   "pinyin": "méiyǒu",
+   "syllables": [
+    "méi",
+    "yǒu"
+   ],
+   "tones": [
+    2,
+    3
+   ],
+   "pos": "v / adv",
+   "meaning": "not have; there isn't; did not",
+   "lesson": 10,
+   "official_hsk1": true
+  },
+  {
+   "id": "w115",
+   "hanzi": "能",
+   "pinyin": "néng",
+   "syllables": [
+    "néng"
+   ],
+   "tones": [
+    2
+   ],
+   "pos": "modal",
+   "meaning": "can; be able to; may",
+   "lesson": 10,
+   "official_hsk1": true
+  },
+  {
+   "id": "w116",
+   "hanzi": "坐",
+   "pinyin": "zuò",
+   "syllables": [
+    "zuò"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "v",
+   "meaning": "to sit; to travel by",
+   "lesson": 10,
+   "official_hsk1": true
+  },
+  {
+   "id": "w117",
+   "hanzi": "现在",
+   "pinyin": "xiànzài",
+   "syllables": [
+    "xiàn",
+    "zài"
+   ],
+   "tones": [
+    4,
+    4
+   ],
+   "pos": "n",
+   "meaning": "now",
+   "lesson": 11,
+   "official_hsk1": true
+  },
+  {
+   "id": "w118",
+   "hanzi": "点",
+   "pinyin": "diǎn",
+   "syllables": [
+    "diǎn"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "mw",
+   "meaning": "o'clock",
+   "lesson": 11,
+   "official_hsk1": true
+  },
+  {
+   "id": "w119",
+   "hanzi": "分",
+   "pinyin": "fēn",
+   "syllables": [
+    "fēn"
+   ],
+   "tones": [
+    1
+   ],
+   "pos": "mw",
+   "meaning": "minute (in clock time)",
+   "lesson": 11,
+   "official_hsk1": false
+  },
+  {
+   "id": "w120",
+   "hanzi": "中午",
+   "pinyin": "zhōngwǔ",
+   "syllables": [
+    "zhōng",
+    "wǔ"
+   ],
+   "tones": [
+    1,
+    3
+   ],
+   "pos": "n",
+   "meaning": "noon",
+   "lesson": 11,
+   "official_hsk1": true
+  },
+  {
+   "id": "w121",
+   "hanzi": "吃饭",
+   "pinyin": "chī fàn",
+   "syllables": [
+    "chī",
+    "fàn"
+   ],
+   "tones": [
+    1,
+    4
+   ],
+   "pos": "v",
+   "meaning": "to eat a meal",
+   "lesson": 11,
+   "official_hsk1": false
+  },
+  {
+   "id": "w122",
+   "hanzi": "时候",
+   "pinyin": "shíhou",
+   "syllables": [
+    "shí",
+    "hou"
+   ],
+   "tones": [
+    2,
+    0
+   ],
+   "pos": "n",
+   "meaning": "time; moment (…的时候 = when…)",
+   "lesson": 11,
+   "official_hsk1": true
+  },
+  {
+   "id": "w123",
+   "hanzi": "回",
+   "pinyin": "huí",
+   "syllables": [
+    "huí"
+   ],
+   "tones": [
+    2
+   ],
+   "pos": "v",
+   "meaning": "to return; to go back",
+   "lesson": 11,
+   "official_hsk1": true
+  },
+  {
+   "id": "w124",
+   "hanzi": "我们",
+   "pinyin": "wǒmen",
+   "syllables": [
+    "wǒ",
+    "men"
+   ],
+   "tones": [
+    3,
+    0
+   ],
+   "pos": "pron",
+   "meaning": "we; us",
+   "lesson": 11,
+   "official_hsk1": true
+  },
+  {
+   "id": "w125",
+   "hanzi": "电影",
+   "pinyin": "diànyǐng",
+   "syllables": [
+    "diàn",
+    "yǐng"
+   ],
+   "tones": [
+    4,
+    3
+   ],
+   "pos": "n",
+   "meaning": "film; movie",
+   "lesson": 11,
+   "official_hsk1": true
+  },
+  {
+   "id": "w126",
+   "hanzi": "住",
+   "pinyin": "zhù",
+   "syllables": [
+    "zhù"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "v",
+   "meaning": "to live (somewhere); to stay",
+   "lesson": 11,
+   "official_hsk1": true
+  },
+  {
+   "id": "w127",
+   "hanzi": "前",
+   "pinyin": "qián",
+   "syllables": [
+    "qián"
+   ],
+   "tones": [
+    2
+   ],
+   "pos": "n",
+   "meaning": "before; ago",
+   "lesson": 11,
+   "official_hsk1": false
+  },
+  {
+   "id": "w128",
+   "hanzi": "北京",
+   "pinyin": "Běijīng",
+   "syllables": [
+    "běi",
+    "jīng"
+   ],
+   "tones": [
+    3,
+    1
+   ],
+   "pos": "name",
+   "meaning": "Beijing",
+   "lesson": 11,
+   "official_hsk1": true
+  },
+  {
+   "id": "w129",
+   "hanzi": "天气",
+   "pinyin": "tiānqì",
+   "syllables": [
+    "tiān",
+    "qì"
+   ],
+   "tones": [
+    1,
+    4
+   ],
+   "pos": "n",
+   "meaning": "weather",
+   "lesson": 12,
+   "official_hsk1": true
+  },
+  {
+   "id": "w130",
+   "hanzi": "怎么样",
+   "pinyin": "zěnmeyàng",
+   "syllables": [
+    "zěn",
+    "me",
+    "yàng"
+   ],
+   "tones": [
+    3,
+    0,
+    4
+   ],
+   "pos": "pron",
+   "meaning": "how; how about",
+   "lesson": 12,
+   "official_hsk1": true
+  },
+  {
+   "id": "w131",
+   "hanzi": "太",
+   "pinyin": "tài",
+   "syllables": [
+    "tài"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "adv",
+   "meaning": "too; extremely",
+   "lesson": 12,
+   "official_hsk1": true
+  },
+  {
+   "id": "w132",
+   "hanzi": "热",
+   "pinyin": "rè",
+   "syllables": [
+    "rè"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "adj",
+   "meaning": "hot",
+   "lesson": 12,
+   "official_hsk1": true
+  },
+  {
+   "id": "w133",
+   "hanzi": "冷",
+   "pinyin": "lěng",
+   "syllables": [
+    "lěng"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "adj",
+   "meaning": "cold",
+   "lesson": 12,
+   "official_hsk1": true
+  },
+  {
+   "id": "w134",
+   "hanzi": "下雨",
+   "pinyin": "xià yǔ",
+   "syllables": [
+    "xià",
+    "yǔ"
+   ],
+   "tones": [
+    4,
+    3
+   ],
+   "pos": "v",
+   "meaning": "to rain",
+   "lesson": 12,
+   "official_hsk1": true
+  },
+  {
+   "id": "w135",
+   "hanzi": "小姐",
+   "pinyin": "xiǎojiě",
+   "syllables": [
+    "xiǎo",
+    "jiě"
+   ],
+   "tones": [
+    3,
+    3
+   ],
+   "pos": "n",
+   "meaning": "Miss; young lady",
+   "lesson": 12,
+   "official_hsk1": true
+  },
+  {
+   "id": "w136",
+   "hanzi": "来",
+   "pinyin": "lái",
+   "syllables": [
+    "lái"
+   ],
+   "tones": [
+    2
+   ],
+   "pos": "v",
+   "meaning": "to come",
+   "lesson": 12,
+   "official_hsk1": true
+  },
+  {
+   "id": "w137",
+   "hanzi": "身体",
+   "pinyin": "shēntǐ",
+   "syllables": [
+    "shēn",
+    "tǐ"
+   ],
+   "tones": [
+    1,
+    3
+   ],
+   "pos": "n",
+   "meaning": "body; health",
+   "lesson": 12,
+   "official_hsk1": false
+  },
+  {
+   "id": "w138",
+   "hanzi": "爱",
+   "pinyin": "ài",
+   "syllables": [
+    "ài"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "v",
+   "meaning": "to love",
+   "lesson": 12,
+   "official_hsk1": true
+  },
+  {
+   "id": "w139",
+   "hanzi": "些",
+   "pinyin": "xiē",
+   "syllables": [
+    "xiē"
+   ],
+   "tones": [
+    1
+   ],
+   "pos": "mw",
+   "meaning": "some; a few",
+   "lesson": 12,
+   "official_hsk1": true
+  },
+  {
+   "id": "w140",
+   "hanzi": "水果",
+   "pinyin": "shuǐguǒ",
+   "syllables": [
+    "shuǐ",
+    "guǒ"
+   ],
+   "tones": [
+    3,
+    3
+   ],
+   "pos": "n",
+   "meaning": "fruit",
+   "lesson": 12,
+   "official_hsk1": true
+  },
+  {
+   "id": "w141",
+   "hanzi": "水",
+   "pinyin": "shuǐ",
+   "syllables": [
+    "shuǐ"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "n",
+   "meaning": "water",
+   "lesson": 12,
+   "official_hsk1": true
+  },
+  {
+   "id": "w142",
+   "hanzi": "喂",
+   "pinyin": "wèi",
+   "syllables": [
+    "wèi"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "int",
+   "meaning": "hello (on the phone)",
+   "lesson": 13,
+   "official_hsk1": true
+  },
+  {
+   "id": "w143",
+   "hanzi": "也",
+   "pinyin": "yě",
+   "syllables": [
+    "yě"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "adv",
+   "meaning": "also; too",
+   "lesson": 13,
+   "official_hsk1": false
+  },
+  {
+   "id": "w144",
+   "hanzi": "学习",
+   "pinyin": "xuéxí",
+   "syllables": [
+    "xué",
+    "xí"
+   ],
+   "tones": [
+    2,
+    2
+   ],
+   "pos": "v",
+   "meaning": "to study; to learn",
+   "lesson": 13,
+   "official_hsk1": true
+  },
+  {
+   "id": "w145",
+   "hanzi": "学",
+   "pinyin": "xué",
+   "syllables": [
+    "xué"
+   ],
+   "tones": [
+    2
+   ],
+   "pos": "v",
+   "meaning": "to learn",
+   "lesson": 13,
+   "official_hsk1": false
+  },
+  {
+   "id": "w146",
+   "hanzi": "上午",
+   "pinyin": "shàngwǔ",
+   "syllables": [
+    "shàng",
+    "wǔ"
+   ],
+   "tones": [
+    4,
+    3
+   ],
+   "pos": "n",
+   "meaning": "morning (before noon)",
+   "lesson": 13,
+   "official_hsk1": true
+  },
+  {
+   "id": "w147",
+   "hanzi": "睡觉",
+   "pinyin": "shuì jiào",
+   "syllables": [
+    "shuì",
+    "jiào"
+   ],
+   "tones": [
+    4,
+    4
+   ],
+   "pos": "v",
+   "meaning": "to sleep; to go to bed",
+   "lesson": 13,
+   "official_hsk1": true
+  },
+  {
+   "id": "w148",
+   "hanzi": "电视",
+   "pinyin": "diànshì",
+   "syllables": [
+    "diàn",
+    "shì"
+   ],
+   "tones": [
+    4,
+    4
+   ],
+   "pos": "n",
+   "meaning": "television",
+   "lesson": 13,
+   "official_hsk1": true
+  },
+  {
+   "id": "w149",
+   "hanzi": "喜欢",
+   "pinyin": "xǐhuan",
+   "syllables": [
+    "xǐ",
+    "huan"
+   ],
+   "tones": [
+    3,
+    0
+   ],
+   "pos": "v",
+   "meaning": "to like",
+   "lesson": 13,
+   "official_hsk1": true
+  },
+  {
+   "id": "w150",
+   "hanzi": "给",
+   "pinyin": "gěi",
+   "syllables": [
+    "gěi"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "prep / v",
+   "meaning": "to; for; to give",
+   "lesson": 13,
+   "official_hsk1": false
+  },
+  {
+   "id": "w151",
+   "hanzi": "打电话",
+   "pinyin": "dǎ diànhuà",
+   "syllables": [
+    "dǎ",
+    "diàn",
+    "huà"
+   ],
+   "tones": [
+    3,
+    4,
+    4
+   ],
+   "pos": "v",
+   "meaning": "to make a phone call",
+   "lesson": 13,
+   "official_hsk1": true
+  },
+  {
+   "id": "w152",
+   "hanzi": "吧",
+   "pinyin": "ba",
+   "syllables": [
+    "ba"
+   ],
+   "tones": [
+    0
+   ],
+   "pos": "part",
+   "meaning": "particle: suggestion / 'I suppose'",
+   "lesson": 13,
+   "official_hsk1": false
+  },
+  {
+   "id": "w153",
+   "hanzi": "东西",
+   "pinyin": "dōngxi",
+   "syllables": [
+    "dōng",
+    "xi"
+   ],
+   "tones": [
+    1,
+    0
+   ],
+   "pos": "n",
+   "meaning": "thing; stuff",
+   "lesson": 14,
+   "official_hsk1": true
+  },
+  {
+   "id": "w154",
+   "hanzi": "一点儿",
+   "pinyin": "yìdiǎnr",
+   "syllables": [
+    "yì",
+    "diǎn",
+    "r"
+   ],
+   "tones": [
+    4,
+    3,
+    0
+   ],
+   "pos": "mw",
+   "meaning": "a little; a bit",
+   "lesson": 14,
+   "official_hsk1": true
+  },
+  {
+   "id": "w155",
+   "hanzi": "苹果",
+   "pinyin": "píngguǒ",
+   "syllables": [
+    "píng",
+    "guǒ"
+   ],
+   "tones": [
+    2,
+    3
+   ],
+   "pos": "n",
+   "meaning": "apple",
+   "lesson": 14,
+   "official_hsk1": true
+  },
+  {
+   "id": "w156",
+   "hanzi": "看见",
+   "pinyin": "kànjiàn",
+   "syllables": [
+    "kàn",
+    "jiàn"
+   ],
+   "tones": [
+    4,
+    4
+   ],
+   "pos": "v",
+   "meaning": "to see",
+   "lesson": 14,
+   "official_hsk1": true
+  },
+  {
+   "id": "w157",
+   "hanzi": "先生",
+   "pinyin": "xiānsheng",
+   "syllables": [
+    "xiān",
+    "sheng"
+   ],
+   "tones": [
+    1,
+    0
+   ],
+   "pos": "n",
+   "meaning": "Mr; sir; husband",
+   "lesson": 14,
+   "official_hsk1": true
+  },
+  {
+   "id": "w158",
+   "hanzi": "开",
+   "pinyin": "kāi",
+   "syllables": [
+    "kāi"
+   ],
+   "tones": [
+    1
+   ],
+   "pos": "v",
+   "meaning": "to drive; to open; to turn on",
+   "lesson": 14,
+   "official_hsk1": true
+  },
+  {
+   "id": "w159",
+   "hanzi": "车",
+   "pinyin": "chē",
+   "syllables": [
+    "chē"
+   ],
+   "tones": [
+    1
+   ],
+   "pos": "n",
+   "meaning": "car; vehicle",
+   "lesson": 14,
+   "official_hsk1": false
+  },
+  {
+   "id": "w160",
+   "hanzi": "回来",
+   "pinyin": "huílai",
+   "syllables": [
+    "huí",
+    "lai"
+   ],
+   "tones": [
+    2,
+    0
+   ],
+   "pos": "v",
+   "meaning": "to come back",
+   "lesson": 14,
+   "official_hsk1": false
+  },
+  {
+   "id": "w161",
+   "hanzi": "分钟",
+   "pinyin": "fēnzhōng",
+   "syllables": [
+    "fēn",
+    "zhōng"
+   ],
+   "tones": [
+    1,
+    1
+   ],
+   "pos": "n",
+   "meaning": "minute (duration)",
+   "lesson": 14,
+   "official_hsk1": true
+  },
+  {
+   "id": "w162",
+   "hanzi": "后",
+   "pinyin": "hòu",
+   "syllables": [
+    "hòu"
+   ],
+   "tones": [
+    4
+   ],
+   "pos": "n",
+   "meaning": "after; later",
+   "lesson": 14,
+   "official_hsk1": false
+  },
+  {
+   "id": "w163",
+   "hanzi": "衣服",
+   "pinyin": "yīfu",
+   "syllables": [
+    "yī",
+    "fu"
+   ],
+   "tones": [
+    1,
+    0
+   ],
+   "pos": "n",
+   "meaning": "clothes",
+   "lesson": 14,
+   "official_hsk1": true
+  },
+  {
+   "id": "w164",
+   "hanzi": "漂亮",
+   "pinyin": "piàoliang",
+   "syllables": [
+    "piào",
+    "liang"
+   ],
+   "tones": [
+    4,
+    0
+   ],
+   "pos": "adj",
+   "meaning": "pretty; beautiful",
+   "lesson": 14,
+   "official_hsk1": true
+  },
+  {
+   "id": "w165",
+   "hanzi": "啊",
+   "pinyin": "a",
+   "syllables": [
+    "a"
+   ],
+   "tones": [
+    0
+   ],
+   "pos": "part",
+   "meaning": "particle: exclamation / softening",
+   "lesson": 14,
+   "official_hsk1": false
+  },
+  {
+   "id": "w166",
+   "hanzi": "少",
+   "pinyin": "shǎo",
+   "syllables": [
+    "shǎo"
+   ],
+   "tones": [
+    3
+   ],
+   "pos": "adj",
+   "meaning": "few; little",
+   "lesson": 14,
+   "official_hsk1": true
+  },
+  {
+   "id": "w167",
+   "hanzi": "这些",
+   "pinyin": "zhèxiē",
+   "syllables": [
+    "zhè",
+    "xiē"
+   ],
+   "tones": [
+    4,
+    1
+   ],
+   "pos": "pron",
+   "meaning": "these",
+   "lesson": 14,
+   "official_hsk1": false
+  },
+  {
+   "id": "w168",
+   "hanzi": "都",
+   "pinyin": "dōu",
+   "syllables": [
+    "dōu"
+   ],
+   "tones": [
+    1
+   ],
+   "pos": "adv",
+   "meaning": "all; both",
+   "lesson": 14,
+   "official_hsk1": true
+  },
+  {
+   "id": "w169",
+   "hanzi": "认识",
+   "pinyin": "rènshi",
+   "syllables": [
+    "rèn",
+    "shi"
+   ],
+   "tones": [
+    4,
+    0
+   ],
+   "pos": "v",
+   "meaning": "to know (someone); to recognise",
+   "lesson": 15,
+   "official_hsk1": true
+  },
+  {
+   "id": "w170",
+   "hanzi": "年",
+   "pinyin": "nián",
+   "syllables": [
+    "nián"
+   ],
+   "tones": [
+    2
+   ],
+   "pos": "n",
+   "meaning": "year",
+   "lesson": 15,
+   "official_hsk1": true
+  },
+  {
+   "id": "w171",
+   "hanzi": "大学",
+   "pinyin": "dàxué",
+   "syllables": [
+    "dà",
+    "xué"
+   ],
+   "tones": [
+    4,
+    2
+   ],
+   "pos": "n",
+   "meaning": "university",
+   "lesson": 15,
+   "official_hsk1": false
+  },
+  {
+   "id": "w172",
+   "hanzi": "饭店",
+   "pinyin": "fàndiàn",
+   "syllables": [
+    "fàn",
+    "diàn"
+   ],
+   "tones": [
+    4,
+    4
+   ],
+   "pos": "n",
+   "meaning": "restaurant; hotel",
+   "lesson": 15,
+   "official_hsk1": true
+  },
+  {
+   "id": "w173",
+   "hanzi": "出租车",
+   "pinyin": "chūzūchē",
+   "syllables": [
+    "chū",
+    "zū",
+    "chē"
+   ],
+   "tones": [
+    1,
+    1,
+    1
+   ],
+   "pos": "n",
+   "meaning": "taxi",
+   "lesson": 15,
+   "official_hsk1": true
+  },
+  {
+   "id": "w174",
+   "hanzi": "一起",
+   "pinyin": "yìqǐ",
+   "syllables": [
+    "yì",
+    "qǐ"
+   ],
+   "tones": [
+    4,
+    3
+   ],
+   "pos": "adv",
+   "meaning": "together",
+   "lesson": 15,
+   "official_hsk1": false
+  },
+  {
+   "id": "w175",
+   "hanzi": "高兴",
+   "pinyin": "gāoxìng",
+   "syllables": [
+    "gāo",
+    "xìng"
+   ],
+   "tones": [
+    1,
+    4
+   ],
+   "pos": "adj",
+   "meaning": "happy; glad",
+   "lesson": 15,
+   "official_hsk1": true
+  },
+  {
+   "id": "w176",
+   "hanzi": "听",
+   "pinyin": "tīng",
+   "syllables": [
+    "tīng"
+   ],
+   "tones": [
+    1
+   ],
+   "pos": "v",
+   "meaning": "to listen; to hear",
+   "lesson": 15,
+   "official_hsk1": true
+  },
+  {
+   "id": "w177",
+   "hanzi": "飞机",
+   "pinyin": "fēijī",
+   "syllables": [
+    "fēi",
+    "jī"
+   ],
+   "tones": [
+    1,
+    1
+   ],
+   "pos": "n",
+   "meaning": "aeroplane",
+   "lesson": 15,
+   "official_hsk1": true
+  }
+ ],
+ "characters": [
+  {
+   "char": "你",
+   "pinyin": "nǐ",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "nǐ"
+   ],
+   "meaning": "you, second person pronoun",
+   "strokes": 7,
+   "radical": "亻",
+   "decomposition": "⿰亻尔",
+   "hint": "Pronoun 尔 for a person 亻",
+   "lesson": 1,
+   "words": [
+    "w001",
+    "w004"
+   ]
+  },
+  {
+   "char": "好",
+   "pinyin": "hǎo",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "hǎo"
+   ],
+   "meaning": "good, excellent, fine; proper, suitable; well",
+   "strokes": 6,
+   "radical": "女",
+   "decomposition": "⿰女子",
+   "hint": "A woman 女 with a son 子",
+   "lesson": 1,
+   "words": [
+    "w002",
+    "w057"
+   ]
+  },
+  {
+   "char": "您",
+   "pinyin": "nín",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "nín"
+   ],
+   "meaning": "honorific for 'you'",
+   "strokes": 11,
+   "radical": "心",
+   "decomposition": "⿱你心",
+   "hint": "You 你 said with affection 心",
+   "lesson": 1,
+   "words": [
+    "w003"
+   ]
+  },
+  {
+   "char": "们",
+   "pinyin": "men",
+   "tone": 0,
+   "readings_in_hsk1": [
+    "men"
+   ],
+   "meaning": "plural suffix for people (我们, 你们)",
+   "strokes": 5,
+   "radical": "亻",
+   "decomposition": "⿰亻门",
+   "hint": "people",
+   "lesson": 1,
+   "words": [
+    "w004",
+    "w124"
+   ]
+  },
+  {
+   "char": "对",
+   "pinyin": "duì",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "duì"
+   ],
+   "meaning": "correct; right; towards",
+   "strokes": 5,
+   "radical": "寸",
+   "decomposition": "⿰又寸",
+   "hint": "A pair 又 of hands 寸",
+   "lesson": 1,
+   "words": [
+    "w005"
+   ]
+  },
+  {
+   "char": "不",
+   "pinyin": "bù",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "bu",
+    "bù",
+    "bú"
+   ],
+   "meaning": "not",
+   "strokes": 4,
+   "radical": "一",
+   "decomposition": "⿱一？",
+   "hint": "A bird flying toward the sky 一",
+   "lesson": 1,
+   "words": [
+    "w005",
+    "w008",
+    "w009"
+   ]
+  },
+  {
+   "char": "起",
+   "pinyin": "qǐ",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "qǐ"
+   ],
+   "meaning": "to rise; up (对不起, 一起)",
+   "strokes": 10,
+   "radical": "走",
+   "decomposition": "⿺走己",
+   "hint": "walk",
+   "lesson": 1,
+   "words": [
+    "w005",
+    "w174"
+   ]
+  },
+  {
+   "char": "没",
+   "pinyin": "méi",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "méi"
+   ],
+   "meaning": "not (have); did not",
+   "strokes": 7,
+   "radical": "氵",
+   "decomposition": "⿰氵殳",
+   "hint": "water",
+   "lesson": 1,
+   "words": [
+    "w006",
+    "w114"
+   ]
+  },
+  {
+   "char": "关",
+   "pinyin": "guān",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "guān"
+   ],
+   "meaning": "to close; relation (关系)",
+   "strokes": 6,
+   "radical": "丷",
+   "decomposition": "⿱丷天",
+   "hint": null,
+   "lesson": 1,
+   "words": [
+    "w006"
+   ]
+  },
+  {
+   "char": "系",
+   "pinyin": "xì",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "xi"
+   ],
+   "meaning": "relation; connection (关系)",
+   "strokes": 7,
+   "radical": "糸",
+   "decomposition": "⿱丿糸",
+   "hint": "thread",
+   "lesson": 1,
+   "words": [
+    "w006"
+   ]
+  },
+  {
+   "char": "谢",
+   "pinyin": "xiè",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "xiè",
+    "xie"
+   ],
+   "meaning": "to thank",
+   "strokes": 12,
+   "radical": "讠",
+   "decomposition": "⿰讠射",
+   "hint": "speech",
+   "lesson": 2,
+   "words": [
+    "w007",
+    "w007"
+   ]
+  },
+  {
+   "char": "客",
+   "pinyin": "kè",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "kè"
+   ],
+   "meaning": "guest (不客气)",
+   "strokes": 9,
+   "radical": "宀",
+   "decomposition": "⿱宀各",
+   "hint": "A person 各 welcomed under one's roof 宀; 各 also provides the pronunciation",
+   "lesson": 2,
+   "words": [
+    "w009"
+   ]
+  },
+  {
+   "char": "气",
+   "pinyin": "qì",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "qi",
+    "qì"
+   ],
+   "meaning": "air; spirit (客气, 天气)",
+   "strokes": 4,
+   "radical": "气",
+   "decomposition": "⿱亻？",
+   "hint": "A person 亻 breathing air",
+   "lesson": 2,
+   "words": [
+    "w009",
+    "w129"
+   ]
+  },
+  {
+   "char": "再",
+   "pinyin": "zài",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "zài"
+   ],
+   "meaning": "again",
+   "strokes": 6,
+   "radical": "冂",
+   "decomposition": "⿱一冉",
+   "hint": "Two fish 冉 caught on a line 一",
+   "lesson": 2,
+   "words": [
+    "w010"
+   ]
+  },
+  {
+   "char": "见",
+   "pinyin": "jiàn",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "jiàn"
+   ],
+   "meaning": "to see; to meet",
+   "strokes": 4,
+   "radical": "见",
+   "decomposition": "⿵冂儿",
+   "hint": "Simplified form of 見; a man 儿 with the eye 目 emphasized",
+   "lesson": 2,
+   "words": [
+    "w010",
+    "w156"
+   ]
+  },
+  {
+   "char": "叫",
+   "pinyin": "jiào",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "jiào"
+   ],
+   "meaning": "to be called; to call",
+   "strokes": 5,
+   "radical": "口",
+   "decomposition": "⿰口丩",
+   "hint": "mouth",
+   "lesson": 3,
+   "words": [
+    "w011"
+   ]
+  },
+  {
+   "char": "什",
+   "pinyin": "shén",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "shén"
+   ],
+   "meaning": "part of 什么 (what)",
+   "strokes": 4,
+   "radical": "亻",
+   "decomposition": "⿰亻十",
+   "hint": "A file of ten 十 people 亻",
+   "lesson": 3,
+   "words": [
+    "w012"
+   ]
+  },
+  {
+   "char": "么",
+   "pinyin": "me",
+   "tone": 0,
+   "readings_in_hsk1": [
+    "me"
+   ],
+   "meaning": "part of 什么 / 怎么",
+   "strokes": 3,
+   "radical": "丿",
+   "decomposition": "⿱丿厶",
+   "hint": null,
+   "lesson": 3,
+   "words": [
+    "w012",
+    "w062",
+    "w130"
+   ]
+  },
+  {
+   "char": "名",
+   "pinyin": "míng",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "míng"
+   ],
+   "meaning": "name",
+   "strokes": 6,
+   "radical": "口",
+   "decomposition": "⿸夕口",
+   "hint": "A name called out 口 to hail someone at night 夕",
+   "lesson": 3,
+   "words": [
+    "w013"
+   ]
+  },
+  {
+   "char": "字",
+   "pinyin": "zì",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "zi",
+    "zì"
+   ],
+   "meaning": "character; word",
+   "strokes": 6,
+   "radical": "子",
+   "decomposition": "⿱宀子",
+   "hint": "A child 子 in a house 宀; 子 also provides the pronunciation",
+   "lesson": 3,
+   "words": [
+    "w013",
+    "w060",
+    "w061"
+   ]
+  },
+  {
+   "char": "我",
+   "pinyin": "wǒ",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "wǒ"
+   ],
+   "meaning": "I, me, my; our, us",
+   "strokes": 7,
+   "radical": "戈",
+   "decomposition": "⿰扌戈",
+   "hint": "A hand 扌 holding a weapon 戈",
+   "lesson": 3,
+   "words": [
+    "w014",
+    "w124"
+   ]
+  },
+  {
+   "char": "是",
+   "pinyin": "shì",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "shì"
+   ],
+   "meaning": "to be",
+   "strokes": 9,
+   "radical": "日",
+   "decomposition": "⿱日疋",
+   "hint": "To speak 日 directly 疋",
+   "lesson": 3,
+   "words": [
+    "w015"
+   ]
+  },
+  {
+   "char": "老",
+   "pinyin": "lǎo",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "lǎo"
+   ],
+   "meaning": "old (老师)",
+   "strokes": 6,
+   "radical": "老",
+   "decomposition": "⿱耂匕",
+   "hint": "A person bent over with long hair 匕 and a crutch; compare 耂",
+   "lesson": 3,
+   "words": [
+    "w016"
+   ]
+  },
+  {
+   "char": "师",
+   "pinyin": "shī",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "shī"
+   ],
+   "meaning": "teacher (老师)",
+   "strokes": 6,
+   "radical": "巾",
+   "decomposition": "⿰刂帀",
+   "hint": "To skillfully wield 帀 a knife 刂",
+   "lesson": 3,
+   "words": [
+    "w016"
+   ]
+  },
+  {
+   "char": "吗",
+   "pinyin": "ma",
+   "tone": 0,
+   "readings_in_hsk1": [
+    "ma"
+   ],
+   "meaning": "yes/no question particle",
+   "strokes": 6,
+   "radical": "口",
+   "decomposition": "⿰口马",
+   "hint": "mouth",
+   "lesson": 3,
+   "words": [
+    "w017"
+   ]
+  },
+  {
+   "char": "学",
+   "pinyin": "xué",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "xué"
+   ],
+   "meaning": "to study; to learn",
+   "strokes": 8,
+   "radical": "子",
+   "decomposition": "⿱⿱⺍冖子",
+   "hint": "A building 冖 where children 子 study; ⺍ provides the pronunciation",
+   "lesson": 3,
+   "words": [
+    "w018",
+    "w030",
+    "w073",
+    "w144",
+    "w145",
+    "w171"
+   ]
+  },
+  {
+   "char": "生",
+   "pinyin": "shēng",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "sheng",
+    "shēng"
+   ],
+   "meaning": "to be born; life; student (学生)",
+   "strokes": 5,
+   "radical": "生",
+   "decomposition": "⿻一土",
+   "hint": " A shoot 屮 growing in the soil 土",
+   "lesson": 3,
+   "words": [
+    "w018",
+    "w103",
+    "w157"
+   ]
+  },
+  {
+   "char": "人",
+   "pinyin": "rén",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "rén"
+   ],
+   "meaning": "person",
+   "strokes": 2,
+   "radical": "人",
+   "decomposition": "？",
+   "hint": "The legs of a human being",
+   "lesson": 3,
+   "words": [
+    "w019"
+   ]
+  },
+  {
+   "char": "中",
+   "pinyin": "zhōng",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "zhōng"
+   ],
+   "meaning": "middle; China (中国)",
+   "strokes": 4,
+   "radical": "丨",
+   "decomposition": "⿻口丨",
+   "hint": "A line 丨 through the center of a box 口",
+   "lesson": 3,
+   "words": [
+    "w020",
+    "w120"
+   ]
+  },
+  {
+   "char": "国",
+   "pinyin": "guó",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "guó"
+   ],
+   "meaning": "country",
+   "strokes": 8,
+   "radical": "囗",
+   "decomposition": "⿴囗玉",
+   "hint": "Treasure 玉 within a country's borders 囗",
+   "lesson": 3,
+   "words": [
+    "w020",
+    "w021",
+    "w027"
+   ]
+  },
+  {
+   "char": "美",
+   "pinyin": "měi",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "měi"
+   ],
+   "meaning": "beautiful; America (美国)",
+   "strokes": 9,
+   "radical": "羊",
+   "decomposition": "⿱羊大",
+   "hint": "A person 大 wearing an elegant crown 羊",
+   "lesson": 3,
+   "words": [
+    "w021"
+   ]
+  },
+  {
+   "char": "她",
+   "pinyin": "tā",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "tā"
+   ],
+   "meaning": "she, her",
+   "strokes": 6,
+   "radical": "女",
+   "decomposition": "⿰女也",
+   "hint": "A woman 女 beside you 也",
+   "lesson": 4,
+   "words": [
+    "w022"
+   ]
+  },
+  {
+   "char": "谁",
+   "pinyin": "shéi",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "shéi"
+   ],
+   "meaning": "who",
+   "strokes": 10,
+   "radical": "讠",
+   "decomposition": "⿰讠隹",
+   "hint": "speech",
+   "lesson": 4,
+   "words": [
+    "w023"
+   ]
+  },
+  {
+   "char": "的",
+   "pinyin": "de",
+   "tone": 0,
+   "readings_in_hsk1": [
+    "de"
+   ],
+   "meaning": "possessive particle ('s)",
+   "strokes": 8,
+   "radical": "白",
+   "decomposition": "⿰白勺",
+   "hint": null,
+   "lesson": 4,
+   "words": [
+    "w024"
+   ]
+  },
+  {
+   "char": "汉",
+   "pinyin": "hàn",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "hàn"
+   ],
+   "meaning": "Han; Chinese",
+   "strokes": 5,
+   "radical": "氵",
+   "decomposition": "⿰氵又",
+   "hint": "Simplified form of 漢; the Han 𦰩 river 氵",
+   "lesson": 4,
+   "words": [
+    "w025",
+    "w060"
+   ]
+  },
+  {
+   "char": "语",
+   "pinyin": "yǔ",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "yǔ"
+   ],
+   "meaning": "language",
+   "strokes": 9,
+   "radical": "讠",
+   "decomposition": "⿰讠吾",
+   "hint": "words",
+   "lesson": 4,
+   "words": [
+    "w025"
+   ]
+  },
+  {
+   "char": "哪",
+   "pinyin": "nǎ",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "nǎ"
+   ],
+   "meaning": "which",
+   "strokes": 9,
+   "radical": "口",
+   "decomposition": "⿰口那",
+   "hint": "mouth",
+   "lesson": 4,
+   "words": [
+    "w026",
+    "w099"
+   ]
+  },
+  {
+   "char": "呢",
+   "pinyin": "ne",
+   "tone": 0,
+   "readings_in_hsk1": [
+    "ne"
+   ],
+   "meaning": "question particle ('and…?'); ongoing action",
+   "strokes": 8,
+   "radical": "口",
+   "decomposition": "⿰口尼",
+   "hint": "mouth",
+   "lesson": 4,
+   "words": [
+    "w028"
+   ]
+  },
+  {
+   "char": "他",
+   "pinyin": "tā",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "tā"
+   ],
+   "meaning": "he; him",
+   "strokes": 5,
+   "radical": "亻",
+   "decomposition": "⿰亻也",
+   "hint": "An additional, \"also\" 也  person 亻",
+   "lesson": 4,
+   "words": [
+    "w029"
+   ]
+  },
+  {
+   "char": "同",
+   "pinyin": "tóng",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "tóng"
+   ],
+   "meaning": "same; together",
+   "strokes": 6,
+   "radical": "口",
+   "decomposition": "⿵凡口",
+   "hint": "Sharing a common 凡 tongue 口",
+   "lesson": 4,
+   "words": [
+    "w030"
+   ]
+  },
+  {
+   "char": "朋",
+   "pinyin": "péng",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "péng"
+   ],
+   "meaning": "friend (朋友)",
+   "strokes": 8,
+   "radical": "月",
+   "decomposition": "⿰月月",
+   "hint": "Two people 月 walking together",
+   "lesson": 4,
+   "words": [
+    "w031"
+   ]
+  },
+  {
+   "char": "友",
+   "pinyin": "yǒu",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "you"
+   ],
+   "meaning": "friend (朋友)",
+   "strokes": 4,
+   "radical": "又",
+   "decomposition": "⿸？又",
+   "hint": "Two hands 又 joined, representing friendship; 又 also provides the pronunciation",
+   "lesson": 4,
+   "words": [
+    "w031"
+   ]
+  },
+  {
+   "char": "家",
+   "pinyin": "jiā",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "jiā"
+   ],
+   "meaning": "home; family",
+   "strokes": 10,
+   "radical": "宀",
+   "decomposition": "⿱宀豕",
+   "hint": "roof",
+   "lesson": 5,
+   "words": [
+    "w032"
+   ]
+  },
+  {
+   "char": "有",
+   "pinyin": "yǒu",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "yǒu"
+   ],
+   "meaning": "to have; there is",
+   "strokes": 6,
+   "radical": "月",
+   "decomposition": "⿸？月",
+   "hint": null,
+   "lesson": 5,
+   "words": [
+    "w033",
+    "w114"
+   ]
+  },
+  {
+   "char": "口",
+   "pinyin": "kǒu",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "kǒu"
+   ],
+   "meaning": "mouth; measure word for family members",
+   "strokes": 3,
+   "radical": "口",
+   "decomposition": "⿱冂一",
+   "hint": "An open mouth",
+   "lesson": 5,
+   "words": [
+    "w034"
+   ]
+  },
+  {
+   "char": "女",
+   "pinyin": "nǚ",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "nǚ"
+   ],
+   "meaning": "woman; female",
+   "strokes": 3,
+   "radical": "女",
+   "decomposition": "？",
+   "hint": "A woman turned to the side",
+   "lesson": 5,
+   "words": [
+    "w035"
+   ]
+  },
+  {
+   "char": "儿",
+   "pinyin": "ér",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "ér",
+    "r"
+   ],
+   "meaning": "son; child; the -r ending (哪儿, 这儿)",
+   "strokes": 2,
+   "radical": "儿",
+   "decomposition": "⿰丿乚",
+   "hint": "Simplified form of 兒, a picture of a child; compare 人",
+   "lesson": 5,
+   "words": [
+    "w035",
+    "w095",
+    "w099",
+    "w101",
+    "w113",
+    "w154"
+   ]
+  },
+  {
+   "char": "几",
+   "pinyin": "jǐ",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "jǐ"
+   ],
+   "meaning": "how many; a few",
+   "strokes": 2,
+   "radical": "几",
+   "decomposition": "⿰丿乙",
+   "hint": "A small table; compare 丌",
+   "lesson": 5,
+   "words": [
+    "w036"
+   ]
+  },
+  {
+   "char": "岁",
+   "pinyin": "suì",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "suì"
+   ],
+   "meaning": "year; years old, age; harvest",
+   "strokes": 6,
+   "radical": "山",
+   "decomposition": "⿱山夕",
+   "hint": null,
+   "lesson": 5,
+   "words": [
+    "w037"
+   ]
+  },
+  {
+   "char": "了",
+   "pinyin": "le",
+   "tone": 0,
+   "readings_in_hsk1": [
+    "le"
+   ],
+   "meaning": "change of state / completed action particle",
+   "strokes": 2,
+   "radical": "亅",
+   "decomposition": "⿱乛亅",
+   "hint": "A child swaddled in blanklets; compare 子",
+   "lesson": 5,
+   "words": [
+    "w038"
+   ]
+  },
+  {
+   "char": "今",
+   "pinyin": "jīn",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "jīn"
+   ],
+   "meaning": "now; this (今天, 今年)",
+   "strokes": 4,
+   "radical": "人",
+   "decomposition": "⿱人？",
+   "hint": "A mouth 亼 talking about things",
+   "lesson": 5,
+   "words": [
+    "w039",
+    "w066"
+   ]
+  },
+  {
+   "char": "年",
+   "pinyin": "nián",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "nián"
+   ],
+   "meaning": "year",
+   "strokes": 6,
+   "radical": "干",
+   "decomposition": "⿻干？",
+   "hint": "A man 干 carrying grain, representing the annual harvest",
+   "lesson": 5,
+   "words": [
+    "w039",
+    "w170"
+   ]
+  },
+  {
+   "char": "多",
+   "pinyin": "duō",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "duō"
+   ],
+   "meaning": "many; much",
+   "strokes": 6,
+   "radical": "夕",
+   "decomposition": "⿱夕夕",
+   "hint": "Two nights 夕, suggesting many",
+   "lesson": 5,
+   "words": [
+    "w040",
+    "w088"
+   ]
+  },
+  {
+   "char": "大",
+   "pinyin": "dà",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "dà"
+   ],
+   "meaning": "big; old (age)",
+   "strokes": 3,
+   "radical": "大",
+   "decomposition": "⿻一人",
+   "hint": "A man 人 with outstretched arms",
+   "lesson": 5,
+   "words": [
+    "w041",
+    "w171"
+   ]
+  },
+  {
+   "char": "一",
+   "pinyin": "yī",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "yī",
+    "yì"
+   ],
+   "meaning": "one; a, an; alone",
+   "strokes": 1,
+   "radical": "一",
+   "decomposition": "？",
+   "hint": "Represents heaven (天), earth (旦), or the number 1",
+   "lesson": 5,
+   "words": [
+    "w042",
+    "w154",
+    "w174"
+   ]
+  },
+  {
+   "char": "二",
+   "pinyin": "èr",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "èr"
+   ],
+   "meaning": "two; twice",
+   "strokes": 2,
+   "radical": "二",
+   "decomposition": "⿱一一",
+   "hint": "Two  parallel lines; compare 一 (one) and 三 (three)",
+   "lesson": 5,
+   "words": [
+    "w043"
+   ]
+  },
+  {
+   "char": "三",
+   "pinyin": "sān",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "sān"
+   ],
+   "meaning": "three",
+   "strokes": 3,
+   "radical": "一",
+   "decomposition": "⿱一二",
+   "hint": "Three  parallel lines; compare 一 (one) and 二 (two)",
+   "lesson": 5,
+   "words": [
+    "w044"
+   ]
+  },
+  {
+   "char": "四",
+   "pinyin": "sì",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "sì"
+   ],
+   "meaning": "four",
+   "strokes": 5,
+   "radical": "囗",
+   "decomposition": "⿴囗儿",
+   "hint": "A child 儿 in a room with four walls 囗",
+   "lesson": 5,
+   "words": [
+    "w045"
+   ]
+  },
+  {
+   "char": "五",
+   "pinyin": "wǔ",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "wǔ"
+   ],
+   "meaning": "five; surname",
+   "strokes": 4,
+   "radical": "二",
+   "decomposition": "⿴二？",
+   "hint": "Five elements (the cross with the extra stroke) between heaven 一 and earth 一 ",
+   "lesson": 5,
+   "words": [
+    "w046"
+   ]
+  },
+  {
+   "char": "六",
+   "pinyin": "liù",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "liù"
+   ],
+   "meaning": "six",
+   "strokes": 4,
+   "radical": "八",
+   "decomposition": "⿱亠八",
+   "hint": null,
+   "lesson": 5,
+   "words": [
+    "w047"
+   ]
+  },
+  {
+   "char": "七",
+   "pinyin": "qī",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "qī"
+   ],
+   "meaning": "seven",
+   "strokes": 2,
+   "radical": "一",
+   "decomposition": "⿻一乚",
+   "hint": null,
+   "lesson": 5,
+   "words": [
+    "w048"
+   ]
+  },
+  {
+   "char": "八",
+   "pinyin": "bā",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "bā"
+   ],
+   "meaning": "eight; all around, all sides",
+   "strokes": 2,
+   "radical": "八",
+   "decomposition": "？",
+   "hint": "Two bent lines meaning \"to divide\"",
+   "lesson": 5,
+   "words": [
+    "w049"
+   ]
+  },
+  {
+   "char": "九",
+   "pinyin": "jiǔ",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "jiǔ"
+   ],
+   "meaning": "nine",
+   "strokes": 2,
+   "radical": "乙",
+   "decomposition": "⿻丿乙",
+   "hint": "An elbow",
+   "lesson": 5,
+   "words": [
+    "w050"
+   ]
+  },
+  {
+   "char": "十",
+   "pinyin": "shí",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "shí"
+   ],
+   "meaning": "ten, tenth; complete; perfect",
+   "strokes": 2,
+   "radical": "十",
+   "decomposition": "⿻一丨",
+   "hint": null,
+   "lesson": 5,
+   "words": [
+    "w051"
+   ]
+  },
+  {
+   "char": "会",
+   "pinyin": "huì",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "huì"
+   ],
+   "meaning": "can (learned skill); will; meeting",
+   "strokes": 6,
+   "radical": "人",
+   "decomposition": "⿱人云",
+   "hint": "People 人 speaking 云",
+   "lesson": 6,
+   "words": [
+    "w052"
+   ]
+  },
+  {
+   "char": "说",
+   "pinyin": "shuō",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "shuō"
+   ],
+   "meaning": "to speak; to say",
+   "strokes": 9,
+   "radical": "讠",
+   "decomposition": "⿰讠兑",
+   "hint": "speech",
+   "lesson": 6,
+   "words": [
+    "w053"
+   ]
+  },
+  {
+   "char": "妈",
+   "pinyin": "mā",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "mā",
+    "ma"
+   ],
+   "meaning": "mum",
+   "strokes": 6,
+   "radical": "女",
+   "decomposition": "⿰女马",
+   "hint": "woman",
+   "lesson": 6,
+   "words": [
+    "w054",
+    "w054"
+   ]
+  },
+  {
+   "char": "菜",
+   "pinyin": "cài",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "cài"
+   ],
+   "meaning": "dish; vegetables",
+   "strokes": 11,
+   "radical": "艹",
+   "decomposition": "⿱艹采",
+   "hint": "plant",
+   "lesson": 6,
+   "words": [
+    "w055"
+   ]
+  },
+  {
+   "char": "很",
+   "pinyin": "hěn",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "hěn"
+   ],
+   "meaning": "very",
+   "strokes": 9,
+   "radical": "彳",
+   "decomposition": "⿰彳艮",
+   "hint": "step",
+   "lesson": 6,
+   "words": [
+    "w056"
+   ]
+  },
+  {
+   "char": "吃",
+   "pinyin": "chī",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "chī"
+   ],
+   "meaning": "to eat",
+   "strokes": 6,
+   "radical": "口",
+   "decomposition": "⿰口乞",
+   "hint": "mouth",
+   "lesson": 6,
+   "words": [
+    "w057",
+    "w079",
+    "w121"
+   ]
+  },
+  {
+   "char": "做",
+   "pinyin": "zuò",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "zuò"
+   ],
+   "meaning": "to do; to make",
+   "strokes": 11,
+   "radical": "亻",
+   "decomposition": "⿰亻故",
+   "hint": "Someone 亻 who causes things to happen 故; 故 also provides the pronuncation",
+   "lesson": 6,
+   "words": [
+    "w058"
+   ]
+  },
+  {
+   "char": "写",
+   "pinyin": "xiě",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "xiě"
+   ],
+   "meaning": "to write",
+   "strokes": 5,
+   "radical": "冖",
+   "decomposition": "⿱冖与",
+   "hint": null,
+   "lesson": 6,
+   "words": [
+    "w059"
+   ]
+  },
+  {
+   "char": "怎",
+   "pinyin": "zěn",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "zěn"
+   ],
+   "meaning": "how (怎么)",
+   "strokes": 9,
+   "radical": "心",
+   "decomposition": "⿱乍心",
+   "hint": "heart",
+   "lesson": 6,
+   "words": [
+    "w062",
+    "w130"
+   ]
+  },
+  {
+   "char": "读",
+   "pinyin": "dú",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "dú"
+   ],
+   "meaning": "to read (aloud)",
+   "strokes": 10,
+   "radical": "讠",
+   "decomposition": "⿰讠卖",
+   "hint": "To show off 卖 one's literacy 讠",
+   "lesson": 6,
+   "words": [
+    "w063"
+   ]
+  },
+  {
+   "char": "请",
+   "pinyin": "qǐng",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "qǐng"
+   ],
+   "meaning": "please; to invite",
+   "strokes": 10,
+   "radical": "讠",
+   "decomposition": "⿰讠青",
+   "hint": "speech",
+   "lesson": 7,
+   "words": [
+    "w064"
+   ]
+  },
+  {
+   "char": "问",
+   "pinyin": "wèn",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "wèn"
+   ],
+   "meaning": "to ask",
+   "strokes": 6,
+   "radical": "门",
+   "decomposition": "⿵门口",
+   "hint": "mouth",
+   "lesson": 7,
+   "words": [
+    "w065"
+   ]
+  },
+  {
+   "char": "天",
+   "pinyin": "tiān",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "tiān"
+   ],
+   "meaning": "day; sky",
+   "strokes": 4,
+   "radical": "大",
+   "decomposition": "⿱一大",
+   "hint": "The heavens 一 above a man 大",
+   "lesson": 7,
+   "words": [
+    "w066",
+    "w070",
+    "w071",
+    "w129"
+   ]
+  },
+  {
+   "char": "号",
+   "pinyin": "hào",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "hào"
+   ],
+   "meaning": "number; day of the month",
+   "strokes": 5,
+   "radical": "口",
+   "decomposition": "⿱口丂",
+   "hint": "mouth",
+   "lesson": 7,
+   "words": [
+    "w067"
+   ]
+  },
+  {
+   "char": "月",
+   "pinyin": "yuè",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "yuè"
+   ],
+   "meaning": "month; moon",
+   "strokes": 4,
+   "radical": "月",
+   "decomposition": "⿵冂二",
+   "hint": "A crescent moon",
+   "lesson": 7,
+   "words": [
+    "w068"
+   ]
+  },
+  {
+   "char": "星",
+   "pinyin": "xīng",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "xīng"
+   ],
+   "meaning": "star; week (星期)",
+   "strokes": 9,
+   "radical": "日",
+   "decomposition": "⿱日生",
+   "hint": "sun",
+   "lesson": 7,
+   "words": [
+    "w069"
+   ]
+  },
+  {
+   "char": "期",
+   "pinyin": "qī",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "qī"
+   ],
+   "meaning": "period (星期 = week)",
+   "strokes": 12,
+   "radical": "月",
+   "decomposition": "⿰其月",
+   "hint": "moon",
+   "lesson": 7,
+   "words": [
+    "w069"
+   ]
+  },
+  {
+   "char": "昨",
+   "pinyin": "zuó",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "zuó"
+   ],
+   "meaning": "yesterday (昨天)",
+   "strokes": 9,
+   "radical": "日",
+   "decomposition": "⿰日乍",
+   "hint": "day",
+   "lesson": 7,
+   "words": [
+    "w070"
+   ]
+  },
+  {
+   "char": "明",
+   "pinyin": "míng",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "míng"
+   ],
+   "meaning": "bright; tomorrow (明天)",
+   "strokes": 8,
+   "radical": "日",
+   "decomposition": "⿰日月",
+   "hint": "The light of the sun 日 and moon 月",
+   "lesson": 7,
+   "words": [
+    "w071"
+   ]
+  },
+  {
+   "char": "去",
+   "pinyin": "qù",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "qù"
+   ],
+   "meaning": "to go",
+   "strokes": 5,
+   "radical": "厶",
+   "decomposition": "⿱土厶",
+   "hint": null,
+   "lesson": 7,
+   "words": [
+    "w072"
+   ]
+  },
+  {
+   "char": "校",
+   "pinyin": "xiào",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "xiào"
+   ],
+   "meaning": "school (学校)",
+   "strokes": 10,
+   "radical": "木",
+   "decomposition": "⿰木交",
+   "hint": "wood",
+   "lesson": 7,
+   "words": [
+    "w073"
+   ]
+  },
+  {
+   "char": "看",
+   "pinyin": "kàn",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "kàn"
+   ],
+   "meaning": "to look; to watch; to read",
+   "strokes": 9,
+   "radical": "目",
+   "decomposition": "⿱手目",
+   "hint": "Shielding one's eyes 目 with a hand 手 to look to the distance",
+   "lesson": 7,
+   "words": [
+    "w074",
+    "w156"
+   ]
+  },
+  {
+   "char": "书",
+   "pinyin": "shū",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "shū"
+   ],
+   "meaning": "book",
+   "strokes": 4,
+   "radical": "丨",
+   "decomposition": "⿻？丨",
+   "hint": "A mark made by a pen ⺺",
+   "lesson": 7,
+   "words": [
+    "w075"
+   ]
+  },
+  {
+   "char": "想",
+   "pinyin": "xiǎng",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "xiǎng"
+   ],
+   "meaning": "to want to; to think; to miss",
+   "strokes": 13,
+   "radical": "心",
+   "decomposition": "⿱相心",
+   "hint": "mind",
+   "lesson": 8,
+   "words": [
+    "w076"
+   ]
+  },
+  {
+   "char": "喝",
+   "pinyin": "hē",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "hē"
+   ],
+   "meaning": "to drink",
+   "strokes": 12,
+   "radical": "口",
+   "decomposition": "⿰口曷",
+   "hint": "mouth",
+   "lesson": 8,
+   "words": [
+    "w077"
+   ]
+  },
+  {
+   "char": "茶",
+   "pinyin": "chá",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "chá"
+   ],
+   "meaning": "tea",
+   "strokes": 9,
+   "radical": "艹",
+   "decomposition": "⿱艹⿱人木",
+   "hint": "plant",
+   "lesson": 8,
+   "words": [
+    "w078"
+   ]
+  },
+  {
+   "char": "米",
+   "pinyin": "mǐ",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "mǐ"
+   ],
+   "meaning": "rice (uncooked)",
+   "strokes": 6,
+   "radical": "米",
+   "decomposition": "⿻丷木",
+   "hint": "Grains of rice",
+   "lesson": 8,
+   "words": [
+    "w080"
+   ]
+  },
+  {
+   "char": "饭",
+   "pinyin": "fàn",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "fàn"
+   ],
+   "meaning": "cooked rice; meal",
+   "strokes": 7,
+   "radical": "饣",
+   "decomposition": "⿰饣反",
+   "hint": "food",
+   "lesson": 8,
+   "words": [
+    "w080",
+    "w121",
+    "w172"
+   ]
+  },
+  {
+   "char": "下",
+   "pinyin": "xià",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "xià"
+   ],
+   "meaning": "below; next; to fall (rain)",
+   "strokes": 3,
+   "radical": "一",
+   "decomposition": "⿱一卜",
+   "hint": "One stroke under another; compare 上 (above)",
+   "lesson": 8,
+   "words": [
+    "w081",
+    "w082",
+    "w098",
+    "w134"
+   ]
+  },
+  {
+   "char": "午",
+   "pinyin": "wǔ",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "wǔ"
+   ],
+   "meaning": "noon (中午, 下午)",
+   "strokes": 4,
+   "radical": "十",
+   "decomposition": "⿻丿干",
+   "hint": null,
+   "lesson": 8,
+   "words": [
+    "w081",
+    "w120",
+    "w146"
+   ]
+  },
+  {
+   "char": "商",
+   "pinyin": "shāng",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "shāng"
+   ],
+   "meaning": "trade (商店)",
+   "strokes": 11,
+   "radical": "口",
+   "decomposition": "⿱⿱亠丷冏",
+   "hint": "bright",
+   "lesson": 8,
+   "words": [
+    "w083"
+   ]
+  },
+  {
+   "char": "店",
+   "pinyin": "diàn",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "diàn"
+   ],
+   "meaning": "shop",
+   "strokes": 8,
+   "radical": "广",
+   "decomposition": "⿸广占",
+   "hint": "building",
+   "lesson": 8,
+   "words": [
+    "w083",
+    "w172"
+   ]
+  },
+  {
+   "char": "买",
+   "pinyin": "mǎi",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "mǎi"
+   ],
+   "meaning": "to buy",
+   "strokes": 6,
+   "radical": "大",
+   "decomposition": "⿱乛头",
+   "hint": null,
+   "lesson": 8,
+   "words": [
+    "w084"
+   ]
+  },
+  {
+   "char": "个",
+   "pinyin": "gè",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "gè"
+   ],
+   "meaning": "general measure word",
+   "strokes": 3,
+   "radical": "丨",
+   "decomposition": "⿱人丨",
+   "hint": "A tally 丨 of people 人",
+   "lesson": 8,
+   "words": [
+    "w085"
+   ]
+  },
+  {
+   "char": "杯",
+   "pinyin": "bēi",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "bēi"
+   ],
+   "meaning": "cup",
+   "strokes": 8,
+   "radical": "木",
+   "decomposition": "⿰木不",
+   "hint": "tree",
+   "lesson": 8,
+   "words": [
+    "w086"
+   ]
+  },
+  {
+   "char": "子",
+   "pinyin": "zǐ",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "zi"
+   ],
+   "meaning": "child; noun suffix (椅子, 桌子)",
+   "strokes": 3,
+   "radical": "子",
+   "decomposition": "⿻了一",
+   "hint": "A child in a wrap, with outstretched arms but bundled legs",
+   "lesson": 8,
+   "words": [
+    "w086",
+    "w097",
+    "w101",
+    "w105"
+   ]
+  },
+  {
+   "char": "这",
+   "pinyin": "zhè",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "zhè"
+   ],
+   "meaning": "this",
+   "strokes": 7,
+   "radical": "辶",
+   "decomposition": "⿺辶文",
+   "hint": null,
+   "lesson": 8,
+   "words": [
+    "w087",
+    "w113",
+    "w167"
+   ]
+  },
+  {
+   "char": "少",
+   "pinyin": "shǎo",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "shao",
+    "shǎo"
+   ],
+   "meaning": "few; little",
+   "strokes": 4,
+   "radical": "小",
+   "decomposition": "⿱小丿",
+   "hint": "Grains of sand; 小 provides the pronunciation and meaning",
+   "lesson": 8,
+   "words": [
+    "w088",
+    "w166"
+   ]
+  },
+  {
+   "char": "钱",
+   "pinyin": "qián",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "qián"
+   ],
+   "meaning": "money",
+   "strokes": 10,
+   "radical": "钅",
+   "decomposition": "⿰钅戋",
+   "hint": "money",
+   "lesson": 8,
+   "words": [
+    "w089"
+   ]
+  },
+  {
+   "char": "块",
+   "pinyin": "kuài",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "kuài"
+   ],
+   "meaning": "yuan (spoken); piece",
+   "strokes": 7,
+   "radical": "土",
+   "decomposition": "⿰土夬",
+   "hint": "earth",
+   "lesson": 8,
+   "words": [
+    "w090"
+   ]
+  },
+  {
+   "char": "那",
+   "pinyin": "nà",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "nà"
+   ],
+   "meaning": "that",
+   "strokes": 6,
+   "radical": "阝",
+   "decomposition": "⿰⿹？？阝",
+   "hint": null,
+   "lesson": 8,
+   "words": [
+    "w091",
+    "w095"
+   ]
+  },
+  {
+   "char": "小",
+   "pinyin": "xiǎo",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "xiǎo"
+   ],
+   "meaning": "small; young",
+   "strokes": 3,
+   "radical": "小",
+   "decomposition": "⿻亅八",
+   "hint": "Dividing 八 by a line 亅",
+   "lesson": 9,
+   "words": [
+    "w092",
+    "w135"
+   ]
+  },
+  {
+   "char": "猫",
+   "pinyin": "māo",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "māo"
+   ],
+   "meaning": "cat",
+   "strokes": 11,
+   "radical": "犭",
+   "decomposition": "⿰犭苗",
+   "hint": "animal",
+   "lesson": 9,
+   "words": [
+    "w093"
+   ]
+  },
+  {
+   "char": "在",
+   "pinyin": "zài",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "zài"
+   ],
+   "meaning": "at; in; to be at; in the middle of (doing)",
+   "strokes": 6,
+   "radical": "土",
+   "decomposition": "⿸才土",
+   "hint": "earth",
+   "lesson": 9,
+   "words": [
+    "w094",
+    "w117"
+   ]
+  },
+  {
+   "char": "狗",
+   "pinyin": "gǒu",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "gǒu"
+   ],
+   "meaning": "dog",
+   "strokes": 8,
+   "radical": "犭",
+   "decomposition": "⿰犭句",
+   "hint": "dog",
+   "lesson": 9,
+   "words": [
+    "w096"
+   ]
+  },
+  {
+   "char": "椅",
+   "pinyin": "yǐ",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "yǐ"
+   ],
+   "meaning": "chair (椅子)",
+   "strokes": 12,
+   "radical": "木",
+   "decomposition": "⿰木奇",
+   "hint": "wood",
+   "lesson": 9,
+   "words": [
+    "w097"
+   ]
+  },
+  {
+   "char": "面",
+   "pinyin": "miàn",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "miàn"
+   ],
+   "meaning": "side; surface (前面, 下面)",
+   "strokes": 9,
+   "radical": "面",
+   "decomposition": "⿱？？",
+   "hint": "A person's face",
+   "lesson": 9,
+   "words": [
+    "w098",
+    "w111",
+    "w112"
+   ]
+  },
+  {
+   "char": "工",
+   "pinyin": "gōng",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "gōng"
+   ],
+   "meaning": "work (工作)",
+   "strokes": 3,
+   "radical": "工",
+   "decomposition": "⿱一丄",
+   "hint": "A spade or other workman's tool",
+   "lesson": 9,
+   "words": [
+    "w100"
+   ]
+  },
+  {
+   "char": "作",
+   "pinyin": "zuò",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "zuò"
+   ],
+   "meaning": "to do; to make (工作)",
+   "strokes": 7,
+   "radical": "亻",
+   "decomposition": "⿰亻乍",
+   "hint": "A person 亻 making something for the first time 乍; 乍 also provides the pronunciation",
+   "lesson": 9,
+   "words": [
+    "w100"
+   ]
+  },
+  {
+   "char": "医",
+   "pinyin": "yī",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "yī"
+   ],
+   "meaning": "medicine; doctor",
+   "strokes": 7,
+   "radical": "匸",
+   "decomposition": "⿷匸矢",
+   "hint": "arrow",
+   "lesson": 9,
+   "words": [
+    "w102",
+    "w103"
+   ]
+  },
+  {
+   "char": "院",
+   "pinyin": "yuàn",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "yuàn"
+   ],
+   "meaning": "courtyard; institution (医院)",
+   "strokes": 9,
+   "radical": "阝",
+   "decomposition": "⿰阝完",
+   "hint": "place",
+   "lesson": 9,
+   "words": [
+    "w102"
+   ]
+  },
+  {
+   "char": "爸",
+   "pinyin": "bà",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "bà",
+    "ba"
+   ],
+   "meaning": "dad",
+   "strokes": 8,
+   "radical": "父",
+   "decomposition": "⿱父巴",
+   "hint": "father",
+   "lesson": 9,
+   "words": [
+    "w104",
+    "w104"
+   ]
+  },
+  {
+   "char": "桌",
+   "pinyin": "zhuō",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "zhuō"
+   ],
+   "meaning": "table (桌子)",
+   "strokes": 10,
+   "radical": "木",
+   "decomposition": "⿱卓木",
+   "hint": null,
+   "lesson": 10,
+   "words": [
+    "w105"
+   ]
+  },
+  {
+   "char": "上",
+   "pinyin": "shàng",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "shàng"
+   ],
+   "meaning": "on; above; previous",
+   "strokes": 3,
+   "radical": "一",
+   "decomposition": "⿱⺊一",
+   "hint": "One stroke on top of another; compare 下 (below)",
+   "lesson": 10,
+   "words": [
+    "w106",
+    "w146"
+   ]
+  },
+  {
+   "char": "电",
+   "pinyin": "diàn",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "diàn"
+   ],
+   "meaning": "electricity (电脑, 电视)",
+   "strokes": 5,
+   "radical": "曰",
+   "decomposition": "⿻曰乚",
+   "hint": "Simplified form of 電; lightning 申 from a storm cloud 雨",
+   "lesson": 10,
+   "words": [
+    "w107",
+    "w125",
+    "w148",
+    "w151"
+   ]
+  },
+  {
+   "char": "脑",
+   "pinyin": "nǎo",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "nǎo"
+   ],
+   "meaning": "brain (电脑)",
+   "strokes": 10,
+   "radical": "⺼",
+   "decomposition": "⿰⺼⿱亠凶",
+   "hint": "flesh",
+   "lesson": 10,
+   "words": [
+    "w107"
+   ]
+  },
+  {
+   "char": "和",
+   "pinyin": "hé",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "hé"
+   ],
+   "meaning": "and; with",
+   "strokes": 8,
+   "radical": "口",
+   "decomposition": "⿰禾口",
+   "hint": "mouth",
+   "lesson": 10,
+   "words": [
+    "w108"
+   ]
+  },
+  {
+   "char": "本",
+   "pinyin": "běn",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "běn"
+   ],
+   "meaning": "measure word for books; origin",
+   "strokes": 5,
+   "radical": "木",
+   "decomposition": "⿻木一",
+   "hint": "A tree 木 with its roots highlighted",
+   "lesson": 10,
+   "words": [
+    "w109"
+   ]
+  },
+  {
+   "char": "里",
+   "pinyin": "lǐ",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "lǐ"
+   ],
+   "meaning": "inside",
+   "strokes": 7,
+   "radical": "里",
+   "decomposition": "⿱田土",
+   "hint": "Unit of measure for farm 田 land 土",
+   "lesson": 10,
+   "words": [
+    "w110"
+   ]
+  },
+  {
+   "char": "前",
+   "pinyin": "qián",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "qián"
+   ],
+   "meaning": "front; before",
+   "strokes": 9,
+   "radical": "刂",
+   "decomposition": "⿱⿱丷一刖",
+   "hint": null,
+   "lesson": 10,
+   "words": [
+    "w111",
+    "w127"
+   ]
+  },
+  {
+   "char": "后",
+   "pinyin": "hòu",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "hòu"
+   ],
+   "meaning": "back; after",
+   "strokes": 6,
+   "radical": "口",
+   "decomposition": "⿸？口",
+   "hint": null,
+   "lesson": 10,
+   "words": [
+    "w112",
+    "w162"
+   ]
+  },
+  {
+   "char": "能",
+   "pinyin": "néng",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "néng"
+   ],
+   "meaning": "can; may",
+   "strokes": 10,
+   "radical": "⺼",
+   "decomposition": "⿰⿱厶⺼⿱匕匕",
+   "hint": "A bear's head 厶, body ⺼, and claws 匕",
+   "lesson": 10,
+   "words": [
+    "w115"
+   ]
+  },
+  {
+   "char": "坐",
+   "pinyin": "zuò",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "zuò"
+   ],
+   "meaning": "to sit; to travel by",
+   "strokes": 7,
+   "radical": "土",
+   "decomposition": "⿻从土",
+   "hint": "Two people 从 sitting on the ground 土",
+   "lesson": 10,
+   "words": [
+    "w116"
+   ]
+  },
+  {
+   "char": "现",
+   "pinyin": "xiàn",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "xiàn"
+   ],
+   "meaning": "present; now (现在)",
+   "strokes": 8,
+   "radical": "王",
+   "decomposition": "⿰王见",
+   "hint": "To see 见 jade 王; 见 also provides the pronunciation",
+   "lesson": 11,
+   "words": [
+    "w117"
+   ]
+  },
+  {
+   "char": "点",
+   "pinyin": "diǎn",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "diǎn"
+   ],
+   "meaning": "o'clock; dot; a little",
+   "strokes": 9,
+   "radical": "灬",
+   "decomposition": "⿱占灬",
+   "hint": "fire",
+   "lesson": 11,
+   "words": [
+    "w118",
+    "w154"
+   ]
+  },
+  {
+   "char": "分",
+   "pinyin": "fēn",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "fēn"
+   ],
+   "meaning": "minute; to divide",
+   "strokes": 4,
+   "radical": "刀",
+   "decomposition": "⿱八刀",
+   "hint": "Pieces 八 being further subdivided with a knife 刀 ",
+   "lesson": 11,
+   "words": [
+    "w119",
+    "w161"
+   ]
+  },
+  {
+   "char": "时",
+   "pinyin": "shí",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "shí"
+   ],
+   "meaning": "time (时候)",
+   "strokes": 7,
+   "radical": "日",
+   "decomposition": "⿰日寸",
+   "hint": "day",
+   "lesson": 11,
+   "words": [
+    "w122"
+   ]
+  },
+  {
+   "char": "候",
+   "pinyin": "hòu",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "hou"
+   ],
+   "meaning": "time (时候)",
+   "strokes": 10,
+   "radical": "亻",
+   "decomposition": "⿰亻矦",
+   "hint": "person",
+   "lesson": 11,
+   "words": [
+    "w122"
+   ]
+  },
+  {
+   "char": "回",
+   "pinyin": "huí",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "huí"
+   ],
+   "meaning": "to return",
+   "strokes": 6,
+   "radical": "囗",
+   "decomposition": "⿴囗口",
+   "hint": "Originally, a spiral signifying return",
+   "lesson": 11,
+   "words": [
+    "w123",
+    "w160"
+   ]
+  },
+  {
+   "char": "影",
+   "pinyin": "yǐng",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "yǐng"
+   ],
+   "meaning": "shadow; film (电影)",
+   "strokes": 15,
+   "radical": "彡",
+   "decomposition": "⿰景彡",
+   "hint": "sunlight",
+   "lesson": 11,
+   "words": [
+    "w125"
+   ]
+  },
+  {
+   "char": "住",
+   "pinyin": "zhù",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "zhù"
+   ],
+   "meaning": "to live; to stay",
+   "strokes": 7,
+   "radical": "亻",
+   "decomposition": "⿰亻主",
+   "hint": "A person 亻 who hosts 主; 主 also provides the pronunciation",
+   "lesson": 11,
+   "words": [
+    "w126"
+   ]
+  },
+  {
+   "char": "北",
+   "pinyin": "běi",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "běi"
+   ],
+   "meaning": "north",
+   "strokes": 5,
+   "radical": "匕",
+   "decomposition": "⿰？匕",
+   "hint": "Two people 匕 sitting back-to-back; phonetic loan for \"north\"",
+   "lesson": 11,
+   "words": [
+    "w128"
+   ]
+  },
+  {
+   "char": "京",
+   "pinyin": "jīng",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "jīng"
+   ],
+   "meaning": "capital (北京)",
+   "strokes": 8,
+   "radical": "亠",
+   "decomposition": "⿳亠口小",
+   "hint": "A capital building on a hill",
+   "lesson": 11,
+   "words": [
+    "w128"
+   ]
+  },
+  {
+   "char": "样",
+   "pinyin": "yàng",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "yàng"
+   ],
+   "meaning": "kind; way (怎么样)",
+   "strokes": 10,
+   "radical": "木",
+   "decomposition": "⿰木羊",
+   "hint": "tree",
+   "lesson": 12,
+   "words": [
+    "w130"
+   ]
+  },
+  {
+   "char": "太",
+   "pinyin": "tài",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "tài"
+   ],
+   "meaning": "too; extremely",
+   "strokes": 4,
+   "radical": "大",
+   "decomposition": "⿵大丶",
+   "hint": "A giant 大 with a normal-sized man 丶 for scale",
+   "lesson": 12,
+   "words": [
+    "w131"
+   ]
+  },
+  {
+   "char": "热",
+   "pinyin": "rè",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "rè"
+   ],
+   "meaning": "hot",
+   "strokes": 10,
+   "radical": "灬",
+   "decomposition": "⿱执灬",
+   "hint": "fire",
+   "lesson": 12,
+   "words": [
+    "w132"
+   ]
+  },
+  {
+   "char": "冷",
+   "pinyin": "lěng",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "lěng"
+   ],
+   "meaning": "cold",
+   "strokes": 7,
+   "radical": "冫",
+   "decomposition": "⿰冫令",
+   "hint": "ice",
+   "lesson": 12,
+   "words": [
+    "w133"
+   ]
+  },
+  {
+   "char": "雨",
+   "pinyin": "yǔ",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "yǔ"
+   ],
+   "meaning": "rain",
+   "strokes": 8,
+   "radical": "雨",
+   "decomposition": "⿻帀？",
+   "hint": "Rain drops falling from a cloud 帀",
+   "lesson": 12,
+   "words": [
+    "w134"
+   ]
+  },
+  {
+   "char": "姐",
+   "pinyin": "jiě",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "jiě"
+   ],
+   "meaning": "older sister; Miss (小姐)",
+   "strokes": 8,
+   "radical": "女",
+   "decomposition": "⿰女且",
+   "hint": "woman",
+   "lesson": 12,
+   "words": [
+    "w135"
+   ]
+  },
+  {
+   "char": "来",
+   "pinyin": "lái",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "lái",
+    "lai"
+   ],
+   "meaning": "to come",
+   "strokes": 7,
+   "radical": "木",
+   "decomposition": "⿻未丷",
+   "hint": "A wheat plant that has not yet borne fruit; compare 來",
+   "lesson": 12,
+   "words": [
+    "w136",
+    "w160"
+   ]
+  },
+  {
+   "char": "身",
+   "pinyin": "shēn",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "shēn"
+   ],
+   "meaning": "body (身体)",
+   "strokes": 7,
+   "radical": "身",
+   "decomposition": "？",
+   "hint": "A pregnant woman",
+   "lesson": 12,
+   "words": [
+    "w137"
+   ]
+  },
+  {
+   "char": "体",
+   "pinyin": "tǐ",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "tǐ"
+   ],
+   "meaning": "body (身体)",
+   "strokes": 7,
+   "radical": "亻",
+   "decomposition": "⿰亻本",
+   "hint": null,
+   "lesson": 12,
+   "words": [
+    "w137"
+   ]
+  },
+  {
+   "char": "爱",
+   "pinyin": "ài",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "ài"
+   ],
+   "meaning": "to love",
+   "strokes": 10,
+   "radical": "爫",
+   "decomposition": "⿱⿱爫冖友",
+   "hint": "To bring a friend 友 into one's house 冖",
+   "lesson": 12,
+   "words": [
+    "w138"
+   ]
+  },
+  {
+   "char": "些",
+   "pinyin": "xiē",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "xiē"
+   ],
+   "meaning": "some; a few",
+   "strokes": 8,
+   "radical": "二",
+   "decomposition": "⿱此二",
+   "hint": "two",
+   "lesson": 12,
+   "words": [
+    "w139",
+    "w167"
+   ]
+  },
+  {
+   "char": "水",
+   "pinyin": "shuǐ",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "shuǐ"
+   ],
+   "meaning": "water",
+   "strokes": 4,
+   "radical": "水",
+   "decomposition": "⿻亅？",
+   "hint": "A river running between two banks; compare 川",
+   "lesson": 12,
+   "words": [
+    "w140",
+    "w141"
+   ]
+  },
+  {
+   "char": "果",
+   "pinyin": "guǒ",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "guǒ"
+   ],
+   "meaning": "fruit (水果, 苹果)",
+   "strokes": 8,
+   "radical": "木",
+   "decomposition": "⿱田木",
+   "hint": "Fruit 田 growing on a tree 木",
+   "lesson": 12,
+   "words": [
+    "w140",
+    "w155"
+   ]
+  },
+  {
+   "char": "喂",
+   "pinyin": "wèi",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "wèi"
+   ],
+   "meaning": "hello (phone)",
+   "strokes": 12,
+   "radical": "口",
+   "decomposition": "⿰口畏",
+   "hint": "mouth",
+   "lesson": 13,
+   "words": [
+    "w142"
+   ]
+  },
+  {
+   "char": "也",
+   "pinyin": "yě",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "yě"
+   ],
+   "meaning": "also",
+   "strokes": 3,
+   "radical": "乚",
+   "decomposition": "⿻？乚",
+   "hint": null,
+   "lesson": 13,
+   "words": [
+    "w143"
+   ]
+  },
+  {
+   "char": "习",
+   "pinyin": "xí",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "xí"
+   ],
+   "meaning": "to practise (学习)",
+   "strokes": 3,
+   "radical": "冫",
+   "decomposition": "⿹？冫",
+   "hint": null,
+   "lesson": 13,
+   "words": [
+    "w144"
+   ]
+  },
+  {
+   "char": "睡",
+   "pinyin": "shuì",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "shuì"
+   ],
+   "meaning": "to sleep",
+   "strokes": 13,
+   "radical": "目",
+   "decomposition": "⿰目垂",
+   "hint": "eye",
+   "lesson": 13,
+   "words": [
+    "w147"
+   ]
+  },
+  {
+   "char": "觉",
+   "pinyin": "jiào",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "jiào"
+   ],
+   "meaning": "sleep (睡觉, read jiào); to feel (read jué)",
+   "strokes": 9,
+   "radical": "见",
+   "decomposition": "⿳⺍冖见",
+   "hint": "see",
+   "lesson": 13,
+   "words": [
+    "w147"
+   ]
+  },
+  {
+   "char": "视",
+   "pinyin": "shì",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "shì"
+   ],
+   "meaning": "to look (电视)",
+   "strokes": 8,
+   "radical": "见",
+   "decomposition": "⿰礻见",
+   "hint": "see",
+   "lesson": 13,
+   "words": [
+    "w148"
+   ]
+  },
+  {
+   "char": "喜",
+   "pinyin": "xǐ",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "xǐ"
+   ],
+   "meaning": "happy; to like (喜欢)",
+   "strokes": 12,
+   "radical": "口",
+   "decomposition": "⿱壴口",
+   "hint": "Singing 口 and beating drums 壴",
+   "lesson": 13,
+   "words": [
+    "w149"
+   ]
+  },
+  {
+   "char": "欢",
+   "pinyin": "huān",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "huan"
+   ],
+   "meaning": "joyful (喜欢)",
+   "strokes": 6,
+   "radical": "欠",
+   "decomposition": "⿰又欠",
+   "hint": null,
+   "lesson": 13,
+   "words": [
+    "w149"
+   ]
+  },
+  {
+   "char": "给",
+   "pinyin": "gěi",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "gěi"
+   ],
+   "meaning": "to give; to; for",
+   "strokes": 9,
+   "radical": "纟",
+   "decomposition": "⿰纟合",
+   "hint": "thread",
+   "lesson": 13,
+   "words": [
+    "w150"
+   ]
+  },
+  {
+   "char": "打",
+   "pinyin": "dǎ",
+   "tone": 3,
+   "readings_in_hsk1": [
+    "dǎ"
+   ],
+   "meaning": "to hit; to make (a call)",
+   "strokes": 5,
+   "radical": "扌",
+   "decomposition": "⿰扌丁",
+   "hint": "hand",
+   "lesson": 13,
+   "words": [
+    "w151"
+   ]
+  },
+  {
+   "char": "话",
+   "pinyin": "huà",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "huà"
+   ],
+   "meaning": "speech; words (电话)",
+   "strokes": 8,
+   "radical": "讠",
+   "decomposition": "⿰讠舌",
+   "hint": "A spoken 讠 tongue 舌; 舌 also provides the pronunciation",
+   "lesson": 13,
+   "words": [
+    "w151"
+   ]
+  },
+  {
+   "char": "吧",
+   "pinyin": "ba",
+   "tone": 0,
+   "readings_in_hsk1": [
+    "ba"
+   ],
+   "meaning": "suggestion particle",
+   "strokes": 7,
+   "radical": "口",
+   "decomposition": "⿰口巴",
+   "hint": "mouth",
+   "lesson": 13,
+   "words": [
+    "w152"
+   ]
+  },
+  {
+   "char": "东",
+   "pinyin": "dōng",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "dōng"
+   ],
+   "meaning": "east (东西 = thing)",
+   "strokes": 5,
+   "radical": "一",
+   "decomposition": "⿻七小",
+   "hint": "Simplified form of 東, the sun 日 rising behind a tree 木",
+   "lesson": 14,
+   "words": [
+    "w153"
+   ]
+  },
+  {
+   "char": "西",
+   "pinyin": "xī",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "xi"
+   ],
+   "meaning": "west (东西 = thing)",
+   "strokes": 6,
+   "radical": "西",
+   "decomposition": "⿻兀囗",
+   "hint": "A bird settling into its nest, representing sunset; compare 東",
+   "lesson": 14,
+   "words": [
+    "w153"
+   ]
+  },
+  {
+   "char": "苹",
+   "pinyin": "píng",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "píng"
+   ],
+   "meaning": "apple (苹果)",
+   "strokes": 8,
+   "radical": "艹",
+   "decomposition": "⿱艹平",
+   "hint": "plant",
+   "lesson": 14,
+   "words": [
+    "w155"
+   ]
+  },
+  {
+   "char": "先",
+   "pinyin": "xiān",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "xiān"
+   ],
+   "meaning": "first (先生)",
+   "strokes": 6,
+   "radical": "儿",
+   "decomposition": "⿱⿰？土儿",
+   "hint": "Someone stepping 止 in front of another person 儿",
+   "lesson": 14,
+   "words": [
+    "w157"
+   ]
+  },
+  {
+   "char": "开",
+   "pinyin": "kāi",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "kāi"
+   ],
+   "meaning": "to open; to drive",
+   "strokes": 4,
+   "radical": "廾",
+   "decomposition": "⿱一廾",
+   "hint": "Simplified form of 開; hands 廾 lifting the latch 一 of a door",
+   "lesson": 14,
+   "words": [
+    "w158"
+   ]
+  },
+  {
+   "char": "车",
+   "pinyin": "chē",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "chē"
+   ],
+   "meaning": "vehicle; car",
+   "strokes": 4,
+   "radical": "车",
+   "decomposition": "⿻七十",
+   "hint": "Simplified form of 車, a cart with two wheels, seen from above",
+   "lesson": 14,
+   "words": [
+    "w159",
+    "w173"
+   ]
+  },
+  {
+   "char": "钟",
+   "pinyin": "zhōng",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "zhōng"
+   ],
+   "meaning": "clock (分钟)",
+   "strokes": 9,
+   "radical": "钅",
+   "decomposition": "⿰钅中",
+   "hint": "metal",
+   "lesson": 14,
+   "words": [
+    "w161"
+   ]
+  },
+  {
+   "char": "衣",
+   "pinyin": "yī",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "yī"
+   ],
+   "meaning": "clothes (衣服)",
+   "strokes": 6,
+   "radical": "衣",
+   "decomposition": "⿱亠？",
+   "hint": "A woman's dress",
+   "lesson": 14,
+   "words": [
+    "w163"
+   ]
+  },
+  {
+   "char": "服",
+   "pinyin": "fú",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "fu"
+   ],
+   "meaning": "clothes (衣服)",
+   "strokes": 8,
+   "radical": "月",
+   "decomposition": "⿰月⿸卩又",
+   "hint": "A person 卩 putting on 又 a coat 月",
+   "lesson": 14,
+   "words": [
+    "w163"
+   ]
+  },
+  {
+   "char": "漂",
+   "pinyin": "piào",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "piào"
+   ],
+   "meaning": "pretty (漂亮)",
+   "strokes": 14,
+   "radical": "氵",
+   "decomposition": "⿰氵票",
+   "hint": "water",
+   "lesson": 14,
+   "words": [
+    "w164"
+   ]
+  },
+  {
+   "char": "亮",
+   "pinyin": "liàng",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "liang"
+   ],
+   "meaning": "bright (漂亮)",
+   "strokes": 9,
+   "radical": "亠",
+   "decomposition": "⿳亠口⿱冖几",
+   "hint": "A lit oil lamp",
+   "lesson": 14,
+   "words": [
+    "w164"
+   ]
+  },
+  {
+   "char": "啊",
+   "pinyin": "a",
+   "tone": 0,
+   "readings_in_hsk1": [
+    "a"
+   ],
+   "meaning": "exclamation particle",
+   "strokes": 10,
+   "radical": "口",
+   "decomposition": "⿰口阿",
+   "hint": "mouth",
+   "lesson": 14,
+   "words": [
+    "w165"
+   ]
+  },
+  {
+   "char": "都",
+   "pinyin": "dōu",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "dōu"
+   ],
+   "meaning": "all; both",
+   "strokes": 10,
+   "radical": "阝",
+   "decomposition": "⿰者阝",
+   "hint": "city",
+   "lesson": 14,
+   "words": [
+    "w168"
+   ]
+  },
+  {
+   "char": "认",
+   "pinyin": "rèn",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "rèn"
+   ],
+   "meaning": "to recognise (认识)",
+   "strokes": 4,
+   "radical": "讠",
+   "decomposition": "⿰讠人",
+   "hint": "speech",
+   "lesson": 15,
+   "words": [
+    "w169"
+   ]
+  },
+  {
+   "char": "识",
+   "pinyin": "shí",
+   "tone": 2,
+   "readings_in_hsk1": [
+    "shi"
+   ],
+   "meaning": "to know (认识)",
+   "strokes": 7,
+   "radical": "讠",
+   "decomposition": "⿰讠只",
+   "hint": "speech",
+   "lesson": 15,
+   "words": [
+    "w169"
+   ]
+  },
+  {
+   "char": "出",
+   "pinyin": "chū",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "chū"
+   ],
+   "meaning": "to go out (出租车)",
+   "strokes": 5,
+   "radical": "凵",
+   "decomposition": "⿱屮凵",
+   "hint": "A sprout 屮 growing out of a container 凵",
+   "lesson": 15,
+   "words": [
+    "w173"
+   ]
+  },
+  {
+   "char": "租",
+   "pinyin": "zū",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "zū"
+   ],
+   "meaning": "to rent (出租车)",
+   "strokes": 10,
+   "radical": "禾",
+   "decomposition": "⿰禾且",
+   "hint": "Regularly paid 且 tribute in grain 禾",
+   "lesson": 15,
+   "words": [
+    "w173"
+   ]
+  },
+  {
+   "char": "高",
+   "pinyin": "gāo",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "gāo"
+   ],
+   "meaning": "tall; high (高兴)",
+   "strokes": 10,
+   "radical": "高",
+   "decomposition": "⿳亠口冋",
+   "hint": "A tall palace",
+   "lesson": 15,
+   "words": [
+    "w175"
+   ]
+  },
+  {
+   "char": "兴",
+   "pinyin": "xìng",
+   "tone": 4,
+   "readings_in_hsk1": [
+    "xìng"
+   ],
+   "meaning": "happy (高兴)",
+   "strokes": 6,
+   "radical": "八",
+   "decomposition": "⿳⺍一八",
+   "hint": null,
+   "lesson": 15,
+   "words": [
+    "w175"
+   ]
+  },
+  {
+   "char": "听",
+   "pinyin": "tīng",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "tīng"
+   ],
+   "meaning": "to listen",
+   "strokes": 7,
+   "radical": "口",
+   "decomposition": "⿰口斤",
+   "hint": "Words 口 reaching an ear 斤",
+   "lesson": 15,
+   "words": [
+    "w176"
+   ]
+  },
+  {
+   "char": "飞",
+   "pinyin": "fēi",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "fēi"
+   ],
+   "meaning": "to fly",
+   "strokes": 3,
+   "radical": "飞",
+   "decomposition": "⿻？？",
+   "hint": "A bird flapping its wings",
+   "lesson": 15,
+   "words": [
+    "w177"
+   ]
+  },
+  {
+   "char": "机",
+   "pinyin": "jī",
+   "tone": 1,
+   "readings_in_hsk1": [
+    "jī"
+   ],
+   "meaning": "machine (飞机)",
+   "strokes": 6,
+   "radical": "木",
+   "decomposition": "⿰木几",
+   "hint": "A table 几 made of wood 木; 几 also provides the pronunciation",
+   "lesson": 15,
+   "words": [
+    "w177"
+   ]
+  }
+ ],
+ "patterns": [
+  {
+   "id": "p01",
+   "lesson": 1,
+   "name": "Greetings with 好",
+   "structure": "Pronoun + 好",
+   "explanation": "Add 好 after a person to greet them. 您好 is the polite form.",
+   "examples": [
+    {
+     "hanzi": "你好！",
+     "pinyin": "Nǐ hǎo!",
+     "english": "Hello!"
+    },
+    {
+     "hanzi": "您好！",
+     "pinyin": "Nín hǎo!",
+     "english": "Hello! (polite)"
+    },
+    {
+     "hanzi": "你们好！",
+     "pinyin": "Nǐmen hǎo!",
+     "english": "Hello, everyone!"
+    },
+    {
+     "hanzi": "老师好！",
+     "pinyin": "Lǎoshī hǎo!",
+     "english": "Hello, teacher!"
+    }
+   ]
+  },
+  {
+   "id": "p02",
+   "lesson": 1,
+   "name": "Apologising",
+   "structure": "对不起 → 没关系",
+   "explanation": "对不起 says sorry; 没关系 is the usual answer.",
+   "examples": [
+    {
+     "hanzi": "对不起！",
+     "pinyin": "Duìbuqǐ!",
+     "english": "Sorry!"
+    },
+    {
+     "hanzi": "没关系。",
+     "pinyin": "Méi guānxi.",
+     "english": "That's OK."
+    }
+   ]
+  },
+  {
+   "id": "p03",
+   "lesson": 2,
+   "name": "Thanking and goodbye",
+   "structure": "谢谢 → 不客气 ; 再见",
+   "explanation": "谢谢 is answered with 不客气. 再见 means goodbye.",
+   "examples": [
+    {
+     "hanzi": "谢谢你！",
+     "pinyin": "Xièxie nǐ!",
+     "english": "Thank you!"
+    },
+    {
+     "hanzi": "不客气。",
+     "pinyin": "Bú kèqi.",
+     "english": "You're welcome."
+    },
+    {
+     "hanzi": "老师，再见！",
+     "pinyin": "Lǎoshī, zàijiàn!",
+     "english": "Goodbye, teacher!"
+    }
+   ]
+  },
+  {
+   "id": "p04",
+   "lesson": 2,
+   "name": "Negation with 不",
+   "structure": "Subject + 不 + Verb / Adjective",
+   "explanation": "不 goes before the verb or adjective to make it negative. Before a 4th-tone syllable 不 is read bú.",
+   "examples": [
+    {
+     "hanzi": "我不是老师。",
+     "pinyin": "Wǒ bú shì lǎoshī.",
+     "english": "I am not a teacher."
+    },
+    {
+     "hanzi": "我不喝茶。",
+     "pinyin": "Wǒ bù hē chá.",
+     "english": "I don't drink tea."
+    },
+    {
+     "hanzi": "今天不冷。",
+     "pinyin": "Jīntiān bù lěng.",
+     "english": "It isn't cold today."
+    }
+   ]
+  },
+  {
+   "id": "p05",
+   "lesson": 3,
+   "name": "Saying your name with 叫",
+   "structure": "Subject + 叫 + name",
+   "explanation": "叫 means 'to be called'. Ask with 你叫什么名字？",
+   "examples": [
+    {
+     "hanzi": "你叫什么名字？",
+     "pinyin": "Nǐ jiào shénme míngzi?",
+     "english": "What's your name?"
+    },
+    {
+     "hanzi": "我叫王明。",
+     "pinyin": "Wǒ jiào Wáng Míng.",
+     "english": "My name is Wang Ming."
+    }
+   ]
+  },
+  {
+   "id": "p06",
+   "lesson": 3,
+   "name": "'A is B' with 是",
+   "structure": "A + 是 + B ; A + 不是 + B",
+   "explanation": "是 links two nouns. It is not used before adjectives.",
+   "examples": [
+    {
+     "hanzi": "我是学生。",
+     "pinyin": "Wǒ shì xuésheng.",
+     "english": "I am a student."
+    },
+    {
+     "hanzi": "他是中国人。",
+     "pinyin": "Tā shì Zhōngguó rén.",
+     "english": "He is Chinese."
+    },
+    {
+     "hanzi": "她不是美国人。",
+     "pinyin": "Tā bú shì Měiguó rén.",
+     "english": "She isn't American."
+    }
+   ]
+  },
+  {
+   "id": "p07",
+   "lesson": 3,
+   "name": "Yes/no questions with 吗",
+   "structure": "Statement + 吗？",
+   "explanation": "Put 吗 at the end of a statement to turn it into a yes/no question. Word order does not change.",
+   "examples": [
+    {
+     "hanzi": "你是老师吗？",
+     "pinyin": "Nǐ shì lǎoshī ma?",
+     "english": "Are you a teacher?"
+    },
+    {
+     "hanzi": "你是中国人吗？",
+     "pinyin": "Nǐ shì Zhōngguó rén ma?",
+     "english": "Are you Chinese?"
+    },
+    {
+     "hanzi": "你喜欢喝茶吗？",
+     "pinyin": "Nǐ xǐhuan hē chá ma?",
+     "english": "Do you like drinking tea?"
+    }
+   ]
+  },
+  {
+   "id": "p08",
+   "lesson": 4,
+   "name": "Question words 谁 and 哪",
+   "structure": "…是谁？ ; 你是哪国人？",
+   "explanation": "Question words sit where the answer will go. No 吗 is needed.",
+   "examples": [
+    {
+     "hanzi": "她是谁？",
+     "pinyin": "Tā shì shéi?",
+     "english": "Who is she?"
+    },
+    {
+     "hanzi": "她是我的汉语老师。",
+     "pinyin": "Tā shì wǒ de Hànyǔ lǎoshī.",
+     "english": "She is my Chinese teacher."
+    },
+    {
+     "hanzi": "你是哪国人？",
+     "pinyin": "Nǐ shì nǎ guó rén?",
+     "english": "Which country are you from?"
+    },
+    {
+     "hanzi": "我是美国人。",
+     "pinyin": "Wǒ shì Měiguó rén.",
+     "english": "I'm American."
+    }
+   ]
+  },
+  {
+   "id": "p09",
+   "lesson": 4,
+   "name": "Possession with 的",
+   "structure": "Owner + 的 + thing",
+   "explanation": "的 works like 's. With close people or a family, 的 is often dropped: 我妈妈, 我家.",
+   "examples": [
+    {
+     "hanzi": "这是我的书。",
+     "pinyin": "Zhè shì wǒ de shū.",
+     "english": "This is my book."
+    },
+    {
+     "hanzi": "他是我的朋友。",
+     "pinyin": "Tā shì wǒ de péngyou.",
+     "english": "He is my friend."
+    },
+    {
+     "hanzi": "我妈妈是老师。",
+     "pinyin": "Wǒ māma shì lǎoshī.",
+     "english": "My mum is a teacher."
+    }
+   ]
+  },
+  {
+   "id": "p10",
+   "lesson": 4,
+   "name": "'And you?' with 呢",
+   "structure": "Noun / Pronoun + 呢？",
+   "explanation": "呢 after a noun asks the same question again about that person or thing.",
+   "examples": [
+    {
+     "hanzi": "我是学生，你呢？",
+     "pinyin": "Wǒ shì xuésheng, nǐ ne?",
+     "english": "I'm a student, and you?"
+    },
+    {
+     "hanzi": "我喝茶，你呢？",
+     "pinyin": "Wǒ hē chá, nǐ ne?",
+     "english": "I'll have tea, how about you?"
+    }
+   ]
+  },
+  {
+   "id": "p11",
+   "lesson": 5,
+   "name": "Asking 'how many' with 几",
+   "structure": "几 + measure word + noun？",
+   "explanation": "几 asks about small numbers (usually under 10) and needs a measure word.",
+   "examples": [
+    {
+     "hanzi": "你家有几口人？",
+     "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+     "english": "How many people are in your family?"
+    },
+    {
+     "hanzi": "我家有三口人。",
+     "pinyin": "Wǒ jiā yǒu sān kǒu rén.",
+     "english": "There are three people in my family."
+    },
+    {
+     "hanzi": "你有几个朋友？",
+     "pinyin": "Nǐ yǒu jǐ ge péngyou?",
+     "english": "How many friends do you have?"
+    }
+   ]
+  },
+  {
+   "id": "p12",
+   "lesson": 5,
+   "name": "Asking age",
+   "structure": "你几岁了？ ; 你多大了？",
+   "explanation": "Use 几岁 for children and 多大 for adults. 了 marks the new age reached.",
+   "examples": [
+    {
+     "hanzi": "你女儿几岁了？",
+     "pinyin": "Nǐ nǚ'ér jǐ suì le?",
+     "english": "How old is your daughter?"
+    },
+    {
+     "hanzi": "她今年五岁了。",
+     "pinyin": "Tā jīnnián wǔ suì le.",
+     "english": "She's five this year."
+    },
+    {
+     "hanzi": "你多大了？",
+     "pinyin": "Nǐ duō dà le?",
+     "english": "How old are you?"
+    },
+    {
+     "hanzi": "我今年二十岁。",
+     "pinyin": "Wǒ jīnnián èrshí suì.",
+     "english": "I'm twenty this year."
+    }
+   ]
+  },
+  {
+   "id": "p13",
+   "lesson": 5,
+   "name": "Numbers up to 100",
+   "structure": "十一 = 10+1 ; 二十 = 2×10 ; 九十九",
+   "explanation": "Build numbers from 一 to 十: tens first, then units.",
+   "examples": [
+    {
+     "hanzi": "十一",
+     "pinyin": "shíyī",
+     "english": "11"
+    },
+    {
+     "hanzi": "二十五",
+     "pinyin": "èrshíwǔ",
+     "english": "25"
+    },
+    {
+     "hanzi": "九十九",
+     "pinyin": "jiǔshíjiǔ",
+     "english": "99"
+    }
+   ]
+  },
+  {
+   "id": "p14",
+   "lesson": 6,
+   "name": "Can (learned skill) with 会",
+   "structure": "Subject + 会 / 不会 + Verb",
+   "explanation": "会 means you have learned how to do something.",
+   "examples": [
+    {
+     "hanzi": "我会说汉语。",
+     "pinyin": "Wǒ huì shuō Hànyǔ.",
+     "english": "I can speak Chinese."
+    },
+    {
+     "hanzi": "妈妈会做中国菜。",
+     "pinyin": "Māma huì zuò Zhōngguó cài.",
+     "english": "Mum can cook Chinese food."
+    },
+    {
+     "hanzi": "我不会写这个字。",
+     "pinyin": "Wǒ bú huì xiě zhège zì.",
+     "english": "I can't write this character."
+    }
+   ]
+  },
+  {
+   "id": "p15",
+   "lesson": 6,
+   "name": "Adjective sentences with 很",
+   "structure": "Subject + 很 + Adjective",
+   "explanation": "Adjectives act as the verb. 是 is not used. 很 is usually added and is often weak ('very' is optional in English).",
+   "examples": [
+    {
+     "hanzi": "中国菜很好吃。",
+     "pinyin": "Zhōngguó cài hěn hǎochī.",
+     "english": "Chinese food is delicious."
+    },
+    {
+     "hanzi": "汉字很漂亮。",
+     "pinyin": "Hànzì hěn piàoliang.",
+     "english": "Chinese characters are beautiful."
+    },
+    {
+     "hanzi": "我很好。",
+     "pinyin": "Wǒ hěn hǎo.",
+     "english": "I'm well."
+    }
+   ]
+  },
+  {
+   "id": "p16",
+   "lesson": 6,
+   "name": "Asking how with 怎么",
+   "structure": "…怎么 + Verb？",
+   "explanation": "怎么 before a verb asks how to do something.",
+   "examples": [
+    {
+     "hanzi": "这个字怎么写？",
+     "pinyin": "Zhège zì zěnme xiě?",
+     "english": "How do you write this character?"
+    },
+    {
+     "hanzi": "这个字怎么读？",
+     "pinyin": "Zhège zì zěnme dú?",
+     "english": "How do you read this character?"
+    }
+   ]
+  },
+  {
+   "id": "p17",
+   "lesson": 7,
+   "name": "Dates",
+   "structure": "…月…号 ; 星期一…星期六, 星期天 / 星期日",
+   "explanation": "Dates go from big to small. The date can be the whole predicate with no 是.",
+   "examples": [
+    {
+     "hanzi": "今天几号？",
+     "pinyin": "Jīntiān jǐ hào?",
+     "english": "What's the date today?"
+    },
+    {
+     "hanzi": "今天九月一号。",
+     "pinyin": "Jīntiān jiǔ yuè yī hào.",
+     "english": "Today is 1 September."
+    },
+    {
+     "hanzi": "明天星期几？",
+     "pinyin": "Míngtiān xīngqī jǐ?",
+     "english": "What day is it tomorrow?"
+    },
+    {
+     "hanzi": "昨天是星期三。",
+     "pinyin": "Zuótiān shì xīngqīsān.",
+     "english": "Yesterday was Wednesday."
+    }
+   ]
+  },
+  {
+   "id": "p18",
+   "lesson": 7,
+   "name": "Go somewhere to do something",
+   "structure": "Subject + 去 + place + Verb (+ object)",
+   "explanation": "The two verbs follow in order: first go, then do.",
+   "examples": [
+    {
+     "hanzi": "我去学校看书。",
+     "pinyin": "Wǒ qù xuéxiào kàn shū.",
+     "english": "I'm going to school to read."
+    },
+    {
+     "hanzi": "明天我去商店买东西。",
+     "pinyin": "Míngtiān wǒ qù shāngdiàn mǎi dōngxi.",
+     "english": "Tomorrow I'll go to the shop to buy things."
+    }
+   ]
+  },
+  {
+   "id": "p19",
+   "lesson": 8,
+   "name": "Wanting with 想",
+   "structure": "Subject + 想 + Verb",
+   "explanation": "想 + verb means 'would like to'. Negative: 不想.",
+   "examples": [
+    {
+     "hanzi": "我想喝茶。",
+     "pinyin": "Wǒ xiǎng hē chá.",
+     "english": "I'd like some tea."
+    },
+    {
+     "hanzi": "你想吃什么？",
+     "pinyin": "Nǐ xiǎng chī shénme?",
+     "english": "What would you like to eat?"
+    },
+    {
+     "hanzi": "我不想去。",
+     "pinyin": "Wǒ bù xiǎng qù.",
+     "english": "I don't want to go."
+    }
+   ]
+  },
+  {
+   "id": "p20",
+   "lesson": 8,
+   "name": "Measure words",
+   "structure": "Number / 这 / 那 + measure word + noun",
+   "explanation": "A number or 这/那 needs a measure word before the noun. 二 becomes 两 before measure words (两 is HSK 2).",
+   "examples": [
+    {
+     "hanzi": "一个杯子",
+     "pinyin": "yí ge bēizi",
+     "english": "a cup"
+    },
+    {
+     "hanzi": "这个苹果",
+     "pinyin": "zhège píngguǒ",
+     "english": "this apple"
+    },
+    {
+     "hanzi": "三本书",
+     "pinyin": "sān běn shū",
+     "english": "three books"
+    },
+    {
+     "hanzi": "那个人是谁？",
+     "pinyin": "Nàge rén shì shéi?",
+     "english": "Who is that person?"
+    }
+   ]
+  },
+  {
+   "id": "p21",
+   "lesson": 8,
+   "name": "Prices with 多少钱",
+   "structure": "…多少钱？ → Number + 块",
+   "explanation": "多少 asks about any quantity and does not need a measure word before 钱.",
+   "examples": [
+    {
+     "hanzi": "这个杯子多少钱？",
+     "pinyin": "Zhège bēizi duōshao qián?",
+     "english": "How much is this cup?"
+    },
+    {
+     "hanzi": "二十八块。",
+     "pinyin": "Èrshíbā kuài.",
+     "english": "28 yuan."
+    },
+    {
+     "hanzi": "苹果多少钱？",
+     "pinyin": "Píngguǒ duōshao qián?",
+     "english": "How much are the apples?"
+    }
+   ]
+  },
+  {
+   "id": "p22",
+   "lesson": 9,
+   "name": "Where something is with 在",
+   "structure": "Person / Thing + 在 + place",
+   "explanation": "Here 在 is the verb 'to be at'.",
+   "examples": [
+    {
+     "hanzi": "我的猫在哪儿？",
+     "pinyin": "Wǒ de māo zài nǎr?",
+     "english": "Where is my cat?"
+    },
+    {
+     "hanzi": "你的猫在椅子下面。",
+     "pinyin": "Nǐ de māo zài yǐzi xiàmiàn.",
+     "english": "Your cat is under the chair."
+    },
+    {
+     "hanzi": "爸爸在家。",
+     "pinyin": "Bàba zài jiā.",
+     "english": "Dad is at home."
+    }
+   ]
+  },
+  {
+   "id": "p23",
+   "lesson": 9,
+   "name": "Doing something at a place",
+   "structure": "Subject + 在 + place + Verb",
+   "explanation": "The place with 在 comes before the verb, not after it.",
+   "examples": [
+    {
+     "hanzi": "你儿子在哪儿工作？",
+     "pinyin": "Nǐ érzi zài nǎr gōngzuò?",
+     "english": "Where does your son work?"
+    },
+    {
+     "hanzi": "他在医院工作。",
+     "pinyin": "Tā zài yīyuàn gōngzuò.",
+     "english": "He works at a hospital."
+    },
+    {
+     "hanzi": "我在学校学习汉语。",
+     "pinyin": "Wǒ zài xuéxiào xuéxí Hànyǔ.",
+     "english": "I study Chinese at school."
+    }
+   ]
+  },
+  {
+   "id": "p24",
+   "lesson": 10,
+   "name": "There is… with 有",
+   "structure": "Place + 有 + (number + mw) + thing ; 没有",
+   "explanation": "The place comes first. The negative is 没有, never 不有.",
+   "examples": [
+    {
+     "hanzi": "桌子上有一个电脑。",
+     "pinyin": "Zhuōzi shang yǒu yí ge diànnǎo.",
+     "english": "There is a computer on the table."
+    },
+    {
+     "hanzi": "杯子里有茶。",
+     "pinyin": "Bēizi li yǒu chá.",
+     "english": "There is tea in the cup."
+    },
+    {
+     "hanzi": "椅子上没有书。",
+     "pinyin": "Yǐzi shang méiyǒu shū.",
+     "english": "There are no books on the chair."
+    }
+   ]
+  },
+  {
+   "id": "p25",
+   "lesson": 10,
+   "name": "Joining nouns with 和",
+   "structure": "Noun + 和 + Noun",
+   "explanation": "和 joins nouns and pronouns only, not verbs or sentences.",
+   "examples": [
+    {
+     "hanzi": "我和我朋友",
+     "pinyin": "wǒ hé wǒ péngyou",
+     "english": "me and my friend"
+    },
+    {
+     "hanzi": "桌子上有书和电脑。",
+     "pinyin": "Zhuōzi shang yǒu shū hé diànnǎo.",
+     "english": "There are books and a computer on the table."
+    }
+   ]
+  },
+  {
+   "id": "p26",
+   "lesson": 10,
+   "name": "Asking permission with 能",
+   "structure": "我能 + Verb + 吗？",
+   "explanation": "能 means 'can / may' (able or allowed).",
+   "examples": [
+    {
+     "hanzi": "我能坐这儿吗？",
+     "pinyin": "Wǒ néng zuò zhèr ma?",
+     "english": "Can I sit here?"
+    },
+    {
+     "hanzi": "我能看看你的书吗？",
+     "pinyin": "Wǒ néng kànkan nǐ de shū ma?",
+     "english": "May I have a look at your book?"
+    }
+   ]
+  },
+  {
+   "id": "p27",
+   "lesson": 11,
+   "name": "Telling the time",
+   "structure": "…点…分 ; 现在几点？",
+   "explanation": "Hours with 点, minutes with 分.",
+   "examples": [
+    {
+     "hanzi": "现在几点？",
+     "pinyin": "Xiànzài jǐ diǎn?",
+     "english": "What time is it now?"
+    },
+    {
+     "hanzi": "现在十点十分。",
+     "pinyin": "Xiànzài shí diǎn shí fēn.",
+     "english": "It's 10:10."
+    },
+    {
+     "hanzi": "现在中午十二点。",
+     "pinyin": "Xiànzài zhōngwǔ shí'èr diǎn.",
+     "english": "It's 12 noon."
+    }
+   ]
+  },
+  {
+   "id": "p28",
+   "lesson": 11,
+   "name": "Time before the verb",
+   "structure": "Subject + time + Verb ; Time + Subject + Verb",
+   "explanation": "The time word goes before the verb, either before or after the subject.",
+   "examples": [
+    {
+     "hanzi": "我中午十二点吃饭。",
+     "pinyin": "Wǒ zhōngwǔ shí'èr diǎn chī fàn.",
+     "english": "I eat at 12 noon."
+    },
+    {
+     "hanzi": "下午三点我们去看电影。",
+     "pinyin": "Xiàwǔ sān diǎn wǒmen qù kàn diànyǐng.",
+     "english": "At 3pm we're going to see a film."
+    }
+   ]
+  },
+  {
+   "id": "p29",
+   "lesson": 11,
+   "name": "When… with 的时候 and 前",
+   "structure": "Verb phrase + 的时候 ; Time / event + 前",
+   "explanation": "…的时候 means 'when…'; …前 means 'before…'.",
+   "examples": [
+    {
+     "hanzi": "你什么时候回家？",
+     "pinyin": "Nǐ shénme shíhou huí jiā?",
+     "english": "When are you going home?"
+    },
+    {
+     "hanzi": "我在北京的时候，住在朋友家。",
+     "pinyin": "Wǒ zài Běijīng de shíhou, zhù zài péngyou jiā.",
+     "english": "When I was in Beijing, I stayed at a friend's home."
+    },
+    {
+     "hanzi": "星期一前我能回来。",
+     "pinyin": "Xīngqīyī qián wǒ néng huílai.",
+     "english": "I can come back before Monday."
+    }
+   ]
+  },
+  {
+   "id": "p30",
+   "lesson": 12,
+   "name": "Asking 'how is it' with 怎么样",
+   "structure": "Topic + 怎么样？",
+   "explanation": "怎么样 asks for an opinion or a description.",
+   "examples": [
+    {
+     "hanzi": "明天天气怎么样？",
+     "pinyin": "Míngtiān tiānqì zěnmeyàng?",
+     "english": "What will the weather be like tomorrow?"
+    },
+    {
+     "hanzi": "你身体怎么样？",
+     "pinyin": "Nǐ shēntǐ zěnmeyàng?",
+     "english": "How is your health?"
+    },
+    {
+     "hanzi": "我们去喝茶，怎么样？",
+     "pinyin": "Wǒmen qù hē chá, zěnmeyàng?",
+     "english": "Let's go for tea, how about it?"
+    }
+   ]
+  },
+  {
+   "id": "p31",
+   "lesson": 12,
+   "name": "Too / so… with 太…了",
+   "structure": "太 + Adjective + 了",
+   "explanation": "太…了 means 'too…' or 'so…!'.",
+   "examples": [
+    {
+     "hanzi": "今天太热了！",
+     "pinyin": "Jīntiān tài rè le!",
+     "english": "It's so hot today!"
+    },
+    {
+     "hanzi": "这个杯子太漂亮了。",
+     "pinyin": "Zhège bēizi tài piàoliang le.",
+     "english": "This cup is really pretty."
+    },
+    {
+     "hanzi": "太好了！",
+     "pinyin": "Tài hǎo le!",
+     "english": "Great!"
+    }
+   ]
+  },
+  {
+   "id": "p32",
+   "lesson": 12,
+   "name": "Will probably with 会",
+   "structure": "Subject + 会 + Verb",
+   "explanation": "会 can also mean something is likely to happen.",
+   "examples": [
+    {
+     "hanzi": "明天会下雨吗？",
+     "pinyin": "Míngtiān huì xià yǔ ma?",
+     "english": "Will it rain tomorrow?"
+    },
+    {
+     "hanzi": "明天不会下雨。",
+     "pinyin": "Míngtiān bú huì xià yǔ.",
+     "english": "It won't rain tomorrow."
+    }
+   ]
+  },
+  {
+   "id": "p33",
+   "lesson": 13,
+   "name": "Doing right now with 在…呢",
+   "structure": "Subject + 在 + Verb (+ 呢)",
+   "explanation": "在 before a verb shows an action in progress. 呢 at the end can be added.",
+   "examples": [
+    {
+     "hanzi": "你在做什么呢？",
+     "pinyin": "Nǐ zài zuò shénme ne?",
+     "english": "What are you doing?"
+    },
+    {
+     "hanzi": "我在看电视呢。",
+     "pinyin": "Wǒ zài kàn diànshì ne.",
+     "english": "I'm watching TV."
+    },
+    {
+     "hanzi": "他在学做中国菜呢。",
+     "pinyin": "Tā zài xué zuò Zhōngguó cài ne.",
+     "english": "He's learning to cook Chinese food."
+    }
+   ]
+  },
+  {
+   "id": "p34",
+   "lesson": 13,
+   "name": "Suggestions with 吧",
+   "structure": "Sentence + 吧",
+   "explanation": "吧 at the end makes a suggestion or a soft request.",
+   "examples": [
+    {
+     "hanzi": "你给我打电话吧。",
+     "pinyin": "Nǐ gěi wǒ dǎ diànhuà ba.",
+     "english": "Give me a call."
+    },
+    {
+     "hanzi": "我们一起去吧。",
+     "pinyin": "Wǒmen yìqǐ qù ba.",
+     "english": "Let's go together."
+    }
+   ]
+  },
+  {
+   "id": "p35",
+   "lesson": 13,
+   "name": "To someone with 给",
+   "structure": "Subject + 给 + person + Verb",
+   "explanation": "给 + person comes before the verb: 'to / for someone'.",
+   "examples": [
+    {
+     "hanzi": "我给妈妈打电话。",
+     "pinyin": "Wǒ gěi māma dǎ diànhuà.",
+     "english": "I'm calling mum."
+    },
+    {
+     "hanzi": "你给我写字吧。",
+     "pinyin": "Nǐ gěi wǒ xiě zì ba.",
+     "english": "Write it down for me."
+    }
+   ]
+  },
+  {
+   "id": "p36",
+   "lesson": 14,
+   "name": "Completed action with 了",
+   "structure": "Verb + 了 (+ amount + object) ; 没 + Verb",
+   "explanation": "了 after the verb shows the action happened. The negative is 没(有) + verb, with no 了.",
+   "examples": [
+    {
+     "hanzi": "她买了很多衣服。",
+     "pinyin": "Tā mǎile hěn duō yīfu.",
+     "english": "She bought a lot of clothes."
+    },
+    {
+     "hanzi": "我喝了一杯茶。",
+     "pinyin": "Wǒ hēle yì bēi chá.",
+     "english": "I drank a cup of tea."
+    },
+    {
+     "hanzi": "我没看见你的猫。",
+     "pinyin": "Wǒ méi kànjiàn nǐ de māo.",
+     "english": "I didn't see your cat."
+    }
+   ]
+  },
+  {
+   "id": "p37",
+   "lesson": 14,
+   "name": "All with 都",
+   "structure": "Subject (plural) + 都 + Verb",
+   "explanation": "都 comes after the subject and before the verb.",
+   "examples": [
+    {
+     "hanzi": "我们都是学生。",
+     "pinyin": "Wǒmen dōu shì xuésheng.",
+     "english": "We are all students."
+    },
+    {
+     "hanzi": "这些衣服都很漂亮。",
+     "pinyin": "Zhèxiē yīfu dōu hěn piàoliang.",
+     "english": "These clothes are all pretty."
+    }
+   ]
+  },
+  {
+   "id": "p38",
+   "lesson": 14,
+   "name": "After… with 后",
+   "structure": "Time / event + 后",
+   "explanation": "…后 means 'after…'.",
+   "examples": [
+    {
+     "hanzi": "十分钟后我回来。",
+     "pinyin": "Shí fēnzhōng hòu wǒ huílai.",
+     "english": "I'll be back in ten minutes."
+    },
+    {
+     "hanzi": "吃饭后我们去看电影。",
+     "pinyin": "Chī fàn hòu wǒmen qù kàn diànyǐng.",
+     "english": "After eating we'll go to a film."
+    }
+   ]
+  },
+  {
+   "id": "p39",
+   "lesson": 15,
+   "name": "Stressing how / when / where with 是…的",
+   "structure": "Subject + 是 + detail + Verb + 的",
+   "explanation": "For something that already happened, 是…的 puts the focus on how, when or where it happened.",
+   "examples": [
+    {
+     "hanzi": "我是坐飞机来的。",
+     "pinyin": "Wǒ shì zuò fēijī lái de.",
+     "english": "I came by plane."
+    },
+    {
+     "hanzi": "你是什么时候来北京的？",
+     "pinyin": "Nǐ shì shénme shíhou lái Běijīng de?",
+     "english": "When did you come to Beijing?"
+    },
+    {
+     "hanzi": "我们是在大学认识的。",
+     "pinyin": "Wǒmen shì zài dàxué rènshi de.",
+     "english": "We met at university."
+    }
+   ]
+  },
+  {
+   "id": "p40",
+   "lesson": 15,
+   "name": "Years",
+   "structure": "Digits read one by one + 年",
+   "explanation": "Years are read digit by digit.",
+   "examples": [
+    {
+     "hanzi": "二〇二六年",
+     "pinyin": "èr líng èr liù nián",
+     "english": "2026 (〇 líng is HSK 2)"
+    },
+    {
+     "hanzi": "你是哪年去中国的？",
+     "pinyin": "Nǐ shì nǎ nián qù Zhōngguó de?",
+     "english": "Which year did you go to China?"
+    }
+   ]
+  },
+  {
+   "id": "p41",
+   "lesson": 15,
+   "name": "Glad to meet you",
+   "structure": "认识你很高兴 / 很高兴认识你",
+   "explanation": "A set phrase when meeting someone.",
+   "examples": [
+    {
+     "hanzi": "认识你很高兴。",
+     "pinyin": "Rènshi nǐ hěn gāoxìng.",
+     "english": "Nice to meet you."
+    },
+    {
+     "hanzi": "很高兴认识你！",
+     "pinyin": "Hěn gāoxìng rènshi nǐ!",
+     "english": "Glad to meet you!"
+    }
+   ]
+  }
+ ],
+ "pinyin": {
+  "tones": [
+   {
+    "tone": 1,
+    "mark": "ā",
+    "description": "high and level",
+    "examples": [
+     "妈 mā",
+     "他 tā",
+     "书 shū",
+     "天 tiān"
+    ]
+   },
+   {
+    "tone": 2,
+    "mark": "á",
+    "description": "rising",
+    "examples": [
+     "人 rén",
+     "茶 chá",
+     "来 lái",
+     "钱 qián"
+    ]
+   },
+   {
+    "tone": 3,
+    "mark": "ǎ",
+    "description": "low, dipping",
+    "examples": [
+     "我 wǒ",
+     "你 nǐ",
+     "好 hǎo",
+     "买 mǎi"
+    ]
+   },
+   {
+    "tone": 4,
+    "mark": "à",
+    "description": "falling",
+    "examples": [
+     "是 shì",
+     "去 qù",
+     "大 dà",
+     "爱 ài"
+    ]
+   },
+   {
+    "tone": 0,
+    "mark": "a",
+    "description": "neutral (light, no mark)",
+    "examples": [
+     "吗 ma",
+     "呢 ne",
+     "的 de",
+     "们 men"
+    ]
+   }
+  ],
+  "tone_change_rules": [
+   {
+    "id": "r1",
+    "name": "Two 3rd tones",
+    "rule": "When two 3rd tones come together, the first is said as a 2nd tone. Pinyin usually still writes both as 3rd tone.",
+    "examples": [
+     "你好 nǐ hǎo → ní hǎo",
+     "很好 hěn hǎo → hén hǎo",
+     "水果 shuǐguǒ → shuíguǒ",
+     "我买 wǒ mǎi → wó mǎi",
+     "小姐 xiǎojiě → xiáojiě",
+     "老师好 lǎoshī hǎo (no change: 师 is 1st tone)"
+    ]
+   },
+   {
+    "id": "r2",
+    "name": "不 before a 4th tone",
+    "rule": "不 is bù, but becomes bú before a 4th tone. Pinyin in textbooks writes the change.",
+    "examples": [
+     "不是 bú shì",
+     "不客气 bú kèqi",
+     "不去 bú qù",
+     "不会 bú huì",
+     "不喝 bù hē (no change)",
+     "不好 bù hǎo (no change)"
+    ]
+   },
+   {
+    "id": "r3",
+    "name": "一 changes tone",
+    "rule": "一 is yī on its own, in counting and in dates. Before a 4th tone it becomes yí; before 1st, 2nd or 3rd tones it becomes yì.",
+    "examples": [
+     "一 yī",
+     "十一 shíyī",
+     "一月 yī yuè (date: no change)",
+     "一个 yí ge",
+     "一块 yí kuài",
+     "一点儿 yìdiǎnr",
+     "一起 yìqǐ",
+     "一杯 yì bēi",
+     "一年 yì nián"
+    ]
+   },
+   {
+    "id": "r4",
+    "name": "Neutral tone",
+    "rule": "Some syllables lose their tone and are said lightly and briefly: particles, noun suffixes like 子, doubled family words, and the second part of many common words.",
+    "examples": [
+     "谢谢 xièxie",
+     "妈妈 māma",
+     "桌子 zhuōzi",
+     "朋友 péngyou",
+     "东西 dōngxi"
+    ]
+   }
+  ],
+  "spelling_rules": [
+   {
+    "rule": "ü is written u after j, q, x and y",
+    "examples": [
+     "去 qù (= qü)",
+     "学 xué (= xüé)",
+     "雨 yǔ (= yǚ)"
+    ],
+    "note": "After n and l the dots stay: 女 nǚ."
+   },
+   {
+    "rule": "iou, uei and uen are shortened to iu, ui and un",
+    "examples": [
+     "九 jiǔ",
+     "六 liù",
+     "回 huí",
+     "谁 shéi / shuí"
+    ]
+   },
+   {
+    "rule": "Where the tone mark goes",
+    "examples": [
+     "a or e takes the mark: 好 hǎo, 谢 xiè",
+     "in ou the o takes it: 狗 gǒu",
+     "otherwise the last vowel: 回 huí, 九 jiǔ"
+    ]
+   },
+   {
+    "rule": "i, u and ü starting a syllable are written y, w, yu",
+    "examples": [
+     "一 yī",
+     "五 wǔ",
+     "月 yuè",
+     "医 yī"
+    ]
+   },
+   {
+    "rule": "The apostrophe separates syllables starting with a, o, e",
+    "examples": [
+     "女儿 nǚ'ér"
+    ]
+   },
+   {
+    "rule": "i after z, c, s, zh, ch, sh, r is not the 'ee' sound",
+    "examples": [
+     "字 zì",
+     "是 shì",
+     "吃 chī",
+     "四 sì",
+     "识 shi"
+    ]
+   },
+   {
+    "rule": "The -r ending (儿化) joins onto the syllable before",
+    "examples": [
+     "哪儿 nǎr",
+     "这儿 zhèr",
+     "那儿 nàr",
+     "一点儿 yìdiǎnr"
+    ]
+   }
+  ],
+  "polyphonic": [
+   {
+    "char": "觉",
+    "readings": [
+     {
+      "pinyin": "jiào",
+      "use": "睡觉 to sleep"
+     },
+     {
+      "pinyin": "jué",
+      "use": "to feel (觉得, HSK 2)"
+     }
+    ]
+   },
+   {
+    "char": "了",
+    "readings": [
+     {
+      "pinyin": "le",
+      "use": "particle (买了, 太好了)"
+     },
+     {
+      "pinyin": "liǎo",
+      "use": "to finish (later levels)"
+     }
+    ]
+   },
+   {
+    "char": "的",
+    "readings": [
+     {
+      "pinyin": "de",
+      "use": "possessive particle"
+     },
+     {
+      "pinyin": "dí",
+      "use": "的确 indeed (later levels)"
+     }
+    ]
+   },
+   {
+    "char": "谁",
+    "readings": [
+     {
+      "pinyin": "shéi",
+      "use": "spoken, most common"
+     },
+     {
+      "pinyin": "shuí",
+      "use": "formal / dictionary"
+     }
+    ]
+   },
+   {
+    "char": "那 / 哪",
+    "readings": [
+     {
+      "pinyin": "nà",
+      "use": "那 that"
+     },
+     {
+      "pinyin": "nǎ",
+      "use": "哪 which"
+     }
+    ],
+    "note": "Different characters: only the tone and the 口 radical tell them apart."
+   },
+   {
+    "char": "和",
+    "readings": [
+     {
+      "pinyin": "hé",
+      "use": "and; with"
+     },
+     {
+      "pinyin": "huo / huò",
+      "use": "later levels"
+     }
+    ]
+   },
+   {
+    "char": "都",
+    "readings": [
+     {
+      "pinyin": "dōu",
+      "use": "all"
+     },
+     {
+      "pinyin": "dū",
+      "use": "capital city (首都, later levels)"
+     }
+    ]
+   },
+   {
+    "char": "少",
+    "readings": [
+     {
+      "pinyin": "shǎo",
+      "use": "few"
+     },
+     {
+      "pinyin": "shào",
+      "use": "young (later levels)"
+     }
+    ]
+   },
+   {
+    "char": "分",
+    "readings": [
+     {
+      "pinyin": "fēn",
+      "use": "minute; to divide"
+     },
+     {
+      "pinyin": "fèn",
+      "use": "portion (later levels)"
+     }
+    ]
+   },
+   {
+    "char": "儿",
+    "readings": [
+     {
+      "pinyin": "ér",
+      "use": "儿子, 女儿"
+     },
+     {
+      "pinyin": "r",
+      "use": "-r ending: 哪儿, 这儿, 一点儿"
+     }
+    ]
+   },
+   {
+    "char": "子",
+    "readings": [
+     {
+      "pinyin": "zǐ",
+      "use": "child (on its own)"
+     },
+     {
+      "pinyin": "zi",
+      "use": "noun suffix: 桌子, 椅子, 儿子"
+     }
+    ]
+   },
+   {
+    "char": "中",
+    "readings": [
+     {
+      "pinyin": "zhōng",
+      "use": "middle; China"
+     },
+     {
+      "pinyin": "zhòng",
+      "use": "to hit a target (later levels)"
+     }
+    ]
+   },
+   {
+    "char": "好",
+    "readings": [
+     {
+      "pinyin": "hǎo",
+      "use": "good"
+     },
+     {
+      "pinyin": "hào",
+      "use": "to like (爱好, HSK 3)"
+     }
+    ]
+   },
+   {
+    "char": "看",
+    "readings": [
+     {
+      "pinyin": "kàn",
+      "use": "to look"
+     },
+     {
+      "pinyin": "kān",
+      "use": "to look after (later levels)"
+     }
+    ]
+   },
+   {
+    "char": "一",
+    "readings": [
+     {
+      "pinyin": "yī / yí / yì",
+      "use": "changes with the next tone, see rule r3"
+     }
+    ]
+   },
+   {
+    "char": "不",
+    "readings": [
+     {
+      "pinyin": "bù / bú",
+      "use": "changes before a 4th tone, see rule r2"
+     }
+    ]
+   }
+  ],
+  "homophones": [
+   {
+    "pinyin": "diàn",
+    "chars": [
+     "店",
+     "电"
+    ]
+   },
+   {
+    "pinyin": "hòu",
+    "chars": [
+     "后",
+     "候"
+    ]
+   },
+   {
+    "pinyin": "jiào",
+    "chars": [
+     "叫",
+     "觉"
+    ]
+   },
+   {
+    "pinyin": "míng",
+    "chars": [
+     "名",
+     "明"
+    ]
+   },
+   {
+    "pinyin": "qián",
+    "chars": [
+     "钱",
+     "前"
+    ]
+   },
+   {
+    "pinyin": "qī",
+    "chars": [
+     "七",
+     "期"
+    ]
+   },
+   {
+    "pinyin": "shì",
+    "chars": [
+     "是",
+     "视"
+    ]
+   },
+   {
+    "pinyin": "shí",
+    "chars": [
+     "十",
+     "时",
+     "识"
+    ]
+   },
+   {
+    "pinyin": "tā",
+    "chars": [
+     "她",
+     "他"
+    ]
+   },
+   {
+    "pinyin": "wǔ",
+    "chars": [
+     "五",
+     "午"
+    ]
+   },
+   {
+    "pinyin": "yī",
+    "chars": [
+     "一",
+     "医",
+     "衣"
+    ]
+   },
+   {
+    "pinyin": "yǒu",
+    "chars": [
+     "友",
+     "有"
+    ]
+   },
+   {
+    "pinyin": "yǔ",
+    "chars": [
+     "语",
+     "雨"
+    ]
+   },
+   {
+    "pinyin": "zhōng",
+    "chars": [
+     "中",
+     "钟"
+    ]
+   },
+   {
+    "pinyin": "zuò",
+    "chars": [
+     "做",
+     "作",
+     "坐"
+    ]
+   },
+   {
+    "pinyin": "zài",
+    "chars": [
+     "再",
+     "在"
+    ]
+   }
+  ],
+  "tone_sets": [
+   {
+    "syllable": "ba",
+    "chars": [
+     {
+      "char": "八",
+      "pinyin": "bā"
+     },
+     {
+      "char": "爸",
+      "pinyin": "bà"
+     },
+     {
+      "char": "吧",
+      "pinyin": "ba"
+     }
+    ]
+   },
+   {
+    "syllable": "bei",
+    "chars": [
+     {
+      "char": "杯",
+      "pinyin": "bēi"
+     },
+     {
+      "char": "北",
+      "pinyin": "běi"
+     }
+    ]
+   },
+   {
+    "syllable": "da",
+    "chars": [
+     {
+      "char": "大",
+      "pinyin": "dà"
+     },
+     {
+      "char": "打",
+      "pinyin": "dǎ"
+     }
+    ]
+   },
+   {
+    "syllable": "dian",
+    "chars": [
+     {
+      "char": "店",
+      "pinyin": "diàn"
+     },
+     {
+      "char": "电",
+      "pinyin": "diàn"
+     },
+     {
+      "char": "点",
+      "pinyin": "diǎn"
+     }
+    ]
+   },
+   {
+    "syllable": "er",
+    "chars": [
+     {
+      "char": "儿",
+      "pinyin": "ér"
+     },
+     {
+      "char": "二",
+      "pinyin": "èr"
+     }
+    ]
+   },
+   {
+    "syllable": "guo",
+    "chars": [
+     {
+      "char": "国",
+      "pinyin": "guó"
+     },
+     {
+      "char": "果",
+      "pinyin": "guǒ"
+     }
+    ]
+   },
+   {
+    "syllable": "hao",
+    "chars": [
+     {
+      "char": "好",
+      "pinyin": "hǎo"
+     },
+     {
+      "char": "号",
+      "pinyin": "hào"
+     }
+    ]
+   },
+   {
+    "syllable": "he",
+    "chars": [
+     {
+      "char": "喝",
+      "pinyin": "hē"
+     },
+     {
+      "char": "和",
+      "pinyin": "hé"
+     }
+    ]
+   },
+   {
+    "syllable": "hui",
+    "chars": [
+     {
+      "char": "会",
+      "pinyin": "huì"
+     },
+     {
+      "char": "回",
+      "pinyin": "huí"
+     }
+    ]
+   },
+   {
+    "syllable": "ji",
+    "chars": [
+     {
+      "char": "几",
+      "pinyin": "jǐ"
+     },
+     {
+      "char": "机",
+      "pinyin": "jī"
+     }
+    ]
+   },
+   {
+    "syllable": "ma",
+    "chars": [
+     {
+      "char": "吗",
+      "pinyin": "ma"
+     },
+     {
+      "char": "妈",
+      "pinyin": "mā"
+     }
+    ]
+   },
+   {
+    "syllable": "mei",
+    "chars": [
+     {
+      "char": "没",
+      "pinyin": "méi"
+     },
+     {
+      "char": "美",
+      "pinyin": "měi"
+     }
+    ]
+   },
+   {
+    "syllable": "na",
+    "chars": [
+     {
+      "char": "哪",
+      "pinyin": "nǎ"
+     },
+     {
+      "char": "那",
+      "pinyin": "nà"
+     }
+    ]
+   },
+   {
+    "syllable": "qi",
+    "chars": [
+     {
+      "char": "起",
+      "pinyin": "qǐ"
+     },
+     {
+      "char": "气",
+      "pinyin": "qì"
+     },
+     {
+      "char": "七",
+      "pinyin": "qī"
+     },
+     {
+      "char": "期",
+      "pinyin": "qī"
+     }
+    ]
+   },
+   {
+    "syllable": "ren",
+    "chars": [
+     {
+      "char": "人",
+      "pinyin": "rén"
+     },
+     {
+      "char": "认",
+      "pinyin": "rèn"
+     }
+    ]
+   },
+   {
+    "syllable": "shang",
+    "chars": [
+     {
+      "char": "商",
+      "pinyin": "shāng"
+     },
+     {
+      "char": "上",
+      "pinyin": "shàng"
+     }
+    ]
+   },
+   {
+    "syllable": "shen",
+    "chars": [
+     {
+      "char": "什",
+      "pinyin": "shén"
+     },
+     {
+      "char": "身",
+      "pinyin": "shēn"
+     }
+    ]
+   },
+   {
+    "syllable": "shi",
+    "chars": [
+     {
+      "char": "是",
+      "pinyin": "shì"
+     },
+     {
+      "char": "师",
+      "pinyin": "shī"
+     },
+     {
+      "char": "十",
+      "pinyin": "shí"
+     },
+     {
+      "char": "时",
+      "pinyin": "shí"
+     },
+     {
+      "char": "视",
+      "pinyin": "shì"
+     },
+     {
+      "char": "识",
+      "pinyin": "shí"
+     }
+    ]
+   },
+   {
+    "syllable": "shui",
+    "chars": [
+     {
+      "char": "水",
+      "pinyin": "shuǐ"
+     },
+     {
+      "char": "睡",
+      "pinyin": "shuì"
+     }
+    ]
+   },
+   {
+    "syllable": "xi",
+    "chars": [
+     {
+      "char": "系",
+      "pinyin": "xì"
+     },
+     {
+      "char": "习",
+      "pinyin": "xí"
+     },
+     {
+      "char": "喜",
+      "pinyin": "xǐ"
+     },
+     {
+      "char": "西",
+      "pinyin": "xī"
+     }
+    ]
+   },
+   {
+    "syllable": "xian",
+    "chars": [
+     {
+      "char": "现",
+      "pinyin": "xiàn"
+     },
+     {
+      "char": "先",
+      "pinyin": "xiān"
+     }
+    ]
+   },
+   {
+    "syllable": "xiao",
+    "chars": [
+     {
+      "char": "校",
+      "pinyin": "xiào"
+     },
+     {
+      "char": "小",
+      "pinyin": "xiǎo"
+     }
+    ]
+   },
+   {
+    "syllable": "xie",
+    "chars": [
+     {
+      "char": "谢",
+      "pinyin": "xiè"
+     },
+     {
+      "char": "写",
+      "pinyin": "xiě"
+     },
+     {
+      "char": "些",
+      "pinyin": "xiē"
+     }
+    ]
+   },
+   {
+    "syllable": "xing",
+    "chars": [
+     {
+      "char": "星",
+      "pinyin": "xīng"
+     },
+     {
+      "char": "兴",
+      "pinyin": "xìng"
+     }
+    ]
+   },
+   {
+    "syllable": "yi",
+    "chars": [
+     {
+      "char": "一",
+      "pinyin": "yī"
+     },
+     {
+      "char": "椅",
+      "pinyin": "yǐ"
+     },
+     {
+      "char": "医",
+      "pinyin": "yī"
+     },
+     {
+      "char": "衣",
+      "pinyin": "yī"
+     }
+    ]
+   },
+   {
+    "syllable": "zi",
+    "chars": [
+     {
+      "char": "字",
+      "pinyin": "zì"
+     },
+     {
+      "char": "子",
+      "pinyin": "zǐ"
+     }
+    ]
+   },
+   {
+    "syllable": "zuo",
+    "chars": [
+     {
+      "char": "做",
+      "pinyin": "zuò"
+     },
+     {
+      "char": "昨",
+      "pinyin": "zuó"
+     },
+     {
+      "char": "作",
+      "pinyin": "zuò"
+     },
+     {
+      "char": "坐",
+      "pinyin": "zuò"
+     }
+    ]
+   }
+  ],
+  "neutral_tone_words": [
+   {
+    "id": "w004",
+    "hanzi": "你们",
+    "pinyin": "nǐmen"
+   },
+   {
+    "id": "w005",
+    "hanzi": "对不起",
+    "pinyin": "duìbuqǐ"
+   },
+   {
+    "id": "w006",
+    "hanzi": "没关系",
+    "pinyin": "méi guānxi"
+   },
+   {
+    "id": "w007",
+    "hanzi": "谢谢",
+    "pinyin": "xièxie"
+   },
+   {
+    "id": "w009",
+    "hanzi": "不客气",
+    "pinyin": "bú kèqi"
+   },
+   {
+    "id": "w012",
+    "hanzi": "什么",
+    "pinyin": "shénme"
+   },
+   {
+    "id": "w013",
+    "hanzi": "名字",
+    "pinyin": "míngzi"
+   },
+   {
+    "id": "w018",
+    "hanzi": "学生",
+    "pinyin": "xuésheng"
+   },
+   {
+    "id": "w031",
+    "hanzi": "朋友",
+    "pinyin": "péngyou"
+   },
+   {
+    "id": "w054",
+    "hanzi": "妈妈",
+    "pinyin": "māma"
+   },
+   {
+    "id": "w062",
+    "hanzi": "怎么",
+    "pinyin": "zěnme"
+   },
+   {
+    "id": "w086",
+    "hanzi": "杯子",
+    "pinyin": "bēizi"
+   },
+   {
+    "id": "w088",
+    "hanzi": "多少",
+    "pinyin": "duōshao"
+   },
+   {
+    "id": "w095",
+    "hanzi": "那儿",
+    "pinyin": "nàr"
+   },
+   {
+    "id": "w097",
+    "hanzi": "椅子",
+    "pinyin": "yǐzi"
+   },
+   {
+    "id": "w099",
+    "hanzi": "哪儿",
+    "pinyin": "nǎr"
+   },
+   {
+    "id": "w101",
+    "hanzi": "儿子",
+    "pinyin": "érzi"
+   },
+   {
+    "id": "w104",
+    "hanzi": "爸爸",
+    "pinyin": "bàba"
+   },
+   {
+    "id": "w105",
+    "hanzi": "桌子",
+    "pinyin": "zhuōzi"
+   },
+   {
+    "id": "w113",
+    "hanzi": "这儿",
+    "pinyin": "zhèr"
+   },
+   {
+    "id": "w122",
+    "hanzi": "时候",
+    "pinyin": "shíhou"
+   },
+   {
+    "id": "w124",
+    "hanzi": "我们",
+    "pinyin": "wǒmen"
+   },
+   {
+    "id": "w130",
+    "hanzi": "怎么样",
+    "pinyin": "zěnmeyàng"
+   },
+   {
+    "id": "w149",
+    "hanzi": "喜欢",
+    "pinyin": "xǐhuan"
+   },
+   {
+    "id": "w153",
+    "hanzi": "东西",
+    "pinyin": "dōngxi"
+   },
+   {
+    "id": "w154",
+    "hanzi": "一点儿",
+    "pinyin": "yìdiǎnr"
+   },
+   {
+    "id": "w157",
+    "hanzi": "先生",
+    "pinyin": "xiānsheng"
+   },
+   {
+    "id": "w160",
+    "hanzi": "回来",
+    "pinyin": "huílai"
+   },
+   {
+    "id": "w163",
+    "hanzi": "衣服",
+    "pinyin": "yīfu"
+   },
+   {
+    "id": "w164",
+    "hanzi": "漂亮",
+    "pinyin": "piàoliang"
+   },
+   {
+    "id": "w169",
+    "hanzi": "认识",
+    "pinyin": "rènshi"
+   }
+  ],
+  "initial_contrasts": [
+   {
+    "pair": "zh / z",
+    "a": [
+     "中 zhōng",
+     "这 zhè",
+     "桌 zhuō",
+     "住 zhù",
+     "钟 zhōng"
+    ],
+    "b": [
+     "再 zài",
+     "字 zì",
+     "做 zuò",
+     "怎 zěn",
+     "昨 zuó",
+     "子 zǐ",
+     "在 zài",
+     "作 zuò",
+     "坐 zuò",
+     "租 zū"
+    ]
+   },
+   {
+    "pair": "ch / c",
+    "a": [
+     "吃 chī",
+     "茶 chá",
+     "车 chē",
+     "出 chū"
+    ],
+    "b": [
+     "菜 cài"
+    ]
+   },
+   {
+    "pair": "sh / s",
+    "a": [
+     "什 shén",
+     "是 shì",
+     "师 shī",
+     "生 shēng",
+     "谁 shéi",
+     "十 shí",
+     "说 shuō",
+     "书 shū",
+     "商 shāng",
+     "少 shǎo",
+     "上 shàng",
+     "时 shí",
+     "身 shēn",
+     "水 shuǐ",
+     "睡 shuì",
+     "视 shì",
+     "识 shí"
+    ],
+    "b": [
+     "岁 suì",
+     "三 sān",
+     "四 sì"
+    ]
+   },
+   {
+    "pair": "j / zh",
+    "a": [
+     "见 jiàn",
+     "叫 jiào",
+     "家 jiā",
+     "几 jǐ",
+     "今 jīn",
+     "九 jiǔ",
+     "京 jīng",
+     "姐 jiě",
+     "觉 jiào",
+     "机 jī"
+    ],
+    "b": [
+     "中 zhōng",
+     "这 zhè",
+     "桌 zhuō",
+     "住 zhù",
+     "钟 zhōng"
+    ]
+   },
+   {
+    "pair": "q / ch",
+    "a": [
+     "起 qǐ",
+     "气 qì",
+     "七 qī",
+     "请 qǐng",
+     "期 qī",
+     "去 qù",
+     "钱 qián",
+     "前 qián"
+    ],
+    "b": [
+     "吃 chī",
+     "茶 chá",
+     "车 chē",
+     "出 chū"
+    ]
+   },
+   {
+    "pair": "x / sh",
+    "a": [
+     "系 xì",
+     "谢 xiè",
+     "学 xué",
+     "写 xiě",
+     "星 xīng",
+     "校 xiào",
+     "想 xiǎng",
+     "下 xià",
+     "小 xiǎo",
+     "现 xiàn",
+     "些 xiē",
+     "习 xí",
+     "喜 xǐ",
+     "西 xī",
+     "先 xiān",
+     "兴 xìng"
+    ],
+    "b": [
+     "什 shén",
+     "是 shì",
+     "师 shī",
+     "生 shēng",
+     "谁 shéi",
+     "十 shí",
+     "说 shuō",
+     "书 shū",
+     "商 shāng",
+     "少 shǎo",
+     "上 shàng",
+     "时 shí",
+     "身 shēn",
+     "水 shuǐ",
+     "睡 shuì",
+     "视 shì",
+     "识 shí"
+    ]
+   },
+   {
+    "pair": "b / p",
+    "a": [
+     "不 bù",
+     "八 bā",
+     "杯 bēi",
+     "爸 bà",
+     "本 běn",
+     "北 běi",
+     "吧 ba"
+    ],
+    "b": [
+     "朋 péng",
+     "苹 píng",
+     "漂 piào"
+    ]
+   },
+   {
+    "pair": "d / t",
+    "a": [
+     "对 duì",
+     "的 de",
+     "多 duō",
+     "大 dà",
+     "读 dú",
+     "店 diàn",
+     "电 diàn",
+     "点 diǎn",
+     "打 dǎ",
+     "东 dōng",
+     "都 dōu"
+    ],
+    "b": [
+     "她 tā",
+     "他 tā",
+     "同 tóng",
+     "天 tiān",
+     "太 tài",
+     "体 tǐ",
+     "听 tīng"
+    ]
+   },
+   {
+    "pair": "g / k",
+    "a": [
+     "关 guān",
+     "国 guó",
+     "个 gè",
+     "狗 gǒu",
+     "工 gōng",
+     "果 guǒ",
+     "给 gěi",
+     "高 gāo"
+    ],
+    "b": [
+     "客 kè",
+     "口 kǒu",
+     "看 kàn",
+     "块 kuài",
+     "开 kāi"
+    ]
+   },
+   {
+    "pair": "n / l",
+    "a": [
+     "你 nǐ",
+     "您 nín",
+     "哪 nǎ",
+     "呢 ne",
+     "女 nǚ",
+     "年 nián",
+     "那 nà",
+     "脑 nǎo",
+     "能 néng"
+    ],
+    "b": [
+     "老 lǎo",
+     "了 le",
+     "六 liù",
+     "里 lǐ",
+     "冷 lěng",
+     "来 lái",
+     "亮 liàng"
+    ]
+   },
+   {
+    "pair": "r / l",
+    "a": [
+     "人 rén",
+     "热 rè",
+     "认 rèn"
+    ],
+    "b": [
+     "老 lǎo",
+     "了 le",
+     "六 liù",
+     "里 lǐ",
+     "冷 lěng",
+     "来 lái",
+     "亮 liàng"
+    ]
+   },
+   {
+    "pair": "h / f",
+    "a": [
+     "好 hǎo",
+     "汉 hàn",
+     "会 huì",
+     "很 hěn",
+     "号 hào",
+     "喝 hē",
+     "和 hé",
+     "后 hòu",
+     "候 hòu",
+     "回 huí",
+     "欢 huān",
+     "话 huà"
+    ],
+    "b": [
+     "饭 fàn",
+     "分 fēn",
+     "服 fú",
+     "飞 fēi"
+    ]
+   }
+  ]
+ }
+}

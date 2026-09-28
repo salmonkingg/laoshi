@@ -1,0 +1,75 @@
+{
+  "about": "Hand-written reading questions. Each one needs: id, lesson, shape ('choice' or 'order'). A choice question has instruction, optional passage / sentence / text, options (list) and answer (the position of the right option, counting from 0), plus explain {hanzi, pinyin, english} shown after answering. Set hanziOptions to true when the options are Chinese. These were written by Claude from HSK 1 words; they are not copied from the exercise book.",
+  "questions": [
+    {
+      "id": "r001", "lesson": 3, "shape": "choice",
+      "instruction": "Read, then answer",
+      "passage": "我叫王方，我是中国人。我是老师。",
+      "text": "What does 王方 do?",
+      "options": ["She is a teacher.", "She is a student.", "She is a doctor.", "She is a waiter."],
+      "answer": 0,
+      "explain": { "hanzi": "我是老师。", "pinyin": "Wǒ shì lǎoshī.", "english": "I am a teacher." }
+    },
+    {
+      "id": "r002", "lesson": 5, "shape": "choice",
+      "instruction": "Read, then answer",
+      "passage": "我家有四口人：爸爸、妈妈、我和我女儿。我女儿今年六岁了。",
+      "text": "How old is the daughter?",
+      "options": ["4", "6", "10", "16"],
+      "answer": 1,
+      "explain": { "hanzi": "我女儿今年六岁了。", "pinyin": "Wǒ nǚ'ér jīnnián liù suì le.", "english": "My daughter is six this year." }
+    },
+    {
+      "id": "r003", "lesson": 7, "shape": "choice",
+      "instruction": "Choose the best answer to the question",
+      "sentence": "今天几号？",
+      "hanziOptions": false,
+      "options": ["今天九月一号。", "我今天去学校。", "今天很热。", "我今年二十岁。"],
+      "answer": 0,
+      "explain": { "hanzi": "今天九月一号。", "pinyin": "Jīntiān jiǔ yuè yī hào.", "english": "Today is the 1st of September." }
+    },
+    {
+      "id": "r004", "lesson": 8, "shape": "choice",
+      "instruction": "Read, then answer",
+      "passage": "我想喝茶。这个杯子多少钱？二十八块。",
+      "text": "What does the speaker want to do?",
+      "options": ["Drink tea", "Eat rice", "Buy apples", "Read a book"],
+      "answer": 0,
+      "explain": { "hanzi": "我想喝茶。", "pinyin": "Wǒ xiǎng hē chá.", "english": "I'd like to drink tea." }
+    },
+    {
+      "id": "r005", "lesson": 10, "shape": "choice",
+      "instruction": "Choose the best answer to the question",
+      "sentence": "你的杯子在哪儿？",
+      "options": ["在桌子上。", "是我的。", "很漂亮。", "不客气。"],
+      "answer": 0,
+      "explain": { "hanzi": "在桌子上。", "pinyin": "Zài zhuōzi shang.", "english": "On the table." }
+    },
+    {
+      "id": "r006", "lesson": 11, "shape": "choice",
+      "instruction": "Read, then answer",
+      "passage": "现在是上午十点。我们下午三点去看电影。",
+      "text": "When will they watch the film?",
+      "options": ["10 in the morning", "3 in the afternoon", "Now", "Tomorrow"],
+      "answer": 1,
+      "explain": { "hanzi": "我们下午三点去看电影。", "pinyin": "Wǒmen xiàwǔ sān diǎn qù kàn diànyǐng.", "english": "We're going to see a film at three in the afternoon." }
+    },
+    {
+      "id": "r007", "lesson": 12, "shape": "choice",
+      "instruction": "Read, then answer",
+      "passage": "昨天北京的天气怎么样？昨天下雨了，很冷。",
+      "text": "What was the weather like in Beijing yesterday?",
+      "options": ["Hot and sunny", "Rainy and cold", "Rainy and hot", "Cold, no rain"],
+      "answer": 1,
+      "explain": { "hanzi": "昨天下雨了，很冷。", "pinyin": "Zuótiān xià yǔ le, hěn lěng.", "english": "It rained yesterday and it was cold." }
+    },
+    {
+      "id": "r008", "lesson": 14, "shape": "order",
+      "instruction": "Put the words in order",
+      "text": "I bought some fruit yesterday.",
+      "pieces": ["我", "昨天", "买了", "一点儿", "水果"],
+      "ending": "。",
+      "explain": { "hanzi": "我昨天买了一点儿水果。", "pinyin": "Wǒ zuótiān mǎi le yìdiǎnr shuǐguǒ.", "english": "I bought some fruit yesterday." }
+    }
+  ]
+}

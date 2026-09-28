@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Laoshi</title>
+<meta name="description" content="A quiet daily practice for HSK 1 reading, pinyin, writing and sentence order.">
+<meta name="apple-mobile-web-app-title" content="Laoshi">
+<meta name="theme-color" content="#2c6b5e">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&family=Noto+Serif+SC:wght@500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar">
+  <p class="brand"><span lang="zh-CN">老师</span><small>LAOSHI</small></p>
+  <nav class="nav" aria-label="Main">
+    <button data-go="home" aria-current="page">Today</button>
+    <button data-go="radicals">Radicals</button>
+    <button data-go="lessons">Lessons</button>
+    <button data-go="settings">Settings</button>
+  </nav>
+</header>
+<main id="main"><p class="quiet">Loading…</p></main>
+<script src="lib/hanzi-writer.min.js"></script>
+<script src="questions.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
