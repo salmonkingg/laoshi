@@ -1,7 +1,7 @@
 // sw.js — lets the installed app open without internet.
 // It keeps a copy of the app's files on the device and uses the copy when offline.
 // Change VERSION whenever the app files change, so devices fetch the new copy.
-const VERSION = 'laoshi-v8';
+const VERSION = 'laoshi-v9';
 const FILES = [
   './', 'index.html', 'style.css', 'questions.js', 'app.js', 'lib/hanzi-writer.min.js',
   'data/hsk1.json', 'data/strokes.json', 'data/extra-questions.json', 'data/radicals.json',

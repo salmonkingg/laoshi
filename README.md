@@ -47,3 +47,11 @@ Radicals tab: radical meanings, radical names (三点水), radical to character,
 ## Try it on a computer
 
 In a terminal, in this folder: `python3 -m http.server 8000`, then open http://localhost:8000 in a browser.
+
+## Lesson 16: review (added 2026-09-29)
+
+Lesson 16 (复习) adds no new words. It holds 48 hand-written questions (ids starting with `v`, lesson 16 in
+`data/extra-questions.json`) that mix words and sentence patterns from all 15 lessons. They join daily practice
+when Settings is on "All 15 lessons and the review". Its test is 30 questions: 10 review questions plus 20 more,
+one of each kind, each from a random lesson. Today offers it once every lesson's test has been taken.
+The review lesson is added by app.js (`REVIEW`), so `data/hsk1.json` is unchanged.

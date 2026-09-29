@@ -7,6 +7,8 @@
 
   const { TYPES, shuffle } = window.HSK;
   const STORE_KEY = 'hsk1-practice-v1';
+  const REVIEW = 16; // the review lesson
+  const lastLesson = REVIEW - 1;
 
   // How many days to wait before showing a card again, by "box".
   // A right answer moves a card up one box; a wrong one moves it down two.
@@ -98,6 +100,10 @@
     data.characters.forEach(c => (charInfo[c.char] = c));
     data.patterns.forEach(p => (patternById[p.id] = p));
     data.extra.forEach(q => (extraById[q.id] = q));
+    // Lesson 16 is a review: no new words, only questions that mix everything from lessons 1 to 15.
+    if (!data.lessons.some(l => l.lesson === REVIEW)) {
+      data.lessons.push({ lesson: REVIEW, title: '复习', title_pinyin: 'Fùxí', title_english: 'Review of lessons 1 to 15', words: [], new_characters: [], patterns: [] });
+    }
     ctx = { data, wordById, charInfo, patternById, extraById, box, settings: state.settings, words: data.words };
 
     allCards = [];
@@ -143,7 +149,7 @@
   function dailySession(tab = 'today') {
     const s = state.settings;
     const size = TABS[tab].size(s);
-    const inRange = l => l <= s.upTo;
+    const inRange = l => l <= s.upTo || (s.upTo >= lastLesson && l === REVIEW);
     setWords(inRange);
     const today = dayNumber();
     const pool = allCards.filter(c => inRange(c.lesson) && typeOn(c.type) && TABS[tab].types(c.type));
@@ -194,6 +200,7 @@
   const TEST_MIX = ['meaning', 'recall', 'pinyin', 'judge', 'wordchar', 'sentence', 'fill', 'order', 'extra', 'write'];
 
   function lessonTest(lesson) {
+    if (lesson === REVIEW) return reviewTest();
     setWords(l => l <= Math.max(lesson, 2));
     const pool = allCards.filter(c => c.lesson === lesson && typeOn(c.type));
     const picked = [];
@@ -210,11 +217,32 @@
     return spread(shuffle(picked));
   }
 
+  // The big review test: 30 questions. 10 of the mixed review questions, then 20 more,
+  // one of each kind in turn, each from a different lesson picked at random.
+  const REVIEW_TEST_SIZE = 30;
+  function reviewTest() {
+    setWords(() => true);
+    const ok = c => typeOn(c.type) && TYPES[c.type].tab !== 'retired' && TYPES[c.type].tab !== 'radicals';
+    const mixed = shuffle(allCards.filter(c => c.lesson === REVIEW && ok(c))).slice(0, 10);
+    const picked = [...mixed];
+    const kinds = TEST_MIX.filter(t => t !== 'extra');
+    let lessons = [];
+    for (let i = 0; picked.length < REVIEW_TEST_SIZE && i < 200; i++) {
+      if (!lessons.length) lessons = shuffle(data.lessons.map(l => l.lesson).filter(l => l !== REVIEW));
+      const lesson = lessons.pop();
+      const type = kinds[i % kinds.length];
+      const options = allCards.filter(c => c.lesson === lesson && c.type === type && ok(c) && !picked.includes(c) && !picked.some(p => p.ref === c.ref));
+      if (options.length) picked.push(options[Math.floor(Math.random() * options.length)]);
+    }
+    return spread(shuffle(picked));
+  }
+  function testSize(lesson) { return lesson === REVIEW ? REVIEW_TEST_SIZE : TEST_SIZE; }
+
   // The first lesson (up to the one chosen in Settings) whose words have all been met
   // in daily practice but whose test has not been taken yet.
   function testReady() {
     for (const l of data.lessons) {
-      if (l.lesson > state.settings.upTo) break;
+      if (l.lesson > state.settings.upTo && !(l.lesson === REVIEW && state.settings.upTo >= lastLesson)) break;
       if (state.tests[l.lesson]) continue;
       if (l.words.every(id => seen('meaning:' + id))) return l.lesson;
       return null;
@@ -223,7 +251,7 @@
   }
 
   function startTest(lesson, back) {
-    runSession(lessonTest(lesson), 'Lesson ' + lesson + ' test', 'days', back, { test: lesson });
+    runSession(lessonTest(lesson), lesson === REVIEW ? 'Review test' : 'Lesson ' + lesson + ' test', 'days', back, { test: lesson });
   }
 
   // Avoid the same word twice in a row.
@@ -285,8 +313,10 @@
         el('div', { class: 'actions' },
           el('button', { class: 'primary', id: 'start', onclick: () => runSession(dailySession('today'), 'Today') }, done ? 'Practise a little more' : 'Start today’s practice')),
         ready ? el('div', { class: 'test-ready' },
-          el('p', {}, `You have met every word in lesson ${ready}. When you like, there is a short test for it: ${TEST_SIZE} questions.`),
-          el('button', { id: 'start-test', onclick: () => startTest(ready, homeScreen) }, `Take the lesson ${ready} test`)) : null,
+          el('p', {}, ready === REVIEW
+            ? `You have taken every lesson's test. When you like, there is a bigger review test on everything: ${REVIEW_TEST_SIZE} questions.`
+            : `You have met every word in lesson ${ready}. When you like, there is a short test for it: ${TEST_SIZE} questions.`),
+          el('button', { id: 'start-test', onclick: () => startTest(ready, homeScreen) }, ready === REVIEW ? 'Take the review test' : `Take the lesson ${ready} test`)) : null,
         el('dl', { class: 'facts' },
           el('div', {}, el('dt', {}, 'Words you know well'), el('dd', {}, `${knownWords()} of ${data.words.length}`)),
           el('div', {}, el('dt', {}, 'Characters written'), el('dd', {}, `${data.characters.filter(c => seen('write:' + c.char)).length} of ${data.characters.length}`)),
@@ -539,17 +569,18 @@
           el('span', { class: 'meter', title: `${strong} of ${cards.length} known well` }, el('span', { style: `width:${cards.length ? (strong / cards.length) * 100 : 0}%` })),
           test ? el('span', { class: 'tscore', title: 'Best test score' }, `${test.best}/${test.of}`) : null),
         el('div', { class: 'lesson-body' },
-          el('table', { class: 'words' }, el('tbody', {}, words.map(w =>
-            el('tr', {}, el('td', { class: 'zh', lang: 'zh-CN' }, w.hanzi), el('td', { class: 'py' }, w.pinyin), el('td', {}, window.HSK.shortMeaning(w.meaning)))))),
+          l.lesson === REVIEW ? el('p', { class: 'quiet' }, 'No new words here. These questions mix words and sentence patterns from all 15 lessons: longer passages to read, replies, 对 / 错, gaps and word order. They join your daily practice once Settings is on all 15 lessons. The review test is 30 questions from everything in the app.') : null,
+          words.length ? el('table', { class: 'words' }, el('tbody', {}, words.map(w =>
+            el('tr', {}, el('td', { class: 'zh', lang: 'zh-CN' }, w.hanzi), el('td', { class: 'py' }, w.pinyin), el('td', {}, window.HSK.shortMeaning(w.meaning)))))) : null,
           pats.map(p => el('div', { class: 'pattern' },
             el('p', { class: 'pname' }, p.name, el('span', { class: 'structure' }, p.structure)),
             el('p', { class: 'quiet' }, p.explanation))),
           el('div', { class: 'row' },
             el('button', { onclick: () => runSession(lessonSession(l.lesson), 'Lesson ' + l.lesson, 'days', lessonsScreen) }, 'Practise this lesson'),
-            el('button', { onclick: () => startTest(l.lesson, lessonsScreen) }, 'Take the lesson test')),
+            el('button', { onclick: () => startTest(l.lesson, lessonsScreen) }, l.lesson === REVIEW ? 'Take the review test' : 'Take the lesson test')),
           el('p', { class: 'quiet' }, test
             ? `Last test: ${test.last} of ${test.of}. Best: ${test.best} of ${test.of}.`
-            : `The test is ${TEST_SIZE} questions of different kinds from this lesson, each asked once.`)));
+            : `The test is ${testSize(l.lesson)} questions of different kinds${l.lesson === REVIEW ? ' from every lesson' : ' from this lesson'}, each asked once.`)));
       list.append(el('li', {}, details));
     }
     show(el('section', { class: 'panel' }, el('h2', {}, 'Lessons'),
@@ -668,7 +699,7 @@
 
     show(el('section', { class: 'panel settings' },
       el('h2', {}, 'Settings'),
-      field('Practise lessons', select('upto', s.upTo, data.lessons.map(l => [l.lesson, l.lesson === 1 ? 'Lesson 1 only' : `Lessons 1 to ${l.lesson}`]), v => (s.upTo = +v))),
+      field('Practise lessons', select('upto', s.upTo, data.lessons.filter(l => l.lesson !== REVIEW).map(l => [l.lesson, l.lesson === 1 ? 'Lesson 1 only' : l.lesson === lastLesson ? 'All 15 lessons and the review' : `Lessons 1 to ${l.lesson}`]), v => (s.upTo = +v))),
       field('Questions per day', select('size', s.size, [[10, '10'], [15, '15'], [20, '20'], [30, '30']], v => (s.size = +v))),
       field('Radical questions per day', select('radicalsize', s.radicalSize, [[5, '5'], [10, '10'], [15, '15'], [20, '20']], v => (s.radicalSize = +v))),
       field('New cards per day', select('newper', s.newPerDay, [[2, '2'], [4, '4'], [8, '8'], [12, '12'], [20, '20']], v => (s.newPerDay = +v)), 'Cards you have not seen before, for each tab. Everything else comes back when it is due.'),

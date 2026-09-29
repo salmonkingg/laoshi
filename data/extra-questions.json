@@ -1657,6 +1657,969 @@
     "pinyin": "Wǒ shì zuò fēijī lái de.",
     "english": "I came by plane."
    }
+  },
+  {
+   "id": "vm01",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "我叫李月，是美国人。我在北京的一个大学学习汉语，我的汉语老师是中国人。我喜欢写汉字，不喜欢说汉语。",
+   "text": "What does 李月 like doing?",
+   "options": [
+    "Writing Chinese characters",
+    "Speaking Chinese",
+    "Cooking Chinese food",
+    "Watching Chinese films"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我喜欢写汉字。",
+    "pinyin": "Wǒ xǐhuan xiě Hànzì.",
+    "english": "I like writing Chinese characters."
+   }
+  },
+  {
+   "id": "vm02",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "今天是星期六，天气很好。上午我和朋友去商店买了一些水果，下午我们在家看电视。",
+   "text": "What did they do in the afternoon?",
+   "options": [
+    "Watched TV at home",
+    "Bought fruit",
+    "Went to school",
+    "Saw a film"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "下午我们在家看电视。",
+    "pinyin": "Xiàwǔ wǒmen zài jiā kàn diànshì.",
+    "english": "In the afternoon we watched TV at home."
+   }
+  },
+  {
+   "id": "vm03",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "王先生是医生，在医院工作。他家有四口人，他有一个女儿和一个儿子。他女儿今年七岁。",
+   "text": "How many children does Mr Wang have?",
+   "options": [
+    "Two",
+    "One",
+    "Three",
+    "Four"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "他有一个女儿和一个儿子。",
+    "pinyin": "Tā yǒu yí ge nǚ'ér hé yí ge érzi.",
+    "english": "He has a daughter and a son."
+   }
+  },
+  {
+   "id": "vm04",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "我是昨天坐飞机来北京的。北京太冷了，明天会下雨。",
+   "text": "How did the speaker come to Beijing?",
+   "options": [
+    "By plane",
+    "By taxi",
+    "By car",
+    "We are not told"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我是昨天坐飞机来北京的。",
+    "pinyin": "Wǒ shì zuótiān zuò fēijī lái Běijīng de.",
+    "english": "I came to Beijing by plane yesterday."
+   }
+  },
+  {
+   "id": "vm05",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "喂，王方，你在哪儿呢？——我在饭店吃饭呢。你想来吗？——好，我坐出租车去。",
+   "text": "Where is 王方?",
+   "options": [
+    "At a restaurant",
+    "At home",
+    "At the hospital",
+    "In a taxi"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我在饭店吃饭呢。",
+    "pinyin": "Wǒ zài fàndiàn chī fàn ne.",
+    "english": "I'm eating at a restaurant."
+   }
+  },
+  {
+   "id": "vm06",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "这是我的桌子。桌子上有一个电脑、一本书和一个杯子，杯子里有茶。",
+   "text": "What is in the cup?",
+   "options": [
+    "Tea",
+    "Water",
+    "Nothing",
+    "Fruit"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "杯子里有茶。",
+    "pinyin": "Bēizi li yǒu chá.",
+    "english": "There is tea in the cup."
+   }
+  },
+  {
+   "id": "vm07",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "我女儿喜欢狗，我儿子喜欢猫。我们家没有狗，也没有猫。",
+   "text": "Which animal does the family have?",
+   "options": [
+    "Neither",
+    "A dog",
+    "A cat",
+    "Both"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我们家没有狗，也没有猫。",
+    "pinyin": "Wǒmen jiā méiyǒu gǒu, yě méiyǒu māo.",
+    "english": "We have no dog, and no cat either."
+   }
+  },
+  {
+   "id": "vm08",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "现在是下午四点。我五点回家，六点吃饭，吃饭后我看电视，十一点睡觉。",
+   "text": "What time does the speaker go home?",
+   "options": [
+    "Five o'clock",
+    "Four o'clock",
+    "Six o'clock",
+    "Eleven o'clock"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我五点回家。",
+    "pinyin": "Wǒ wǔ diǎn huí jiā.",
+    "english": "I go home at five."
+   }
+  },
+  {
+   "id": "vm09",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "我爸爸会说汉语，也会写汉字。我妈妈会说汉语，不会写汉字。",
+   "text": "Who can write Chinese characters?",
+   "options": [
+    "Dad",
+    "Mum",
+    "Both",
+    "Neither"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我爸爸会说汉语，也会写汉字。",
+    "pinyin": "Wǒ bàba huì shuō Hànyǔ, yě huì xiě Hànzì.",
+    "english": "My dad can speak Chinese and can write characters too."
+   }
+  },
+  {
+   "id": "vm10",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "这些苹果多少钱？——三块一个。——我买四个。",
+   "text": "How much will the apples cost altogether?",
+   "options": [
+    "12 yuan",
+    "3 yuan",
+    "4 yuan",
+    "7 yuan"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "三块一个。我买四个。",
+    "pinyin": "Sān kuài yí ge. Wǒ mǎi sì ge.",
+    "english": "Three yuan each. Four of them is 12 yuan."
+   }
+  },
+  {
+   "id": "vm11",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "我和同学们都喜欢吃中国菜。明天中午我们一起去学校前面的饭店吃饭。",
+   "text": "Where will they eat tomorrow?",
+   "options": [
+    "At the restaurant in front of the school",
+    "At school",
+    "At home",
+    "At the restaurant behind the school"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "学校前面的饭店",
+    "pinyin": "xuéxiào qiánmiàn de fàndiàn",
+    "english": "the restaurant in front of the school"
+   }
+  },
+  {
+   "id": "vm12",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "昨天我去商店买衣服了。我看见一些很漂亮的衣服，都太大了，我没买。",
+   "text": "Why didn't the speaker buy the clothes?",
+   "options": [
+    "They were all too big",
+    "They were not pretty",
+    "The shop was closed",
+    "It was raining"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "都太大了，我没买。",
+    "pinyin": "Dōu tài dà le, wǒ méi mǎi.",
+    "english": "They were all too big, so I didn't buy any."
+   }
+  },
+  {
+   "id": "vj01",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "我叫王方，今年二十岁，是大学的学生。我住在学校里。",
+   "sentence": "★ 王方是老师。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 1,
+   "explain": {
+    "hanzi": "我是大学的学生。",
+    "pinyin": "Wǒ shì dàxué de xuésheng.",
+    "english": "I'm a university student."
+   }
+  },
+  {
+   "id": "vj02",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "明天是九月十号，星期三。我想和朋友去看电影。",
+   "sentence": "★ 今天星期二。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 0,
+   "explain": {
+    "hanzi": "明天星期三。",
+    "pinyin": "Míngtiān xīngqīsān.",
+    "english": "Tomorrow is Wednesday, so today is Tuesday."
+   }
+  },
+  {
+   "id": "vj03",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "李月会做中国菜，她做的米饭很好吃。我不会做菜。",
+   "sentence": "★ 我会做中国菜。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 1,
+   "explain": {
+    "hanzi": "我不会做菜。",
+    "pinyin": "Wǒ bú huì zuò cài.",
+    "english": "I can't cook."
+   }
+  },
+  {
+   "id": "vj04",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "我的猫在椅子上睡觉呢，我的狗在桌子下面。",
+   "sentence": "★ 猫在睡觉。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 0,
+   "explain": {
+    "hanzi": "我的猫在椅子上睡觉呢。",
+    "pinyin": "Wǒ de māo zài yǐzi shang shuìjiào ne.",
+    "english": "My cat is asleep on the chair."
+   }
+  },
+  {
+   "id": "vj05",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "我是坐出租车来的，我朋友是开车来的。",
+   "sentence": "★ 我和朋友都是坐飞机来的。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 1,
+   "explain": {
+    "hanzi": "我是坐出租车来的。",
+    "pinyin": "Wǒ shì zuò chūzūchē lái de.",
+    "english": "I came by taxi (and my friend drove)."
+   }
+  },
+  {
+   "id": "vj06",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "今天下雨了，很冷。我们没去商店，在家看书。",
+   "sentence": "★ 他们今天去商店了。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 1,
+   "explain": {
+    "hanzi": "我们没去商店。",
+    "pinyin": "Wǒmen méi qù shāngdiàn.",
+    "english": "We didn't go to the shop."
+   }
+  },
+  {
+   "id": "vj07",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "我爸爸在医院工作，他是医生。我妈妈是汉语老师。",
+   "sentence": "★ 妈妈是医生。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 1,
+   "explain": {
+    "hanzi": "我妈妈是汉语老师。",
+    "pinyin": "Wǒ māma shì Hànyǔ lǎoshī.",
+    "english": "My mum is a Chinese teacher."
+   }
+  },
+  {
+   "id": "vj08",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "现在十二点十分，我们一点吃饭。",
+   "sentence": "★ 他们现在吃饭。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 1,
+   "explain": {
+    "hanzi": "我们一点吃饭。",
+    "pinyin": "Wǒmen yī diǎn chī fàn.",
+    "english": "We eat at one o'clock, not now."
+   }
+  },
+  {
+   "id": "vj09",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "我女儿很爱看书，她有很多书，都是汉语书。",
+   "sentence": "★ 她的书都是汉语书。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 0,
+   "explain": {
+    "hanzi": "都是汉语书。",
+    "pinyin": "Dōu shì Hànyǔ shū.",
+    "english": "They are all Chinese books."
+   }
+  },
+  {
+   "id": "vj10",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "我认识王先生，他是我爸爸的朋友。",
+   "sentence": "★ 王先生是我爸爸。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 1,
+   "explain": {
+    "hanzi": "他是我爸爸的朋友。",
+    "pinyin": "Tā shì wǒ bàba de péngyou.",
+    "english": "He is my dad's friend."
+   }
+  },
+  {
+   "id": "vb01",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "你是什么时候来中国的？",
+   "zhOptions": true,
+   "options": [
+    "我是去年来的。",
+    "我是坐飞机来的。",
+    "我在中国工作。",
+    "我很喜欢中国。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我是去年来的。",
+    "pinyin": "Wǒ shì qùnián lái de.",
+    "english": "I came last year. (什么时候 asks when)"
+   }
+  },
+  {
+   "id": "vb02",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "你想喝什么？",
+   "zhOptions": true,
+   "options": [
+    "我想喝茶，谢谢。",
+    "我想买衣服。",
+    "我不会做菜。",
+    "我喜欢看书。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我想喝茶，谢谢。",
+    "pinyin": "Wǒ xiǎng hē chá, xièxie.",
+    "english": "I'd like tea, thanks."
+   }
+  },
+  {
+   "id": "vb03",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "你儿子在做什么呢？",
+   "zhOptions": true,
+   "options": [
+    "他在睡觉呢。",
+    "他今年八岁。",
+    "他叫王方。",
+    "他很喜欢。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "他在睡觉呢。",
+    "pinyin": "Tā zài shuìjiào ne.",
+    "english": "He's sleeping."
+   }
+  },
+  {
+   "id": "vb04",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "明天我们一起去看电影，好吗？",
+   "zhOptions": true,
+   "options": [
+    "好啊，几点去？",
+    "我是坐车来的。",
+    "不客气。",
+    "我在看书。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "好啊，几点去？",
+    "pinyin": "Hǎo a, jǐ diǎn qù?",
+    "english": "Sure, what time shall we go?"
+   }
+  },
+  {
+   "id": "vb05",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "你认识那个人吗？",
+   "zhOptions": true,
+   "options": [
+    "认识，她是我同学。",
+    "那个人在医院。",
+    "我不喜欢。",
+    "不客气。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "认识，她是我同学。",
+    "pinyin": "Rènshi, tā shì wǒ tóngxué.",
+    "english": "Yes, she's my classmate."
+   }
+  },
+  {
+   "id": "vb06",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "你什么时候去北京？",
+   "zhOptions": true,
+   "options": [
+    "下个月。",
+    "坐飞机去。",
+    "我在北京。",
+    "北京很大。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "下个月。",
+    "pinyin": "Xià ge yuè.",
+    "english": "Next month."
+   }
+  },
+  {
+   "id": "vb07",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "你怎么去学校？",
+   "zhOptions": true,
+   "options": [
+    "我坐出租车去。",
+    "我八点去。",
+    "学校很大。",
+    "我在学校。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我坐出租车去。",
+    "pinyin": "Wǒ zuò chūzūchē qù.",
+    "english": "I go by taxi. (怎么 asks how)"
+   }
+  },
+  {
+   "id": "vb08",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "这些杯子是谁的？",
+   "zhOptions": true,
+   "options": [
+    "是我妈妈的。",
+    "在桌子上。",
+    "二十块。",
+    "很漂亮。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "是我妈妈的。",
+    "pinyin": "Shì wǒ māma de.",
+    "english": "They're my mum's."
+   }
+  },
+  {
+   "id": "vb09",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "喂，请问王老师在吗？",
+   "zhOptions": true,
+   "options": [
+    "她不在，你下午打电话吧。",
+    "我是学生。",
+    "她很高兴。",
+    "对，我在学习。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "她不在，你下午打电话吧。",
+    "pinyin": "Tā bú zài, nǐ xiàwǔ dǎ diànhuà ba.",
+    "english": "She's not in. Call in the afternoon."
+   }
+  },
+  {
+   "id": "vb10",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "你会写这个字吗？",
+   "zhOptions": true,
+   "options": [
+    "会，我会写。",
+    "我会说汉语。",
+    "这是汉字。",
+    "我在看书。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "会，我会写。",
+    "pinyin": "Huì, wǒ huì xiě.",
+    "english": "Yes, I can write it."
+   }
+  },
+  {
+   "id": "vg01",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Choose the word for the gap",
+   "sentence": "我＿＿北京的大学学习汉语。",
+   "text": "I study Chinese at a university in Beijing.",
+   "hanziOptions": true,
+   "options": [
+    "在",
+    "是",
+    "有",
+    "和"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我在北京的大学学习汉语。",
+    "pinyin": "Wǒ zài Běijīng de dàxué xuéxí Hànyǔ.",
+    "english": "I study Chinese at a university in Beijing."
+   }
+  },
+  {
+   "id": "vg02",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Choose the word for the gap",
+   "sentence": "你是＿＿来的？——我是坐飞机来的。",
+   "text": "How did you come? I came by plane.",
+   "hanziOptions": true,
+   "options": [
+    "怎么",
+    "什么",
+    "谁",
+    "几"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "你是怎么来的？",
+    "pinyin": "Nǐ shì zěnme lái de?",
+    "english": "How did you come?"
+   }
+  },
+  {
+   "id": "vg03",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Choose the word for the gap",
+   "sentence": "我昨天买＿＿三本书。",
+   "text": "I bought three books yesterday.",
+   "hanziOptions": true,
+   "options": [
+    "了",
+    "的",
+    "呢",
+    "吗"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我昨天买了三本书。",
+    "pinyin": "Wǒ zuótiān mǎi le sān běn shū.",
+    "english": "I bought three books yesterday."
+   }
+  },
+  {
+   "id": "vg04",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Choose the word for the gap",
+   "sentence": "这个杯子＿＿钱？",
+   "text": "How much is this cup?",
+   "hanziOptions": true,
+   "options": [
+    "多少",
+    "几",
+    "什么",
+    "怎么"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "这个杯子多少钱？",
+    "pinyin": "Zhège bēizi duōshao qián?",
+    "english": "How much is this cup?"
+   }
+  },
+  {
+   "id": "vg05",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Choose the word for the gap",
+   "sentence": "明天天气＿＿？",
+   "text": "What will the weather be like tomorrow?",
+   "hanziOptions": true,
+   "options": [
+    "怎么样",
+    "什么",
+    "多少",
+    "哪儿"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "明天天气怎么样？",
+    "pinyin": "Míngtiān tiānqì zěnmeyàng?",
+    "english": "What will the weather be like tomorrow?"
+   }
+  },
+  {
+   "id": "vg06",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Choose the word for the gap",
+   "sentence": "你看＿＿我的猫了吗？",
+   "text": "Have you seen my cat?",
+   "hanziOptions": true,
+   "options": [
+    "见",
+    "看",
+    "有",
+    "在"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "你看见我的猫了吗？",
+    "pinyin": "Nǐ kànjiàn wǒ de māo le ma?",
+    "english": "Have you seen my cat?"
+   }
+  },
+  {
+   "id": "vg07",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Choose the word for the gap",
+   "sentence": "我不＿＿开车。",
+   "text": "I can't drive.",
+   "hanziOptions": true,
+   "options": [
+    "会",
+    "是",
+    "有",
+    "在"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我不会开车。",
+    "pinyin": "Wǒ bú huì kāi chē.",
+    "english": "I can't drive."
+   }
+  },
+  {
+   "id": "vg08",
+   "lesson": 16,
+   "shape": "choice",
+   "instruction": "Choose the word for the gap",
+   "sentence": "我们一起去吃饭＿＿！",
+   "text": "Let's go and eat together!",
+   "hanziOptions": true,
+   "options": [
+    "吧",
+    "吗",
+    "呢",
+    "的"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我们一起去吃饭吧！",
+    "pinyin": "Wǒmen yìqǐ qù chī fàn ba!",
+    "english": "Let's go and eat together!"
+   }
+  },
+  {
+   "id": "vo01",
+   "lesson": 16,
+   "shape": "order",
+   "instruction": "Put the words in order",
+   "text": "They came by taxi.",
+   "pieces": [
+    "他们",
+    "是",
+    "坐",
+    "出租车",
+    "来",
+    "的"
+   ],
+   "ending": "。",
+   "explain": {
+    "hanzi": "他们是坐出租车来的。",
+    "pinyin": "Tāmen shì zuò chūzūchē lái de.",
+    "english": "They came by taxi."
+   }
+  },
+  {
+   "id": "vo02",
+   "lesson": 16,
+   "shape": "order",
+   "instruction": "Put the words in order",
+   "text": "My daughter is watching TV.",
+   "pieces": [
+    "我",
+    "女儿",
+    "在",
+    "看",
+    "电视",
+    "呢"
+   ],
+   "ending": "。",
+   "explain": {
+    "hanzi": "我女儿在看电视呢。",
+    "pinyin": "Wǒ nǚ'ér zài kàn diànshì ne.",
+    "english": "My daughter is watching TV."
+   }
+  },
+  {
+   "id": "vo03",
+   "lesson": 16,
+   "shape": "order",
+   "instruction": "Put the words in order",
+   "text": "My computer is on the table.",
+   "pieces": [
+    "我的",
+    "电脑",
+    "在",
+    "桌子",
+    "上"
+   ],
+   "ending": "。",
+   "explain": {
+    "hanzi": "我的电脑在桌子上。",
+    "pinyin": "Wǒ de diànnǎo zài zhuōzi shang.",
+    "english": "My computer is on the table."
+   }
+  },
+  {
+   "id": "vo04",
+   "lesson": 16,
+   "shape": "order",
+   "instruction": "Put the words in order",
+   "text": "Can you phone me?",
+   "pieces": [
+    "你",
+    "能",
+    "给",
+    "我",
+    "打电话",
+    "吗"
+   ],
+   "ending": "？",
+   "explain": {
+    "hanzi": "你能给我打电话吗？",
+    "pinyin": "Nǐ néng gěi wǒ dǎ diànhuà ma?",
+    "english": "Can you phone me?"
+   }
+  },
+  {
+   "id": "vo05",
+   "lesson": 16,
+   "shape": "order",
+   "instruction": "Put the words in order",
+   "text": "I want to go to the shop to buy some fruit.",
+   "pieces": [
+    "我",
+    "想",
+    "去",
+    "商店",
+    "买",
+    "一些",
+    "水果"
+   ],
+   "ending": "。",
+   "explain": {
+    "hanzi": "我想去商店买一些水果。",
+    "pinyin": "Wǒ xiǎng qù shāngdiàn mǎi yìxiē shuǐguǒ.",
+    "english": "I want to go to the shop to buy some fruit."
+   }
+  },
+  {
+   "id": "vo06",
+   "lesson": 16,
+   "shape": "order",
+   "instruction": "Put the words in order",
+   "text": "How do you read this character?",
+   "pieces": [
+    "这个",
+    "字",
+    "怎么",
+    "读"
+   ],
+   "ending": "？",
+   "explain": {
+    "hanzi": "这个字怎么读？",
+    "pinyin": "Zhège zì zěnme dú?",
+    "english": "How do you read this character?"
+   }
+  },
+  {
+   "id": "vo07",
+   "lesson": 16,
+   "shape": "order",
+   "instruction": "Put the words in order",
+   "text": "He can speak a little Chinese.",
+   "pieces": [
+    "他",
+    "会",
+    "说",
+    "一点儿",
+    "汉语"
+   ],
+   "ending": "。",
+   "explain": {
+    "hanzi": "他会说一点儿汉语。",
+    "pinyin": "Tā huì shuō yìdiǎnr Hànyǔ.",
+    "english": "He can speak a little Chinese."
+   }
+  },
+  {
+   "id": "vo08",
+   "lesson": 16,
+   "shape": "order",
+   "instruction": "Put the words in order",
+   "text": "We are all her students.",
+   "pieces": [
+    "我们",
+    "都",
+    "是",
+    "她",
+    "的",
+    "学生"
+   ],
+   "ending": "。",
+   "explain": {
+    "hanzi": "我们都是她的学生。",
+    "pinyin": "Wǒmen dōu shì tā de xuésheng.",
+    "english": "We are all her students."
+   }
   }
  ]
 }
