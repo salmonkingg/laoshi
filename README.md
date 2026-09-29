@@ -1,9 +1,7 @@
-# Laoshi (老师)
+# Laoshi (老师): the HSK 1 practice app
 
-A quiet daily HSK 1 practice: reading, pinyin, handwriting, sentence order and radicals.
-
-Open it at https://salmonkingg.github.io/laoshi/
-
+A quiet daily practice for HSK 1 reading, pinyin, handwriting and sentence order.
+Built 2026-09-28. Preview link: https://claude.ai/artifact/JWr6j3GkTVjcZ6EsNy5p7Q
 
 ## Files
 
@@ -18,8 +16,9 @@ Open it at https://salmonkingg.github.io/laoshi/
 | `data/extra-questions.json` | Hand-written reading questions. Add more here, no code needed (format at the top of the file). |
 | `lib/hanzi-writer.min.js` | Hanzi Writer 3.7.3 (MIT licence), the handwriting pad. |
 | `manifest.webmanifest`, `sw.js`, `icons/` | What makes it installable and work offline once it has a permanent web address. |
+| `icon-designs/` | The app icon choices (jade 老师, scooter, scooter + 老师, and the older colours). `python3 icon-designs/apply-icon.py <name>` copies one into `icons/`. The scooter figure is drawn by `icon-designs/scooter-source/fig.py`. |
 | `make-preview.py` | Builds the one-page version used for the claude.ai preview link. |
-| `make-offline.py` | Builds `Laoshi.html` (give it an output path), one file with all data inside, for USB sticks and offline use. Re-run after any change. |
+| `make-offline.py` | Builds `../laoshi-usb/Laoshi.html`, one file with all data inside, for USB sticks and offline use. Re-run after any change. |
 
 ## How the daily session works
 
@@ -31,7 +30,17 @@ The Radicals tab works the same way with only radical questions, and keeps its o
 Some cards wait until an easier one has been seen: pinyin and meaning-to-character come after character-to-meaning, and typing comes after pinyin.
 
 Question types now: character to meaning, meaning to character, pinyin and tones, typing pinyin, writing characters,
-sentence order, fill the gap, and hand-written reading questions.
+sentence order, fill the gap, sentence meaning, complete the word (wrong choices share a radical where they can),
+and hand-written reading questions (83, in the exercise book's reading formats: best reply, read and answer,
+对 / 错 true or false, word for the gap, word order; no listening).
+
+## Lesson tests (added 2026-09-29, plan step 3)
+
+Each lesson in the Lessons tab has "Take the lesson test": 10 questions from that lesson, one of each kind
+(including the test-only 对 / 错 word check, type `judge`, marked `tab: 'test'`), each asked once.
+The last and best scores are saved and the best shows beside the lesson. When every word of the next untested lesson
+has been met in daily practice, Today shows one quiet line offering its test. A test updates progress only for cards
+already met in practice, so it never uses up the 2 new cards a day.
 A type marked `tab: 'retired'` in questions.js is not used (the old Pinyin tab's questions).
 Radicals tab: radical meanings, radical names (三点水), radical to character, and which radical a character is listed under. Types marked `tab: 'radicals'`.
 

@@ -1,75 +1,1662 @@
 {
-  "about": "Hand-written reading questions. Each one needs: id, lesson, shape ('choice' or 'order'). A choice question has instruction, optional passage / sentence / text, options (list) and answer (the position of the right option, counting from 0), plus explain {hanzi, pinyin, english} shown after answering. Set hanziOptions to true when the options are Chinese. These were written by Claude from HSK 1 words; they are not copied from the exercise book.",
-  "questions": [
-    {
-      "id": "r001", "lesson": 3, "shape": "choice",
-      "instruction": "Read, then answer",
-      "passage": "我叫王方，我是中国人。我是老师。",
-      "text": "What does 王方 do?",
-      "options": ["She is a teacher.", "She is a student.", "She is a doctor.", "She is a waiter."],
-      "answer": 0,
-      "explain": { "hanzi": "我是老师。", "pinyin": "Wǒ shì lǎoshī.", "english": "I am a teacher." }
-    },
-    {
-      "id": "r002", "lesson": 5, "shape": "choice",
-      "instruction": "Read, then answer",
-      "passage": "我家有四口人：爸爸、妈妈、我和我女儿。我女儿今年六岁了。",
-      "text": "How old is the daughter?",
-      "options": ["4", "6", "10", "16"],
-      "answer": 1,
-      "explain": { "hanzi": "我女儿今年六岁了。", "pinyin": "Wǒ nǚ'ér jīnnián liù suì le.", "english": "My daughter is six this year." }
-    },
-    {
-      "id": "r003", "lesson": 7, "shape": "choice",
-      "instruction": "Choose the best answer to the question",
-      "sentence": "今天几号？",
-      "hanziOptions": false,
-      "options": ["今天九月一号。", "我今天去学校。", "今天很热。", "我今年二十岁。"],
-      "answer": 0,
-      "explain": { "hanzi": "今天九月一号。", "pinyin": "Jīntiān jiǔ yuè yī hào.", "english": "Today is the 1st of September." }
-    },
-    {
-      "id": "r004", "lesson": 8, "shape": "choice",
-      "instruction": "Read, then answer",
-      "passage": "我想喝茶。这个杯子多少钱？二十八块。",
-      "text": "What does the speaker want to do?",
-      "options": ["Drink tea", "Eat rice", "Buy apples", "Read a book"],
-      "answer": 0,
-      "explain": { "hanzi": "我想喝茶。", "pinyin": "Wǒ xiǎng hē chá.", "english": "I'd like to drink tea." }
-    },
-    {
-      "id": "r005", "lesson": 10, "shape": "choice",
-      "instruction": "Choose the best answer to the question",
-      "sentence": "你的杯子在哪儿？",
-      "options": ["在桌子上。", "是我的。", "很漂亮。", "不客气。"],
-      "answer": 0,
-      "explain": { "hanzi": "在桌子上。", "pinyin": "Zài zhuōzi shang.", "english": "On the table." }
-    },
-    {
-      "id": "r006", "lesson": 11, "shape": "choice",
-      "instruction": "Read, then answer",
-      "passage": "现在是上午十点。我们下午三点去看电影。",
-      "text": "When will they watch the film?",
-      "options": ["10 in the morning", "3 in the afternoon", "Now", "Tomorrow"],
-      "answer": 1,
-      "explain": { "hanzi": "我们下午三点去看电影。", "pinyin": "Wǒmen xiàwǔ sān diǎn qù kàn diànyǐng.", "english": "We're going to see a film at three in the afternoon." }
-    },
-    {
-      "id": "r007", "lesson": 12, "shape": "choice",
-      "instruction": "Read, then answer",
-      "passage": "昨天北京的天气怎么样？昨天下雨了，很冷。",
-      "text": "What was the weather like in Beijing yesterday?",
-      "options": ["Hot and sunny", "Rainy and cold", "Rainy and hot", "Cold, no rain"],
-      "answer": 1,
-      "explain": { "hanzi": "昨天下雨了，很冷。", "pinyin": "Zuótiān xià yǔ le, hěn lěng.", "english": "It rained yesterday and it was cold." }
-    },
-    {
-      "id": "r008", "lesson": 14, "shape": "order",
-      "instruction": "Put the words in order",
-      "text": "I bought some fruit yesterday.",
-      "pieces": ["我", "昨天", "买了", "一点儿", "水果"],
-      "ending": "。",
-      "explain": { "hanzi": "我昨天买了一点儿水果。", "pinyin": "Wǒ zuótiān mǎi le yìdiǎnr shuǐguǒ.", "english": "I bought some fruit yesterday." }
-    }
-  ]
+ "about": "Hand-written questions in the style of the HSK 1 exercise book's reading and writing parts (no listening). Each one needs: id, lesson, shape ('choice' or 'order'). A choice question has instruction, optional passage / sentence / text, options (list) and answer (the position of the right option, counting from 0), plus explain {hanzi, pinyin, english} shown after answering. Set hanziOptions to true when the options are single Chinese words, zhOptions when they are Chinese sentences, and keepOrder to true to stop the options being shuffled (for 对 / 错). An order question has text (the English), pieces (in the right order; the app shuffles them) and ending (the punctuation). Every question only uses characters from its lesson or earlier (names like 王方 aside). These were written by Claude from HSK 1 words; they are not copied from the exercise book.",
+ "questions": [
+  {
+   "id": "r001",
+   "lesson": 3,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "我叫王方，我是中国人。我是老师。",
+   "text": "What does 王方 do?",
+   "options": [
+    "She is a teacher.",
+    "She is a student.",
+    "She is a doctor.",
+    "She is a waiter."
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我是老师。",
+    "pinyin": "Wǒ shì lǎoshī.",
+    "english": "I am a teacher."
+   }
+  },
+  {
+   "id": "r002",
+   "lesson": 10,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "我家有四口人：爸爸、妈妈、我和我女儿。我女儿今年六岁了。",
+   "text": "How old is the daughter?",
+   "options": [
+    "4",
+    "6",
+    "10",
+    "16"
+   ],
+   "answer": 1,
+   "explain": {
+    "hanzi": "我女儿今年六岁了。",
+    "pinyin": "Wǒ nǚ'ér jīnnián liù suì le.",
+    "english": "My daughter is six this year."
+   }
+  },
+  {
+   "id": "r003",
+   "lesson": 12,
+   "shape": "choice",
+   "instruction": "Choose the best answer to the question",
+   "sentence": "今天几号？",
+   "options": [
+    "今天九月一号。",
+    "我今天去学校。",
+    "今天很热。",
+    "我今年二十岁。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "今天九月一号。",
+    "pinyin": "Jīntiān jiǔ yuè yī hào.",
+    "english": "Today is the 1st of September."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "r004",
+   "lesson": 8,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "我想喝茶。这个杯子多少钱？二十八块。",
+   "text": "What does the speaker want to do?",
+   "options": [
+    "Drink tea",
+    "Eat rice",
+    "Buy apples",
+    "Read a book"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我想喝茶。",
+    "pinyin": "Wǒ xiǎng hē chá.",
+    "english": "I'd like to drink tea."
+   }
+  },
+  {
+   "id": "r005",
+   "lesson": 14,
+   "shape": "choice",
+   "instruction": "Choose the best answer to the question",
+   "sentence": "你的杯子在哪儿？",
+   "options": [
+    "在桌子上。",
+    "是我的。",
+    "很漂亮。",
+    "不客气。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "在桌子上。",
+    "pinyin": "Zài zhuōzi shang.",
+    "english": "On the table."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "r006",
+   "lesson": 11,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "现在是上午十点。我们下午三点去看电影。",
+   "text": "When will they watch the film?",
+   "options": [
+    "10 in the morning",
+    "3 in the afternoon",
+    "Now",
+    "Tomorrow"
+   ],
+   "answer": 1,
+   "explain": {
+    "hanzi": "我们下午三点去看电影。",
+    "pinyin": "Wǒmen xiàwǔ sān diǎn qù kàn diànyǐng.",
+    "english": "We're going to see a film at three in the afternoon."
+   }
+  },
+  {
+   "id": "r007",
+   "lesson": 12,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "昨天北京的天气怎么样？昨天下雨了，很冷。",
+   "text": "What was the weather like in Beijing yesterday?",
+   "options": [
+    "Hot and sunny",
+    "Rainy and cold",
+    "Rainy and hot",
+    "Cold, no rain"
+   ],
+   "answer": 1,
+   "explain": {
+    "hanzi": "昨天下雨了，很冷。",
+    "pinyin": "Zuótiān xià yǔ le, hěn lěng.",
+    "english": "It rained yesterday and it was cold."
+   }
+  },
+  {
+   "id": "r008",
+   "lesson": 14,
+   "shape": "order",
+   "instruction": "Put the words in order",
+   "text": "I bought some fruit yesterday.",
+   "pieces": [
+    "我",
+    "昨天",
+    "买了",
+    "一点儿",
+    "水果"
+   ],
+   "ending": "。",
+   "explain": {
+    "hanzi": "我昨天买了一点儿水果。",
+    "pinyin": "Wǒ zuótiān mǎi le yìdiǎnr shuǐguǒ.",
+    "english": "I bought some fruit yesterday."
+   }
+  },
+  {
+   "id": "q0101",
+   "lesson": 1,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "对不起！",
+   "options": [
+    "没关系。",
+    "你好！",
+    "你们好！",
+    "您好！"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "没关系。",
+    "pinyin": "Méi guānxi.",
+    "english": "It doesn't matter."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q0102",
+   "lesson": 1,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "你们好！",
+   "text": "Who is this said to?",
+   "options": [
+    "More than one person",
+    "One person, politely",
+    "Nobody: it means goodbye",
+    "The speaker"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "你们好！",
+    "pinyin": "Nǐmen hǎo!",
+    "english": "Hello, everyone! (你们 = you, more than one)"
+   }
+  },
+  {
+   "id": "q0201",
+   "lesson": 2,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "谢谢你！",
+   "options": [
+    "不客气。",
+    "没关系。",
+    "对不起。",
+    "你好！"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "不客气。",
+    "pinyin": "Bú kèqi.",
+    "english": "You're welcome."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q0202",
+   "lesson": 2,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "再见！",
+   "options": [
+    "再见！",
+    "不客气。",
+    "没关系。",
+    "谢谢！"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "再见！",
+    "pinyin": "Zàijiàn!",
+    "english": "Goodbye!"
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q0203",
+   "lesson": 2,
+   "shape": "choice",
+   "instruction": "Choose the word for the gap",
+   "sentence": "谢谢！——不＿＿。",
+   "text": "Thank you! You're welcome.",
+   "hanziOptions": true,
+   "options": [
+    "客气",
+    "关系",
+    "再见",
+    "好"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "谢谢！——不客气。",
+    "pinyin": "Xièxie! — Bú kèqi.",
+    "english": "Thank you! You're welcome."
+   }
+  },
+  {
+   "id": "q0204",
+   "lesson": 2,
+   "shape": "choice",
+   "instruction": "Choose the word for the gap",
+   "sentence": "对不起！——没＿＿。",
+   "text": "Sorry! It doesn't matter.",
+   "hanziOptions": true,
+   "options": [
+    "关系",
+    "客气",
+    "谢谢",
+    "再见"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "对不起！——没关系。",
+    "pinyin": "Duìbuqǐ! — Méi guānxi.",
+    "english": "Sorry! It doesn't matter."
+   }
+  },
+  {
+   "id": "q0301",
+   "lesson": 3,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "你叫什么名字？",
+   "options": [
+    "我叫王方。",
+    "我是中国人。",
+    "不客气。",
+    "我是学生。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我叫王方。",
+    "pinyin": "Wǒ jiào Wáng Fāng.",
+    "english": "My name is Wang Fang."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q0302",
+   "lesson": 3,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "你是老师吗？",
+   "options": [
+    "不是，我是学生。",
+    "我叫李方。",
+    "没关系。",
+    "再见！"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "不是，我是学生。",
+    "pinyin": "Bú shì, wǒ shì xuésheng.",
+    "english": "No, I'm a student."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q0303",
+   "lesson": 3,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "我叫李方。我是美国人，我不是老师，我是学生。",
+   "sentence": "★ 李方是老师。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 1,
+   "explain": {
+    "hanzi": "我不是老师，我是学生。",
+    "pinyin": "Wǒ bú shì lǎoshī, wǒ shì xuésheng.",
+    "english": "I'm not a teacher, I'm a student."
+   }
+  },
+  {
+   "id": "q0304",
+   "lesson": 3,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "你好！我是王方，我是中国人。你是美国人吗？",
+   "text": "Where is 王方 from?",
+   "options": [
+    "China",
+    "America",
+    "We are not told",
+    "Both"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我是中国人。",
+    "pinyin": "Wǒ shì Zhōngguó rén.",
+    "english": "I'm Chinese."
+   }
+  },
+  {
+   "id": "q0305",
+   "lesson": 3,
+   "shape": "order",
+   "instruction": "Put the words in order",
+   "text": "Are you Chinese?",
+   "pieces": [
+    "你",
+    "是",
+    "中国人",
+    "吗"
+   ],
+   "ending": "？",
+   "explain": {
+    "hanzi": "你是中国人吗？",
+    "pinyin": "Nǐ shì Zhōngguó rén ma?",
+    "english": "Are you Chinese?"
+   }
+  },
+  {
+   "id": "q0401",
+   "lesson": 4,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "她是谁？",
+   "options": [
+    "她是我的汉语老师。",
+    "我是美国人。",
+    "你呢？",
+    "谢谢你！"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "她是我的汉语老师。",
+    "pinyin": "Tā shì wǒ de Hànyǔ lǎoshī.",
+    "english": "She's my Chinese teacher."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q0402",
+   "lesson": 4,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "你是哪国人？",
+   "options": [
+    "我是美国人。",
+    "我是学生。",
+    "她是我同学。",
+    "我叫李方。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我是美国人。",
+    "pinyin": "Wǒ shì Měiguó rén.",
+    "english": "I'm American."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q0403",
+   "lesson": 4,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "他是我朋友，他叫王方。他是中国人，他是汉语老师。",
+   "sentence": "★ 王方是我的同学。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 1,
+   "explain": {
+    "hanzi": "他是我朋友。",
+    "pinyin": "Tā shì wǒ péngyou.",
+    "english": "He is my friend (not my classmate)."
+   }
+  },
+  {
+   "id": "q0404",
+   "lesson": 4,
+   "shape": "choice",
+   "instruction": "Choose the word for the gap",
+   "sentence": "我是中国人，你＿＿？",
+   "text": "I'm Chinese. And you?",
+   "hanziOptions": true,
+   "options": [
+    "呢",
+    "吗",
+    "的",
+    "谁"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我是中国人，你呢？",
+    "pinyin": "Wǒ shì Zhōngguó rén, nǐ ne?",
+    "english": "I'm Chinese. And you?"
+   }
+  },
+  {
+   "id": "q0405",
+   "lesson": 4,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "我的汉语老师是中国人。她的学生是美国人。",
+   "text": "Who is American?",
+   "options": [
+    "The teacher's students",
+    "The teacher",
+    "The speaker",
+    "Nobody"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "她的学生是美国人。",
+    "pinyin": "Tā de xuésheng shì Měiguó rén.",
+    "english": "Her students are American."
+   }
+  },
+  {
+   "id": "q0501",
+   "lesson": 5,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "你女儿几岁了？",
+   "options": [
+    "她今年五岁了。",
+    "我家有三口人。",
+    "她是我女儿。",
+    "她是学生。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "她今年五岁了。",
+    "pinyin": "Tā jīnnián wǔ suì le.",
+    "english": "She is five this year."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q0502",
+   "lesson": 5,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "你家有几口人？",
+   "options": [
+    "我家有四口人。",
+    "我今年二十岁了。",
+    "她是我女儿。",
+    "我是中国人。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我家有四口人。",
+    "pinyin": "Wǒ jiā yǒu sì kǒu rén.",
+    "english": "There are four people in my family."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q0503",
+   "lesson": 5,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "我家有三口人。我女儿今年十岁，她是学生。",
+   "sentence": "★ 我女儿今年十岁。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 0,
+   "explain": {
+    "hanzi": "我女儿今年十岁。",
+    "pinyin": "Wǒ nǚ'ér jīnnián shí suì.",
+    "english": "My daughter is ten this year."
+   }
+  },
+  {
+   "id": "q0504",
+   "lesson": 5,
+   "shape": "choice",
+   "instruction": "Choose the word for the gap",
+   "sentence": "你今年多＿＿了？",
+   "text": "How old are you this year?",
+   "hanziOptions": true,
+   "options": [
+    "大",
+    "几",
+    "好",
+    "口"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "你今年多大了？",
+    "pinyin": "Nǐ jīnnián duō dà le?",
+    "english": "How old are you this year?"
+   }
+  },
+  {
+   "id": "q0505",
+   "lesson": 5,
+   "shape": "order",
+   "instruction": "Put the words in order",
+   "text": "How many people are in your family?",
+   "pieces": [
+    "你家",
+    "有",
+    "几",
+    "口",
+    "人"
+   ],
+   "ending": "？",
+   "explain": {
+    "hanzi": "你家有几口人？",
+    "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+    "english": "How many people are in your family?"
+   }
+  },
+  {
+   "id": "q0601",
+   "lesson": 6,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "你会说汉语吗？",
+   "options": [
+    "会，我会说汉语。",
+    "我是中国人。",
+    "我妈妈是老师。",
+    "很好吃。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "会，我会说汉语。",
+    "pinyin": "Huì, wǒ huì shuō Hànyǔ.",
+    "english": "Yes, I can speak Chinese."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q0602",
+   "lesson": 6,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "中国菜好吃吗？",
+   "options": [
+    "很好吃。",
+    "我是学生。",
+    "我不会写。",
+    "她是我妈妈。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "很好吃。",
+    "pinyin": "Hěn hǎochī.",
+    "english": "Very tasty."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q0603",
+   "lesson": 6,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "我妈妈是中国人。她会做中国菜，她做的菜很好吃。",
+   "sentence": "★ 妈妈不会做菜。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 1,
+   "explain": {
+    "hanzi": "她会做中国菜。",
+    "pinyin": "Tā huì zuò Zhōngguó cài.",
+    "english": "She can cook Chinese food."
+   }
+  },
+  {
+   "id": "q0604",
+   "lesson": 6,
+   "shape": "choice",
+   "instruction": "Choose the word for the gap",
+   "sentence": "我＿＿写汉字。",
+   "text": "I can write Chinese characters.",
+   "hanziOptions": true,
+   "options": [
+    "会",
+    "很",
+    "说",
+    "呢"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我会写汉字。",
+    "pinyin": "Wǒ huì xiě Hànzì.",
+    "english": "I can write Chinese characters."
+   }
+  },
+  {
+   "id": "q0605",
+   "lesson": 6,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "我会说汉语，我不会写汉字。",
+   "text": "What can't the speaker do?",
+   "options": [
+    "Write Chinese characters",
+    "Speak Chinese",
+    "Both",
+    "Neither"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我不会写汉字。",
+    "pinyin": "Wǒ bú huì xiě Hànzì.",
+    "english": "I can't write Chinese characters."
+   }
+  },
+  {
+   "id": "q0606",
+   "lesson": 6,
+   "shape": "order",
+   "instruction": "Put the words in order",
+   "text": "I can't write Chinese characters.",
+   "pieces": [
+    "我",
+    "不会",
+    "写",
+    "汉字"
+   ],
+   "ending": "。",
+   "explain": {
+    "hanzi": "我不会写汉字。",
+    "pinyin": "Wǒ bú huì xiě Hànzì.",
+    "english": "I can't write Chinese characters."
+   }
+  },
+  {
+   "id": "q0701",
+   "lesson": 7,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "明天星期几？",
+   "options": [
+    "明天星期五。",
+    "明天我去学校。",
+    "今天九月一号。",
+    "我去看书。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "明天星期五。",
+    "pinyin": "Míngtiān xīngqīwǔ.",
+    "english": "Tomorrow is Friday."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q0702",
+   "lesson": 7,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "今天是九月一号，星期一。明天我去学校看书。",
+   "text": "What will the speaker do tomorrow?",
+   "options": [
+    "Go to school to read",
+    "Go to school to teach",
+    "Stay at home and read",
+    "Cook at home"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "明天我去学校看书。",
+    "pinyin": "Míngtiān wǒ qù xuéxiào kàn shū.",
+    "english": "Tomorrow I'm going to school to read."
+   }
+  },
+  {
+   "id": "q0703",
+   "lesson": 7,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "昨天是星期天，我去朋友家了。",
+   "sentence": "★ 今天星期一。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 0,
+   "explain": {
+    "hanzi": "昨天是星期天。",
+    "pinyin": "Zuótiān shì xīngqītiān.",
+    "english": "Yesterday was Sunday, so today is Monday."
+   }
+  },
+  {
+   "id": "q0704",
+   "lesson": 7,
+   "shape": "choice",
+   "instruction": "Choose the word for the gap",
+   "sentence": "请＿＿，你是王老师吗？",
+   "text": "Excuse me, are you Teacher Wang?",
+   "hanziOptions": true,
+   "options": [
+    "问",
+    "去",
+    "看",
+    "读"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "请问，你是王老师吗？",
+    "pinyin": "Qǐngwèn, nǐ shì Wáng lǎoshī ma?",
+    "english": "Excuse me, are you Teacher Wang?"
+   }
+  },
+  {
+   "id": "q0705",
+   "lesson": 7,
+   "shape": "order",
+   "instruction": "Put the words in order",
+   "text": "We go to school to read.",
+   "pieces": [
+    "我们",
+    "去",
+    "学校",
+    "看书"
+   ],
+   "ending": "。",
+   "explain": {
+    "hanzi": "我们去学校看书。",
+    "pinyin": "Wǒmen qù xuéxiào kàn shū.",
+    "english": "We go to school to read."
+   }
+  },
+  {
+   "id": "q0801",
+   "lesson": 8,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "这个杯子多少钱？",
+   "options": [
+    "二十块。",
+    "我想喝茶。",
+    "我去商店。",
+    "我想买杯子。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "二十块。",
+    "pinyin": "Èrshí kuài.",
+    "english": "Twenty yuan."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q0802",
+   "lesson": 8,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "你想喝什么？",
+   "options": [
+    "我想喝茶。",
+    "我想吃米饭。",
+    "我去商店。",
+    "十块钱。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我想喝茶。",
+    "pinyin": "Wǒ xiǎng hē chá.",
+    "english": "I'd like to drink tea."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q0803",
+   "lesson": 8,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "下午我去商店买了一个杯子，那个杯子二十八块钱。",
+   "sentence": "★ 那个杯子二十块钱。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 1,
+   "explain": {
+    "hanzi": "那个杯子二十八块钱。",
+    "pinyin": "Nàge bēizi èrshíbā kuài qián.",
+    "english": "That cup was 28 yuan, not 20."
+   }
+  },
+  {
+   "id": "q0804",
+   "lesson": 8,
+   "shape": "choice",
+   "instruction": "Choose the word for the gap",
+   "sentence": "我想买一＿＿杯子。",
+   "text": "I'd like to buy a cup.",
+   "hanziOptions": true,
+   "options": [
+    "个",
+    "口",
+    "块",
+    "岁"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我想买一个杯子。",
+    "pinyin": "Wǒ xiǎng mǎi yí ge bēizi.",
+    "english": "I'd like to buy a cup."
+   }
+  },
+  {
+   "id": "q0805",
+   "lesson": 8,
+   "shape": "order",
+   "instruction": "Put the words in order",
+   "text": "How much is this cup?",
+   "pieces": [
+    "这个",
+    "杯子",
+    "多少",
+    "钱"
+   ],
+   "ending": "？",
+   "explain": {
+    "hanzi": "这个杯子多少钱？",
+    "pinyin": "Zhège bēizi duōshao qián?",
+    "english": "How much is this cup?"
+   }
+  },
+  {
+   "id": "q0901",
+   "lesson": 9,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "你爸爸在哪儿工作？",
+   "options": [
+    "他在医院工作。",
+    "他是我爸爸。",
+    "他很好。",
+    "他叫王方。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "他在医院工作。",
+    "pinyin": "Tā zài yīyuàn gōngzuò.",
+    "english": "He works at a hospital."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q0902",
+   "lesson": 9,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "小猫在哪儿？——小猫在椅子下面。",
+   "text": "Where is the kitten?",
+   "options": [
+    "Under the chair",
+    "On the chair",
+    "At the hospital",
+    "At school"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "小猫在椅子下面。",
+    "pinyin": "Xiǎo māo zài yǐzi xiàmiàn.",
+    "english": "The kitten is under the chair."
+   }
+  },
+  {
+   "id": "q0903",
+   "lesson": 9,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "我儿子是医生，他在中国的医院工作。",
+   "sentence": "★ 我儿子是老师。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 1,
+   "explain": {
+    "hanzi": "我儿子是医生。",
+    "pinyin": "Wǒ érzi shì yīshēng.",
+    "english": "My son is a doctor."
+   }
+  },
+  {
+   "id": "q0904",
+   "lesson": 9,
+   "shape": "choice",
+   "instruction": "Choose the word for the gap",
+   "sentence": "我的狗＿＿椅子下面。",
+   "text": "My dog is under the chair.",
+   "hanziOptions": true,
+   "options": [
+    "在",
+    "是",
+    "有",
+    "去"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我的狗在椅子下面。",
+    "pinyin": "Wǒ de gǒu zài yǐzi xiàmiàn.",
+    "english": "My dog is under the chair."
+   }
+  },
+  {
+   "id": "q0905",
+   "lesson": 9,
+   "shape": "order",
+   "instruction": "Put the words in order",
+   "text": "My daughter works at a school.",
+   "pieces": [
+    "我",
+    "女儿",
+    "在",
+    "学校",
+    "工作"
+   ],
+   "ending": "。",
+   "explain": {
+    "hanzi": "我女儿在学校工作。",
+    "pinyin": "Wǒ nǚ'ér zài xuéxiào gōngzuò.",
+    "english": "My daughter works at a school."
+   }
+  },
+  {
+   "id": "q1001",
+   "lesson": 10,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "我能坐这儿吗？",
+   "options": [
+    "请坐。",
+    "在桌子上。",
+    "我有电脑。",
+    "我是学生。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "请坐。",
+    "pinyin": "Qǐng zuò.",
+    "english": "Please sit down."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q1002",
+   "lesson": 10,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "桌子上有一个电脑和三本书。",
+   "text": "What is on the table?",
+   "options": [
+    "A computer and three books",
+    "Three computers and a book",
+    "A cup and three books",
+    "Only books"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "桌子上有一个电脑和三本书。",
+    "pinyin": "Zhuōzi shang yǒu yí ge diànnǎo hé sān běn shū.",
+    "english": "On the table there is a computer and three books."
+   }
+  },
+  {
+   "id": "q1003",
+   "lesson": 10,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "学校前面有一个商店，后面有一个医院。",
+   "sentence": "★ 医院在学校后面。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 0,
+   "explain": {
+    "hanzi": "后面有一个医院。",
+    "pinyin": "Hòumiàn yǒu yí ge yīyuàn.",
+    "english": "There is a hospital behind (the school)."
+   }
+  },
+  {
+   "id": "q1004",
+   "lesson": 10,
+   "shape": "choice",
+   "instruction": "Choose the word for the gap",
+   "sentence": "我＿＿坐这儿吗？",
+   "text": "Can I sit here?",
+   "hanziOptions": true,
+   "options": [
+    "能",
+    "是",
+    "有",
+    "和"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我能坐这儿吗？",
+    "pinyin": "Wǒ néng zuò zhèr ma?",
+    "english": "Can I sit here?"
+   }
+  },
+  {
+   "id": "q1005",
+   "lesson": 10,
+   "shape": "order",
+   "instruction": "Put the words in order",
+   "text": "There is a book on the table.",
+   "pieces": [
+    "桌子",
+    "上",
+    "有",
+    "一本",
+    "书"
+   ],
+   "ending": "。",
+   "explain": {
+    "hanzi": "桌子上有一本书。",
+    "pinyin": "Zhuōzi shang yǒu yì běn shū.",
+    "english": "There is a book on the table."
+   }
+  },
+  {
+   "id": "q1101",
+   "lesson": 11,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "现在几点？",
+   "options": [
+    "现在十点十分。",
+    "我住在北京。",
+    "我们去看电影。",
+    "我中午回家。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "现在十点十分。",
+    "pinyin": "Xiànzài shí diǎn shí fēn.",
+    "english": "It's ten past ten."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q1102",
+   "lesson": 11,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "你什么时候回家？",
+   "options": [
+    "我下午三点回家。",
+    "我家在北京。",
+    "我住在这儿。",
+    "我家有四口人。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我下午三点回家。",
+    "pinyin": "Wǒ xiàwǔ sān diǎn huí jiā.",
+    "english": "I'm going home at three in the afternoon."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q1103",
+   "lesson": 11,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "我住在北京。我中午十二点吃饭，下午三点去学校。",
+   "text": "When does the speaker eat?",
+   "options": [
+    "At twelve noon",
+    "At three in the afternoon",
+    "At ten in the morning",
+    "We are not told"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我中午十二点吃饭。",
+    "pinyin": "Wǒ zhōngwǔ shí'èr diǎn chī fàn.",
+    "english": "I eat at twelve noon."
+   }
+  },
+  {
+   "id": "q1104",
+   "lesson": 11,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "我们明天下午去看电影，看电影前我们去吃饭。",
+   "sentence": "★ 他们看电影后去吃饭。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 1,
+   "explain": {
+    "hanzi": "看电影前我们去吃饭。",
+    "pinyin": "Kàn diànyǐng qián wǒmen qù chī fàn.",
+    "english": "They eat before the film, not after."
+   }
+  },
+  {
+   "id": "q1105",
+   "lesson": 11,
+   "shape": "order",
+   "instruction": "Put the words in order",
+   "text": "We are going to Beijing to see a film.",
+   "pieces": [
+    "我们",
+    "去",
+    "北京",
+    "看",
+    "电影"
+   ],
+   "ending": "。",
+   "explain": {
+    "hanzi": "我们去北京看电影。",
+    "pinyin": "Wǒmen qù Běijīng kàn diànyǐng.",
+    "english": "We are going to Beijing to see a film."
+   }
+  },
+  {
+   "id": "q1201",
+   "lesson": 12,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "明天天气怎么样？",
+   "options": [
+    "明天会下雨。",
+    "我爱吃水果。",
+    "我身体很好。",
+    "明天星期三。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "明天会下雨。",
+    "pinyin": "Míngtiān huì xià yǔ.",
+    "english": "It will rain tomorrow."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q1202",
+   "lesson": 12,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "你身体怎么样？",
+   "options": [
+    "很好，谢谢。",
+    "太热了。",
+    "我爱喝茶。",
+    "明天会下雨。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "很好，谢谢。",
+    "pinyin": "Hěn hǎo, xièxie.",
+    "english": "Very well, thank you."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q1203",
+   "lesson": 12,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "今天太热了，我想买些水果。",
+   "text": "What is the weather like today?",
+   "options": [
+    "Very hot",
+    "Very cold",
+    "Rainy",
+    "Cool"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "今天太热了。",
+    "pinyin": "Jīntiān tài rè le.",
+    "english": "It's too hot today."
+   }
+  },
+  {
+   "id": "q1204",
+   "lesson": 12,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "北京今天很冷，明天会下雨。",
+   "sentence": "★ 北京今天很热。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 1,
+   "explain": {
+    "hanzi": "北京今天很冷。",
+    "pinyin": "Běijīng jīntiān hěn lěng.",
+    "english": "It's cold in Beijing today."
+   }
+  },
+  {
+   "id": "q1205",
+   "lesson": 12,
+   "shape": "choice",
+   "instruction": "Choose the word for the gap",
+   "sentence": "今天太冷＿＿！",
+   "text": "It's too cold today!",
+   "hanziOptions": true,
+   "options": [
+    "了",
+    "的",
+    "吗",
+    "呢"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "今天太冷了！",
+    "pinyin": "Jīntiān tài lěng le!",
+    "english": "It's too cold today!"
+   }
+  },
+  {
+   "id": "q1206",
+   "lesson": 12,
+   "shape": "order",
+   "instruction": "Put the words in order",
+   "text": "Will it rain tomorrow?",
+   "pieces": [
+    "明天",
+    "会",
+    "下雨",
+    "吗"
+   ],
+   "ending": "？",
+   "explain": {
+    "hanzi": "明天会下雨吗？",
+    "pinyin": "Míngtiān huì xià yǔ ma?",
+    "english": "Will it rain tomorrow?"
+   }
+  },
+  {
+   "id": "q1301",
+   "lesson": 13,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "喂，你在做什么呢？",
+   "options": [
+    "我在看电视呢。",
+    "我也喜欢。",
+    "好吧。",
+    "我给你打电话。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我在看电视呢。",
+    "pinyin": "Wǒ zài kàn diànshì ne.",
+    "english": "I'm watching TV."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q1302",
+   "lesson": 13,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "我们去看电影吧。",
+   "options": [
+    "好，我们下午去。",
+    "她是我同学。",
+    "我喜欢吃米饭。",
+    "不客气。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "好，我们下午去。",
+    "pinyin": "Hǎo, wǒmen xiàwǔ qù.",
+    "english": "OK, let's go this afternoon."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q1303",
+   "lesson": 13,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "喂，王方，你在做什么呢？——我在学习汉语呢。",
+   "text": "What is 王方 doing?",
+   "options": [
+    "Studying Chinese",
+    "Sleeping",
+    "Watching TV",
+    "Cooking"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我在学习汉语呢。",
+    "pinyin": "Wǒ zài xuéxí Hànyǔ ne.",
+    "english": "I'm studying Chinese."
+   }
+  },
+  {
+   "id": "q1304",
+   "lesson": 13,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "我喜欢看电视，我儿子也喜欢看电视。",
+   "sentence": "★ 我儿子不喜欢看电视。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 1,
+   "explain": {
+    "hanzi": "我儿子也喜欢看电视。",
+    "pinyin": "Wǒ érzi yě xǐhuan kàn diànshì.",
+    "english": "My son likes watching TV too."
+   }
+  },
+  {
+   "id": "q1305",
+   "lesson": 13,
+   "shape": "choice",
+   "instruction": "Choose the word for the gap",
+   "sentence": "我明天＿＿你打电话。",
+   "text": "I'll phone you tomorrow.",
+   "hanziOptions": true,
+   "options": [
+    "给",
+    "在",
+    "是",
+    "也"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我明天给你打电话。",
+    "pinyin": "Wǒ míngtiān gěi nǐ dǎ diànhuà.",
+    "english": "I'll phone you tomorrow."
+   }
+  },
+  {
+   "id": "q1306",
+   "lesson": 13,
+   "shape": "order",
+   "instruction": "Put the words in order",
+   "text": "He is learning to cook Chinese food.",
+   "pieces": [
+    "他",
+    "在",
+    "学",
+    "做",
+    "中国菜",
+    "呢"
+   ],
+   "ending": "。",
+   "explain": {
+    "hanzi": "他在学做中国菜呢。",
+    "pinyin": "Tā zài xué zuò Zhōngguó cài ne.",
+    "english": "He is learning to cook Chinese food."
+   }
+  },
+  {
+   "id": "q1401",
+   "lesson": 14,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "你买什么了？",
+   "options": [
+    "我买了一些苹果。",
+    "我没开车。",
+    "她的衣服很漂亮。",
+    "我们都是学生。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我买了一些苹果。",
+    "pinyin": "Wǒ mǎi le yìxiē píngguǒ.",
+    "english": "I bought some apples."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q1402",
+   "lesson": 14,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "昨天我和妈妈去商店了。妈妈买了很多衣服，都很漂亮。我没买东西。",
+   "text": "What did the speaker buy?",
+   "options": [
+    "Nothing",
+    "Clothes",
+    "Apples",
+    "A cup"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我没买东西。",
+    "pinyin": "Wǒ méi mǎi dōngxi.",
+    "english": "I didn't buy anything."
+   }
+  },
+  {
+   "id": "q1403",
+   "lesson": 14,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "王先生开车来学校，他开了二十分钟。",
+   "sentence": "★ 王先生开了十分钟。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 1,
+   "explain": {
+    "hanzi": "他开了二十分钟。",
+    "pinyin": "Tā kāi le èrshí fēnzhōng.",
+    "english": "He drove for twenty minutes."
+   }
+  },
+  {
+   "id": "q1404",
+   "lesson": 14,
+   "shape": "choice",
+   "instruction": "Choose the word for the gap",
+   "sentence": "我昨天＿＿去商店。",
+   "text": "I didn't go to the shop yesterday.",
+   "hanziOptions": true,
+   "options": [
+    "没",
+    "不",
+    "了",
+    "都"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我昨天没去商店。",
+    "pinyin": "Wǒ zuótiān méi qù shāngdiàn.",
+    "english": "I didn't go to the shop yesterday. (没 for the past)"
+   }
+  },
+  {
+   "id": "q1405",
+   "lesson": 14,
+   "shape": "order",
+   "instruction": "Put the words in order",
+   "text": "These clothes are all very pretty.",
+   "pieces": [
+    "这些",
+    "衣服",
+    "都",
+    "很",
+    "漂亮"
+   ],
+   "ending": "。",
+   "explain": {
+    "hanzi": "这些衣服都很漂亮。",
+    "pinyin": "Zhèxiē yīfu dōu hěn piàoliang.",
+    "english": "These clothes are all very pretty."
+   }
+  },
+  {
+   "id": "q1501",
+   "lesson": 15,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "认识你很高兴。",
+   "options": [
+    "我也很高兴认识你。",
+    "我是坐飞机来的。",
+    "不客气。",
+    "我住在北京。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我也很高兴认识你。",
+    "pinyin": "Wǒ yě hěn gāoxìng rènshi nǐ.",
+    "english": "I'm glad to meet you too."
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q1502",
+   "lesson": 15,
+   "shape": "choice",
+   "instruction": "Choose the best reply",
+   "sentence": "你是怎么来的？",
+   "options": [
+    "我是坐出租车来的。",
+    "我是昨天来的。",
+    "我来中国了。",
+    "我是学生。"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我是坐出租车来的。",
+    "pinyin": "Wǒ shì zuò chūzūchē lái de.",
+    "english": "I came by taxi. (怎么 asks how, not when)"
+   },
+   "zhOptions": true
+  },
+  {
+   "id": "q1503",
+   "lesson": 15,
+   "shape": "choice",
+   "instruction": "Read, then answer",
+   "passage": "我是坐飞机来北京的，我朋友是坐出租车来的。",
+   "text": "How did the friend come?",
+   "options": [
+    "By taxi",
+    "By plane",
+    "By driving a car",
+    "On foot"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我朋友是坐出租车来的。",
+    "pinyin": "Wǒ péngyou shì zuò chūzūchē lái de.",
+    "english": "My friend came by taxi."
+   }
+  },
+  {
+   "id": "q1504",
+   "lesson": 15,
+   "shape": "choice",
+   "instruction": "Read, then choose 对 (right) or 错 (wrong)",
+   "passage": "我在大学认识了王方，她是我的同学。我们现在都在饭店工作。",
+   "sentence": "★ 王方在大学工作。",
+   "options": [
+    "对  right",
+    "错  wrong"
+   ],
+   "keepOrder": true,
+   "answer": 1,
+   "explain": {
+    "hanzi": "我们现在都在饭店工作。",
+    "pinyin": "Wǒmen xiànzài dōu zài fàndiàn gōngzuò.",
+    "english": "They both work at a restaurant now."
+   }
+  },
+  {
+   "id": "q1505",
+   "lesson": 15,
+   "shape": "choice",
+   "instruction": "Choose the word for the gap",
+   "sentence": "我们一起去饭店吃饭，＿＿吗？",
+   "text": "Shall we go to a restaurant together?",
+   "hanziOptions": true,
+   "options": [
+    "好",
+    "是",
+    "有",
+    "在"
+   ],
+   "answer": 0,
+   "explain": {
+    "hanzi": "我们一起去饭店吃饭，好吗？",
+    "pinyin": "Wǒmen yìqǐ qù fàndiàn chī fàn, hǎo ma?",
+    "english": "Shall we go and eat at a restaurant together?"
+   }
+  },
+  {
+   "id": "q1506",
+   "lesson": 15,
+   "shape": "order",
+   "instruction": "Put the words in order",
+   "text": "I came by plane.",
+   "pieces": [
+    "我",
+    "是",
+    "坐",
+    "飞机",
+    "来",
+    "的"
+   ],
+   "ending": "。",
+   "explain": {
+    "hanzi": "我是坐飞机来的。",
+    "pinyin": "Wǒ shì zuò fēijī lái de.",
+    "english": "I came by plane."
+   }
+  }
+ ]
 }

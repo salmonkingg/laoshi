@@ -23,6 +23,7 @@
     days: {},   // "2026-09-28" -> { q: questions answered, r: right }
     pinyinDays: {}, // the same, for the Pinyin tab
     radicalDays: {}, // and for the Radicals tab
+    tests: {},  // lesson number -> { last: score, best: score, of: questions, day: "2026-09-29" }
   };
 
   let state = load();
@@ -32,7 +33,7 @@
       const raw = localStorage.getItem(STORE_KEY);
       if (raw) {
         const s = JSON.parse(raw);
-        return { settings: { ...defaults.settings, ...s.settings }, cards: s.cards || {}, days: s.days || {}, pinyinDays: s.pinyinDays || {}, radicalDays: s.radicalDays || {} };
+        return { settings: { ...defaults.settings, ...s.settings }, cards: s.cards || {}, days: s.days || {}, pinyinDays: s.pinyinDays || {}, radicalDays: s.radicalDays || {}, tests: s.tests || {} };
       }
     } catch (e) { /* storage blocked: progress lasts until the page closes */ }
     return JSON.parse(JSON.stringify(defaults));
@@ -182,9 +183,47 @@
   // A few questions from one lesson, any type, for "Practise this lesson".
   function lessonSession(lesson) {
     setWords(l => l <= Math.max(lesson, 2));
-    const pool = allCards.filter(c => c.lesson === lesson && typeOn(c.type));
+    const pool = allCards.filter(c => c.lesson === lesson && typeOn(c.type) && TYPES[c.type].tab !== 'retired');
     const weak = pool.slice().sort((a, b) => box(a.id) - box(b.id) || Math.random() - 0.5);
     return spread(shuffle(weak.slice(0, 12)));
+  }
+
+  // A short end-of-lesson test: one question of each kind from that lesson, 10 in all.
+  // Kinds with nothing in this lesson are topped up with extra word questions.
+  const TEST_SIZE = 10;
+  const TEST_MIX = ['meaning', 'recall', 'pinyin', 'judge', 'wordchar', 'sentence', 'fill', 'order', 'extra', 'write'];
+
+  function lessonTest(lesson) {
+    setWords(l => l <= Math.max(lesson, 2));
+    const pool = allCards.filter(c => c.lesson === lesson && typeOn(c.type));
+    const picked = [];
+    const used = new Set();
+    const take = type => {
+      const options = shuffle(pool.filter(c => c.type === type && !picked.includes(c)));
+      const card = options.find(c => !used.has(c.ref)) || options[0];
+      if (card) { picked.push(card); used.add(card.ref); }
+      return !!card;
+    };
+    for (const type of TEST_MIX) if (picked.length < TEST_SIZE) take(type);
+    const topUp = ['meaning', 'judge', 'recall', 'sentence', 'extra', 'wordchar', 'fill', 'pinyin'];
+    for (let i = 0; picked.length < TEST_SIZE && i < 40; i++) take(topUp[i % topUp.length]);
+    return spread(shuffle(picked));
+  }
+
+  // The first lesson (up to the one chosen in Settings) whose words have all been met
+  // in daily practice but whose test has not been taken yet.
+  function testReady() {
+    for (const l of data.lessons) {
+      if (l.lesson > state.settings.upTo) break;
+      if (state.tests[l.lesson]) continue;
+      if (l.words.every(id => seen('meaning:' + id))) return l.lesson;
+      return null;
+    }
+    return null;
+  }
+
+  function startTest(lesson, back) {
+    runSession(lessonTest(lesson), 'Lesson ' + lesson + ' test', 'days', back, { test: lesson });
   }
 
   // Avoid the same word twice in a row.
@@ -235,6 +274,7 @@
     const done = today && today.q >= state.settings.size;
     const upTo = state.settings.upTo;
     const lessonLine = upTo >= 15 ? 'All 15 lessons' : 'Lessons 1 to ' + upTo;
+    const ready = testReady();
     show(
       el('section', { class: 'home' },
         el('p', { class: 'date' }, new Date().toLocaleDateString(undefined, { weekday: 'long', day: 'numeric', month: 'long' })),
@@ -244,6 +284,9 @@
           : `About ${state.settings.size} questions on reading, pinyin, writing and sentence order. ${lessonLine}.`),
         el('div', { class: 'actions' },
           el('button', { class: 'primary', id: 'start', onclick: () => runSession(dailySession('today'), 'Today') }, done ? 'Practise a little more' : 'Start today’s practice')),
+        ready ? el('div', { class: 'test-ready' },
+          el('p', {}, `You have met every word in lesson ${ready}. When you like, there is a short test for it: ${TEST_SIZE} questions.`),
+          el('button', { id: 'start-test', onclick: () => startTest(ready, homeScreen) }, `Take the lesson ${ready} test`)) : null,
         el('dl', { class: 'facts' },
           el('div', {}, el('dt', {}, 'Words you know well'), el('dd', {}, `${knownWords()} of ${data.words.length}`)),
           el('div', {}, el('dt', {}, 'Characters written'), el('dd', {}, `${data.characters.filter(c => seen('write:' + c.char)).length} of ${data.characters.length}`)),
@@ -254,7 +297,9 @@
 
   // ---------- running a session ----------
 
-  function runSession(cards, title, log = 'days', back = homeScreen) {
+  // opts.test = lesson number: a lesson test. Each question is asked once (no second try at the end),
+  // the score is saved, and only cards already met in practice have their progress updated.
+  function runSession(cards, title, log = 'days', back = homeScreen, opts = {}) {
     if (!cards.length) {
       show(el('section', { class: 'panel' }, el('p', {}, 'Nothing to practise with these settings.'),
         el('button', { onclick: back }, 'Back')));
@@ -274,8 +319,12 @@
       let q;
       try { q = TYPES[card.type].build(card, ctx); } catch (e) { console.error(e); index++; return next(); }
       renderQuestion(q, card, (right) => {
-        if (!answeredOnce.has(card.id)) { answeredOnce.add(card.id); record(card, right, log); results.push({ card, right, q }); }
-        if (!right && !retried.has(card.id)) { retried.add(card.id); queue.push(card); }
+        if (!answeredOnce.has(card.id)) {
+          answeredOnce.add(card.id);
+          if (!opts.test || seen(card.id)) record(card, right, log);
+          results.push({ card, right, q });
+        }
+        if (!right && !retried.has(card.id) && !opts.test) { retried.add(card.id); queue.push(card); }
         index++;
         next();
       }, index, total(), title, back);
@@ -284,14 +333,24 @@
     function finish() {
       const right = results.filter(r => r.right).length;
       const missed = results.filter(r => !r.right);
+      let testLine = null;
+      if (opts.test) {
+        const before = state.tests[opts.test];
+        state.tests[opts.test] = { last: right, best: Math.max(right, before ? before.best : 0), of: results.length, day: dayKey() };
+        save();
+        testLine = el('p', { class: 'quiet' }, before
+          ? `Your best for this lesson is ${state.tests[opts.test].best} of ${results.length}. You can take the test again any time from Lessons.`
+          : 'Saved. You can take the test again any time from Lessons.');
+      }
       show(el('section', { class: 'panel summary' },
-        el('h2', {}, 'Finished'),
-        el('p', { class: 'lede' }, `${right} of ${results.length} right the first time.`),
+        el('h2', {}, opts.test ? title : 'Finished'),
+        el('p', { class: 'lede' }, opts.test ? `${right} of ${results.length} right.` : `${right} of ${results.length} right the first time.`),
+        testLine,
         missed.length ? el('div', {},
           el('h3', {}, 'To look at again'),
           el('ul', { class: 'review' }, uniqueBy(missed.map(m => m.q.explain).filter(Boolean), e => e.hanzi).map(e =>
             el('li', {}, el('span', { class: 'zh' }, e.hanzi), el('span', { class: 'py' }, e.pinyin), el('span', {}, e.english))))) : null,
-        el('p', { class: 'quiet' }, 'These will come back on the days they are due.'),
+        missed.length ? el('p', { class: 'quiet' }, 'These will come back on the days they are due.') : null,
         el('div', { class: 'actions' }, el('button', { class: 'primary', onclick: back }, 'Done')),
       ));
     }
@@ -346,9 +405,9 @@
   }
 
   function choiceUI(q, answer) {
-    const list = el('div', { class: 'options' + (q.hanziOptions ? ' hanzi' : '') + (q.pinyinOptions ? ' pinyin' : '') });
+    const list = el('div', { class: 'options' + (q.hanziOptions ? ' hanzi' : '') + (q.zhOptions ? ' zhsent' : '') + (q.pinyinOptions ? ' pinyin' : '') });
     q.options.forEach((o, i) => {
-      const b = el('button', { class: 'option', lang: q.hanziOptions ? 'zh-CN' : null }, o.text);
+      const b = el('button', { class: 'option', lang: q.hanziOptions || q.zhOptions ? 'zh-CN' : null }, o.text);
       b.addEventListener('click', () => {
         list.querySelectorAll('button').forEach(x => (x.disabled = true));
         list.children[q.answer].classList.add('is-right');
@@ -468,7 +527,8 @@
     setNav('lessons');
     const list = el('ol', { class: 'lessons' });
     for (const l of data.lessons) {
-      const cards = allCards.filter(c => c.lesson === l.lesson);
+      const cards = allCards.filter(c => c.lesson === l.lesson && !TYPES[c.type].tab);
+      const test = state.tests[l.lesson];
       const strong = cards.filter(c => box(c.id) >= 3).length;
       const words = l.words.map(id => ctx.wordById[id]);
       const pats = l.patterns.map(id => ctx.patternById[id]);
@@ -476,18 +536,24 @@
         el('summary', {},
           el('span', { class: 'num' }, l.lesson),
           el('span', { class: 'ltitle' }, el('span', { class: 'zh', lang: 'zh-CN' }, l.title), el('span', { class: 'en' }, l.title_english)),
-          el('span', { class: 'meter', title: `${strong} of ${cards.length} known well` }, el('span', { style: `width:${cards.length ? (strong / cards.length) * 100 : 0}%` }))),
+          el('span', { class: 'meter', title: `${strong} of ${cards.length} known well` }, el('span', { style: `width:${cards.length ? (strong / cards.length) * 100 : 0}%` })),
+          test ? el('span', { class: 'tscore', title: 'Best test score' }, `${test.best}/${test.of}`) : null),
         el('div', { class: 'lesson-body' },
           el('table', { class: 'words' }, el('tbody', {}, words.map(w =>
             el('tr', {}, el('td', { class: 'zh', lang: 'zh-CN' }, w.hanzi), el('td', { class: 'py' }, w.pinyin), el('td', {}, window.HSK.shortMeaning(w.meaning)))))),
           pats.map(p => el('div', { class: 'pattern' },
             el('p', { class: 'pname' }, p.name, el('span', { class: 'structure' }, p.structure)),
             el('p', { class: 'quiet' }, p.explanation))),
-          el('button', { onclick: () => runSession(lessonSession(l.lesson), 'Lesson ' + l.lesson) }, 'Practise this lesson')));
+          el('div', { class: 'row' },
+            el('button', { onclick: () => runSession(lessonSession(l.lesson), 'Lesson ' + l.lesson, 'days', lessonsScreen) }, 'Practise this lesson'),
+            el('button', { onclick: () => startTest(l.lesson, lessonsScreen) }, 'Take the lesson test')),
+          el('p', { class: 'quiet' }, test
+            ? `Last test: ${test.last} of ${test.of}. Best: ${test.best} of ${test.of}.`
+            : `The test is ${TEST_SIZE} questions of different kinds from this lesson, each asked once.`)));
       list.append(el('li', {}, details));
     }
     show(el('section', { class: 'panel' }, el('h2', {}, 'Lessons'),
-      el('p', { class: 'quiet' }, 'Tap a lesson to see its words and sentence patterns. The line shows how much of it you know well.'), list));
+      el('p', { class: 'quiet' }, 'Tap a lesson to see its words and sentence patterns, practise it, or take its short test. The line shows how much of it you know well, and the number beside it is your best test score.'), list));
   }
 
   // ---------- radicals ----------
@@ -594,7 +660,7 @@
     function askReset() {
       resetArea.replaceChildren(el('p', {}, 'This clears all progress on this device. It cannot be undone.'),
         el('div', { class: 'row' },
-          el('button', { class: 'danger', onclick: () => { state.cards = {}; state.days = {}; state.pinyinDays = {}; state.radicalDays = {}; save(); resetArea.replaceChildren(el('p', { class: 'quiet' }, 'Progress cleared.')); } }, 'Clear progress'),
+          el('button', { class: 'danger', onclick: () => { state.cards = {}; state.days = {}; state.pinyinDays = {}; state.radicalDays = {}; state.tests = {}; save(); resetArea.replaceChildren(el('p', { class: 'quiet' }, 'Progress cleared.')); } }, 'Clear progress'),
           el('button', { class: 'link', onclick: () => resetArea.replaceChildren(resetBtn) }, 'Keep it')));
     }
     const resetBtn = el('button', { class: 'link', onclick: askReset }, 'Clear all progress…');
@@ -624,7 +690,7 @@
           try {
             const s2 = JSON.parse(decodeURIComponent(escape(atob(backup.value.trim()))));
             if (!s2.cards) throw new Error();
-            state = { settings: { ...defaults.settings, ...s2.settings }, cards: s2.cards, days: s2.days || {}, pinyinDays: s2.pinyinDays || {}, radicalDays: s2.radicalDays || {} };
+            state = { settings: { ...defaults.settings, ...s2.settings }, cards: s2.cards, days: s2.days || {}, pinyinDays: s2.pinyinDays || {}, radicalDays: s2.radicalDays || {}, tests: s2.tests || {} };
             save();
             backupMsg.textContent = 'Progress loaded.';
           } catch (e) { backupMsg.textContent = 'That code did not work. Copy the whole code and try again.'; }

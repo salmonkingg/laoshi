@@ -112,6 +112,7 @@ button.link { background: none; border: 0; color: var(--muted); text-decoration:
 }
 .options.hanzi .option { font-family: var(--zh); font-size: 1.7rem; text-align: center; padding: 12px; }
 .options.pinyin .option { font-size: 1.3rem; text-align: center; }
+.options.zhsent .option { font-family: var(--zh); font-size: 1.25rem; }
 .option:hover:not(:disabled) { border-color: var(--accent); }
 .option:disabled { opacity: 1; }
 .option.is-right { border-color: var(--accent); background: var(--accent-soft); }
@@ -170,7 +171,7 @@ button.link { background: none; border: 0; color: var(--muted); text-decoration:
 .lessons { list-style: none; padding: 0; margin: 16px 0 0; }
 .lesson { border-bottom: 1px solid var(--line); }
 .lesson summary {
-  list-style: none; cursor: pointer; display: grid; grid-template-columns: 2em 1fr 64px; gap: 10px; align-items: center; padding: 12px 0;
+  list-style: none; cursor: pointer; display: grid; grid-template-columns: 2em 1fr 64px 2.6em; gap: 10px; align-items: center; padding: 12px 0;
 }
 .lesson summary::-webkit-details-marker { display: none; }
 .lesson .num { color: var(--muted); font-variant-numeric: tabular-nums; }
@@ -179,6 +180,9 @@ button.link { background: none; border: 0; color: var(--muted); text-decoration:
 .ltitle .en { color: var(--muted); font-size: .85rem; }
 .meter { height: 4px; background: var(--line); border-radius: 2px; overflow: hidden; }
 .meter span { display: block; height: 100%; background: var(--accent); }
+.tscore { color: var(--muted); font-size: .8rem; font-variant-numeric: tabular-nums; text-align: right; }
+.test-ready { margin-top: 28px; padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.test-ready p { margin: 0 0 10px; }
 .lesson-body { padding: 0 0 18px 2.6em; }
 .words { border-collapse: collapse; width: 100%; font-size: .95rem; }
 .words td { padding: 5px 10px 5px 0; border-bottom: 1px solid var(--line); vertical-align: baseline; }

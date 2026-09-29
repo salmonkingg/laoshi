@@ -373,6 +373,109 @@
       },
     },
 
+    // 我是中国人。 -> "I am Chinese."
+    sentence: {
+      label: 'Sentence meaning',
+      skill: 'reading',
+      cards(data) {
+        const out = [];
+        for (const p of data.patterns) p.examples.forEach((ex, i) => {
+          if (isSentence(ex)) out.push({ id: 'sentence:' + p.id + ':' + i, type: 'sentence', lesson: p.lesson, ref: p.id, ex: i });
+        });
+        return out;
+      },
+      build(card, ctx) {
+        const p = ctx.patternById[card.ref];
+        const ex = p.examples[card.ex];
+        const bare = s => s.replace(/\s*\(.*?\)/g, '').toLowerCase();
+        const lessons = new Set(ctx.words.map(w => w.lesson));
+        const all = ctx.data.patterns.flatMap(q => q.examples.map(e => ({ e, lesson: q.lesson })))
+          .filter(x => x.e !== ex && isSentence(x.e) && bare(x.e.english) !== bare(ex.english));
+        const near = all.filter(x => Math.abs(x.lesson - p.lesson) <= 1);
+        const inRange = all.filter(x => lessons.has(x.lesson));
+        const decoys = [];
+        for (const group of [shuffle(near), shuffle(inRange), shuffle(all)]) {
+          for (const x of group) if (decoys.length < 3 && !decoys.some(d => bare(d.english) === bare(x.e.english))) decoys.push(x.e);
+        }
+        const options = shuffle([ex, ...decoys]);
+        return {
+          shape: 'choice',
+          instruction: 'What does this sentence mean?',
+          sentence: ex.hanzi,
+          sub: ctx.settings.showPinyin ? ex.pinyin : '',
+          options: options.map(o => ({ text: o.english })),
+          answer: options.indexOf(ex),
+          explain: { hanzi: ex.hanzi, pinyin: ex.pinyin, english: ex.english },
+        };
+      },
+    },
+
+    // 老＿ (teacher) -> 师. The wrong choices share a radical with the right one where they can,
+    // so you have to look at the whole character, not only its radical.
+    wordchar: {
+      label: 'Complete the word',
+      skill: 'reading',
+      cards: data => data.words.filter(w => Array.from(w.hanzi).length >= 2)
+        .map(w => ({ id: 'wordchar:' + w.id, type: 'wordchar', lesson: w.lesson, ref: w.id })),
+      requires: card => 'meaning:' + card.ref,
+      build(card, ctx) {
+        const w = ctx.wordById[card.ref];
+        const chars = Array.from(w.hanzi);
+        const spots = chars.map((c, i) => i).filter(i => ctx.charInfo[chars[i]]);
+        const at = spots[Math.floor(Math.random() * spots.length)];
+        const c = ctx.charInfo[chars[at]];
+        const words = new Set(ctx.data.words.map(x => x.hanzi));
+        const makesWord = x => words.has(chars.map((y, i) => (i === at ? x.char : y)).join(''));
+        const lessons = new Set(ctx.words.map(x => x.lesson));
+        const pool = ctx.data.characters.filter(x => x.char !== c.char && !chars.includes(x.char) && !makesWord(x));
+        const sameRad = pool.filter(x => x.radical === c.radical);
+        const sameSound = pool.filter(x => plain(x.pinyin) === plain(c.pinyin));
+        const decoys = [];
+        for (const group of [shuffle(sameRad).slice(0, 2), shuffle(sameSound).slice(0, 1), shuffle(pool.filter(x => lessons.has(x.lesson))), shuffle(pool)]) {
+          for (const x of group) if (decoys.length < 3 && !decoys.includes(x)) decoys.push(x);
+        }
+        const options = shuffle([c, ...decoys]);
+        return {
+          shape: 'choice',
+          instruction: 'Which character completes the word?',
+          big: chars.map((x, i) => (i === at ? '＿' : x)).join(''),
+          sub: w.pinyin + ' · ' + shortMeaning(w.meaning),
+          hanziOptions: true,
+          options: options.map(o => ({ text: o.char })),
+          answer: options.indexOf(c),
+          explain: { hanzi: w.hanzi, pinyin: w.pinyin, english: shortMeaning(w.meaning) + ' · ' + c.char + ' has the radical ' + c.radical },
+        };
+      },
+    },
+
+    // Lesson tests only: 猫 = "cat"? 对 or 错 (the exercise book's true/false part, without pictures)
+    judge: {
+      label: 'True or false',
+      skill: 'reading',
+      tab: 'test',
+      cards: data => data.words.filter(w => w.pos !== 'name').map(w => ({ id: 'judge:' + w.id, type: 'judge', lesson: w.lesson, ref: w.id })),
+      build(card, ctx) {
+        const w = ctx.wordById[card.ref];
+        const truth = Math.random() < 0.5;
+        // A wrong meaning must not share any sense with the real one (学 "study" vs 学习 "study; learn").
+        const senses = x => new Set(x.meaning.toLowerCase().split(/[;,]\s*/).map(t => t.replace(/\(.*?\)/g, '').trim()));
+        const mine = senses(w);
+        const differs = x => x.id !== w.id && ![...senses(x)].some(t => mine.has(t));
+        const same = ctx.words.filter(x => differs(x) && mainPos(x) === mainPos(w));
+        const pool = same.length ? same : ctx.data.words.filter(differs);
+        const shown = truth ? w : pool[Math.floor(Math.random() * pool.length)];
+        return {
+          shape: 'choice',
+          instruction: 'Does the meaning match? Choose 对 (right) or 错 (wrong).',
+          big: w.hanzi,
+          text: '= ' + shortMeaning(shown.meaning),
+          options: [{ text: '对  right' }, { text: '错  wrong' }],
+          answer: truth ? 0 : 1,
+          explain: explainWord(w),
+        };
+      },
+    },
+
     // ---- Retired: these were the Pinyin tab's questions (the tab was removed 2026-09-28) ----
 
     // "hǎo" -> which tone is this?
@@ -658,7 +761,9 @@
             pieces: shuffle(q.pieces), answer: q.pieces.join(''), ending: q.ending || '', explain: q.explain,
           };
         }
-        const options = shuffle(q.options.map((text, i) => ({ text, right: i === q.answer })));
+        // keepOrder: for 对 / 错 questions, where the order of the options should stay the same.
+        const listed = q.options.map((text, i) => ({ text, right: i === q.answer }));
+        const options = q.keepOrder ? listed : shuffle(listed);
         return {
           shape: 'choice',
           instruction: q.instruction || 'Choose the answer',
@@ -666,6 +771,7 @@
           sentence: q.sentence || '',
           text: q.text || '',
           hanziOptions: !!q.hanziOptions,
+          zhOptions: !!q.zhOptions,
           options: options.map(o => ({ text: o.text })),
           answer: options.findIndex(o => o.right),
           explain: q.explain,
@@ -687,6 +793,11 @@
     if (!spots.length) return py;
     chars[which === 'first' ? spots[0] : spots[spots.length - 1]] = '́';
     return chars.join('').normalize('NFC');
+  }
+
+  // Whole sentences only (not "一个杯子" = "a cup"), so every choice reads as a sentence.
+  function isSentence(ex) {
+    return Array.from(ex.hanzi).length >= 4 && /[。？！]$/.test(ex.hanzi) && /[.?!)]$/.test(ex.english.trim());
   }
 
   function hskRadicals(data) {
